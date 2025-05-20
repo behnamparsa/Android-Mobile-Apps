@@ -1,0 +1,18 @@
+detection_method,keyword,count
+full_file_scan,adb,150
+full_file_scan,emulator,133
+full_file_scan,create avd,103
+full_file_scan,avdmanager,17
+full_file_scan,instrumentation,8
+full_file_scan,wait-for-device,6
+full_file_scan,android-emulator,3
+full_file_scan,start emulator,2
+standard,emulator,234
+standard,android-emulator,175
+standard,instrumentation,90
+standard,adb,68
+standard,create avd,34
+standard,avdmanager,7
+standard,wait-for-device,5
+standard,run emulator,1
+standard,start emulator,1
