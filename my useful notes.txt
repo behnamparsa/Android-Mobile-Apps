@@ -1,5 +1,7 @@
 #update the local folder:
 git fetch origin 
+or 
+git pull origin main
 
 to create new env: 
 python -m venv .venv or .myvenv
@@ -11,6 +13,7 @@ to activate it:
 
     from powershell:
     .\venv\Scripts\Activate.ps1
+    .\.venv\Scripts\Activate.ps1
 
 
 .\.venv\Scripts\activate
