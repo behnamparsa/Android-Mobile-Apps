@@ -1,0 +1,42 @@
+# let's write some yaml
+
+
+courses:
+  course_name: "DJango back end developer"
+  version: 1.5
+  price: &myprice 199
+  is_public: true
+  release_date: 2021-04-05 12:23:22
+  pre_enroll: null
+  tages: 
+    - python
+    - web developer
+    - mysql
+
+  course_ta:  ["anirudh", "anurag", "rakesh"]
+  ta_details: 
+    - name: "anirudh"
+      email: "ani@loc.deve"
+      role: "content admin"
+    - name: "anurag"
+      email: "anu@loc.dev"
+      role: "discussion admin"
+    - {name: "rakesh", email: "rak@lco.dev", role: "devops"}
+  short_desc: >
+    here is a short 
+    description for django course
+  long_desc: |
+    now we can store
+      all indentation
+    and related things
+
+  process_payment: *myprice
+
+
+  adv: &adv
+    mykey: myval
+
+  another_adv: 
+    one: two
+    <<: *adv
+
