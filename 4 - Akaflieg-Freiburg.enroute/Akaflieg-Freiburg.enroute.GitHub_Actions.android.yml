@@ -1,0 +1,66 @@
+name: Compile on Android
+
+on:
+  create:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        path: enroute
+        submodules: true
+    - name: Checkout qtlocation
+      uses: actions/checkout@v3
+      with:
+        path: qtlocation
+        repository: Akaflieg-Freiburg/qtlocationstatic
+        submodules: true
+    - name: Install Qt for Desktop
+      uses: jurplel/install-qt-action@v3
+      with:
+        version: '6.4.*'
+        modules: 'qtshadertools'	
+    - name: Set QT_HOST_PATH
+      run: |
+        echo QT_HOST_PATH=$Qt6_DIR >> $GITHUB_ENV
+    - name: Install Qt for Android
+      uses: jurplel/install-qt-action@v3
+      with:
+        target: 'android'
+        version: '6.4.*'
+        arch: 'android_arm64_v8a'
+        modules: 'qt5compat qthttpserver qtpositioning qtshadertools qtspeech qtwebsockets qtwebview'	
+    - name: Install Additional Software
+      run: |
+        sudo apt install extra-cmake-modules ninja-build spirv-tools
+        echo "y" | ${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager "platforms;android-31" "platform-tools" "build-tools;31.0.0"
+        echo "y" | ${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager --uninstall "platforms;android-33-ext5" "platforms;android-33-ext4"
+        echo "y" | ${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager "ndk;23.1.7779620"
+        echo ANDROID_NDK_ROOT=$ANDROID_SDK_ROOT/ndk/23.1.7779620 >> $GITHUB_ENV
+    - name: Compile QtLocation
+      run: |
+        cmake -E make_directory build-qtlocation
+        cd build-qtlocation
+        $Qt6_DIR/bin/qt-configure-module ../qtlocation
+        cmake -DMBGL_QT_WITH_INTERNAL_ICU:BOOL=On .
+        cmake --build .
+        cmake --install .
+    - name: Compile Enroute
+      run: |
+        cmake -E make_directory build-enroute
+        cd build-enroute
+        $Qt6_DIR/bin/qt-cmake -DCMAKE_BUILD_TYPE:STRING=Debug ../enroute
+        cmake --build .
+    - uses: actions/upload-artifact@v3
+      with:
+        name: enroute-debug.apk
+        path: build-enroute/src/android-build//build/outputs/apk/debug/android-build-debug.apk
