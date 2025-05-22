@@ -1,0 +1,409 @@
+name: Build & Test
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  pull_request:
+
+env:
+  JAVA_VERSION: 17
+
+jobs:
+  checkAndUnitTestJvmAndroid:
+    name: Check and Run Unit Tests (JVM/Android)
+    runs-on: ubuntu-latest
+
+    env:
+      CV_BASE_URL: https://www.host.undefined
+      CV_EMAIL: me@home.at
+      CV_DEBUG_BASE_URLS: https://www.host.undefined
+      CV_GITHUB_REPOS_URL: https://api.github.com/users/github/repos
+      CV_NAME: My Name
+      CV_SERVER_PRODUCTION_URL: https://url.invalid
+      CV_SERVER_PRODUCTION_DESCRIPTION: Production
+
+    steps:
+      # region Setup
+      - uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - name: Gradle Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.gradle/caches/modules-*
+            ~/.gradle/caches/jars-*
+            ~/.gradle/caches/build-cache-*
+          key: gradle-${{ hashFiles('**/build.gradle*', '**/*.versions.toml') }}
+
+      - name: Gradle Wrapper Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
+
+      - name: Get Kotlin version
+        id: get-kotlin-version
+        run: |
+          echo "version=$(awk -F'[ ="]+' '$1 == "kotlin" { print $2 }' ./gradle/libs.versions.toml)" >> $GITHUB_OUTPUT
+
+      - name: Konan Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.konan
+          key: ${{ runner.os }}-konan-${{ steps.get-kotlin-version.outputs.version }}
+
+      - name: Download dependencies
+        run: ./gradlew dependencies
+      # endregion
+      # region build-logic
+      - name: Check :build-logic
+        run: ./gradlew :build-logic:convention:check :build-logic:plugins:check
+      - name: Archive Build-Logic Test results
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-logic-test-results
+          path: |
+            build-logic/convention/build/reports/*
+            build-logic/convention/build/test-results/*
+            build-logic/plugins/build/reports/*
+            build-logic/plugins/build/test-results/*
+      # endregion
+      # region Common
+      - name: Check :common
+        run: ./gradlew :common:check
+      - name: Archive Common Test results
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: common-test-results
+          path: |
+            common/build/reports/*
+            common/build/test-results/*
+      # endregion
+      # region App
+      - name: Check :app
+        run: ./gradlew :app:check
+      - name: Archive App Test results
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-test-results
+          path: |
+            app/build/reports/*
+            app/build/test-results/*
+      # endregion
+      # region Wearable
+      - name: Check :wearable
+        run: ./gradlew :wearable:check
+      - name: Archive Wearable Test results
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: wearable-test-results
+          path: |
+            wearable/build/reports/*
+            wearable/build/test-results/*
+      # endregion
+      # region Backend
+      - name: Check :backend
+        run: ./gradlew :backend:check
+      - name: Archive Backend Test results
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: bff-test-results
+          path: |
+            backend/build/reports/*
+            backend/build/test-results/*
+      # endregion
+      # region Desktop
+      - name: Check :desktop
+        run: ./gradlew :desktop:check
+      - name: Archive Desktop Test results
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: desktop-test-results
+          path: |
+            desktop/build/reports/*
+            desktop/build/test-results/*
+      # endregion
+      # region Web
+      - name: Check :web
+        run: ./gradlew :web:check
+      - name: Archive Web Test results
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: web-test-results
+          path: |
+            web/build/reports/*
+            web/build/test-results/*
+
+  checkK6:
+    name: Check k6
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: K6 node_modules cache
+        uses: actions/cache@v3
+        with:
+          path: 'k6/node_modules'
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('k6/yarn.lock') }}
+      - name: Check k6
+        working-directory: k6
+        run: |
+          yarn install
+          yarn lint:check --format=stylish --max-warnings=0
+          yarn build
+  checkiOS:
+    name: Check iOS
+    runs-on: macos-11
+
+    env:
+      CV_BASE_URL: https://www.host.undefined
+      CV_EMAIL: me@home.at
+      CV_DEBUG_BASE_URLS: https://www.host.undefined
+      CV_GITHUB_REPOS_URL: https://api.github.com/users/github/repos
+      CV_NAME: My Name
+      CV_SERVER_PRODUCTION_URL: https://url.invalid
+      CV_SERVER_PRODUCTION_DESCRIPTION: Production
+
+    steps:
+      # region Setup
+      - uses: actions/checkout@v3
+      - name: Run swiftlint
+        run: |
+          cd ios
+          swiftlint lint
+  #      not working without provisioning profile -> get Apple developer account first
+  #      - name: Build iOS Project
+  #        run: |
+  #          xcodebuild -project ios/CurriculumVitae.xcodeproj \
+  #          -scheme CurriculumVitae \
+  #          -configuration Debug
+  #       endregion
+  connectedAndroidAppTest:
+    name: Run Android Intrumentation Tests
+    needs: checkAndUnitTestJvmAndroid
+    runs-on: macos-11
+
+    env:
+      CV_BASE_URL: https://www.host.undefined
+      CV_EMAIL: me@home.at
+      CV_DEBUG_BASE_URLS: https://www.host.undefined
+      CV_GITHUB_REPOS_URL: https://api.github.com/users/github/repos
+      CV_NAME: My Name
+      CV_SERVER_PRODUCTION_URL: https://url.invalid
+      CV_SERVER_PRODUCTION_DESCRIPTION: Production
+
+    strategy:
+      matrix:
+        api-level: [ 26, 29, 31 ]
+        target: [ default, google_apis ]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - name: Gradle Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.gradle/caches/modules-*
+            ~/.gradle/caches/jars-*
+            ~/.gradle/caches/build-cache-*
+          key: gradle-${{ hashFiles('**/build.gradle*', '**/*.versions.toml') }}
+
+      - name: Gradle Wrapper Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
+
+      - name: Get Kotlin version
+        id: get-kotlin-version
+        run: |
+          echo "version=$(awk -F'[ ="]+' '$1 == "kotlin" { print $2 }' ./gradle/libs.versions.toml)" >> $GITHUB_OUTPUT
+
+      - name: Konan Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.konan
+          key: ${{ runner.os }}-konan-${{ steps.get-kotlin-version.outputs.version }}
+
+      - name: AVD cache
+        uses: actions/cache@v3
+        id: avd-cache
+        with:
+          path: |
+            ~/.android/avd/*
+            ~/.android/adb*
+          key: app-avd-${{ matrix.api-level }}-${{ matrix.target }}
+
+      - name: Create AVD and generate snapshot for caching
+        if: steps.avd-cache.outputs.cache-hit != 'true'
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api-level }}
+          target: ${{ matrix.target }}
+          arch: x86_64
+          profile: Nexus 6
+          force-avd-creation: false
+          avd-name: nexus6-${{matrix.api-level}}-${{ matrix.target }}
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: false
+          script: echo "Generated AVD snapshot for caching."
+
+      - name: Download dependencies
+        run: ./gradlew dependencies
+
+      - name: Run connected Android tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api-level }}
+          target: ${{ matrix.target }}
+          arch: x86_64
+          profile: Nexus 6
+          force-avd-creation: false
+          avd-name: nexus6-${{matrix.api-level}}-${{ matrix.target }}
+          emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: false
+          script: adb logcat >logcat.txt & ./gradlew :app:connectedCheck
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs-android-${{ matrix.api-level }}-${{ matrix.target }}
+          path: logcat.txt
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results-android-${{ matrix.api-level }}-${{ matrix.target }}
+          path: |
+            **/build/reports/*
+            **/build/outputs/*/connected/*
+
+  connectedWearableTest:
+    name: Run Wearable Instrumentation Tests
+    needs: checkAndUnitTestJvmAndroid
+    runs-on: macos-11
+
+    env:
+      CV_BASE_URL: https://www.host.undefined
+      CV_EMAIL: me@home.at
+      CV_DEBUG_BASE_URLS: https://www.host.undefined
+      CV_GITHUB_REPOS_URL: https://api.github.com/users/github/repos
+      CV_NAME: My Name
+      CV_SERVER_PRODUCTION_URL: https://url.invalid
+      CV_SERVER_PRODUCTION_DESCRIPTION: Production
+
+    strategy:
+      matrix:
+        api-level: [ 28 ]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: zulu
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - name: Gradle Cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.gradle/caches/modules-*
+            ~/.gradle/caches/jars-*
+            ~/.gradle/caches/build-cache-*
+          key: gradle-${{ hashFiles('**/build.gradle*', '**/*.versions.toml') }}
+
+      - name: Gradle Wrapper Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
+
+      - name: Get Kotlin version
+        id: get-kotlin-version
+        run: |
+          echo "version=$(awk -F'[ ="]+' '$1 == "kotlin" { print $2 }' ./gradle/libs.versions.toml)" >> $GITHUB_OUTPUT
+
+      - name: Konan Cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.konan
+          key: ${{ runner.os }}-konan-${{ steps.get-kotlin-version.outputs.version }}
+
+      - name: AVD cache
+        uses: actions/cache@v3
+        id: avd-cache
+        with:
+          path: |
+            ~/.android/avd/*
+            ~/.android/adb*
+          key: android-wear-avd-${{ matrix.api-level }}
+
+      - name: Create AVD and generate snapshot for caching
+        if: steps.avd-cache.outputs.cache-hit != 'true'
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api-level }}
+          target: android-wear
+          arch: x86
+          profile: wear_round
+          force-avd-creation: false
+          avd-name: wear_round-${{ matrix.api-level }}
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: false
+          script: echo "Generated AVD snapshot for caching."
+
+      - name: Download dependencies
+        run: ./gradlew dependencies
+
+      - name: Run connected Wearable tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api-level }}
+          target: android-wear
+          arch: x86
+          profile: wear_round
+          force-avd-creation: false
+          avd-name: wear_round-${{matrix.api-level}}
+          emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: false
+          script: adb logcat >logcat.txt & ./gradlew :wearable:connectedDebugAndroidTest
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs-wearable-${{ matrix.api-level }}
+          path: logcat.txt
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results-wearable-${{ matrix.api-level }}
+          path: |
+            **/build/reports/*
+            **/build/outputs/*/connected/*
