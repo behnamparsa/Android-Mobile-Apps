@@ -1,0 +1,511 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+    tags:
+      - v*
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build-webui:
+    name: Build aw-webui (node-${{ matrix.node_version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-20.04]
+        node_version: [16]
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+
+    - name: Set up Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node_version }}
+
+    # Set up caches
+    - name: Get npm cache dir
+      id: npm-cache-dir
+      run: |
+        echo "::set-output name=dir::$(npm config get cache)"
+    - uses: actions/cache@v1
+      name: Cache npm
+      env:
+        cache-name: node
+      with:
+        path: ${{ steps.npm-cache-dir.outputs.dir }}
+        key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-${{ env.cache-name }}-
+
+    - name: Build webui
+      run: |
+        make aw-webui
+
+    - name: Upload web UI
+      uses: actions/upload-artifact@v3
+      with:
+        name: webui
+        path: mobile/src/main/assets/webui/
+
+  build-rust:
+    name: Build aw-server-rust (ndk-${{ matrix.ndk_version }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-20.04]
+        ndk_version: ['21.4.7075529']
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+    - name: Set RELEASE
+      run: |
+        echo "RELEASE=${{ startsWith(github.ref_name, 'v') }}" >> $GITHUB_ENV
+
+    - name: Cache JNI libs
+      uses: actions/cache@v1
+      id: cache-jniLibs
+      env:
+        cache-name: jniLibs
+      with:
+        path: mobile/src/main/jniLibs/
+        key: ${{ env.cache-name }}-release-${{ env.RELEASE }}-ndk-${{ matrix.ndk_version }}-${{ hashFiles('.git/modules/aw-server-rust/HEAD') }}
+    - name: Display structure of downloaded files
+      if: steps.cache-jniLibs.outputs.cache-hit == 'true'
+      run: |
+        pushd mobile/src/main/jniLibs && ls -R && popd
+
+    # Android SDK & NDK
+    - name: Set up Android SDK
+      if: steps.cache-jniLibs.outputs.cache-hit != 'true'
+      uses: android-actions/setup-android@v2
+    - name: Install NDK
+      if: steps.cache-jniLibs.outputs.cache-hit != 'true'
+      run: |
+        sdkmanager "ndk;${{ matrix.ndk_version }}"
+        ANDROID_NDK_HOME="$ANDROID_SDK_ROOT/ndk/${{ matrix.ndk_version }}"
+        ls $ANDROID_NDK_HOME
+        echo "ANDROID_NDK_HOME=$ANDROID_NDK_HOME" >> $GITHUB_ENV
+
+    # Rust
+    - name: Set up Rust nightly
+      uses: actions-rs/toolchain@v1
+      if: steps.cache-jniLibs.outputs.cache-hit != 'true'
+      with:
+        profile: minimal
+        toolchain: nightly
+        override: true
+    - name: Set up Rust toolchain for Android NDK
+      if: steps.cache-jniLibs.outputs.cache-hit != 'true'
+      run: |
+        ./aw-server-rust/install-ndk.sh
+
+    - name: Cache cargo build
+      uses: actions/cache@v1
+      if: steps.cache-jniLibs.outputs.cache-hit != 'true'
+      env:
+        cache-name: cargo-build-target
+      with:
+        path: aw-server-rust/target
+        key: ${{ env.cache-name }}-release-${{ env.RELEASE }}-${{ hashFiles('**/Cargo.lock') }}
+
+    - name: Build aw-server-rust
+      if: steps.cache-jniLibs.outputs.cache-hit != 'true'
+      run: |
+        make aw-server-rust
+
+    - name: Check that jniLibs present
+      run: |
+        test -e mobile/src/main/jniLibs/x86_64/libaw_server.so
+
+    - name: Upload JNI libs
+      uses: actions/upload-artifact@v3
+      with:
+        name: jniLibs
+        path: mobile/src/main/jniLibs/
+
+
+  build-apk:
+    name: Build APK (${{ matrix.os }}, java-${{ matrix.java_version }}, node-${{ matrix.node_version }})
+    runs-on: ${{ matrix.os }}
+    needs: [build-rust, build-webui]
+    env:
+      SUPPLY_TRACK: production   # used by fastlane to determine track to publish to
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-20.04]
+        java_version: [11]
+        ruby_version: ['3.0']
+        ndk_version: ['21.4.7075529']
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+
+    # Build in release mode if on a tag/release (longer build times)
+    - name: Set RELEASE
+      run: |
+        echo "RELEASE=${{ startsWith(github.ref_name, 'v') }}" >> $GITHUB_ENV
+
+    - name: Set up JDK
+      uses: actions/setup-java@v1
+      with:
+        java-version: ${{ matrix.java_version }}
+
+    # Android SDK & NDK
+    - name: Set up Android SDK
+      uses: android-actions/setup-android@v2
+    - name: Install NDK
+      run: |
+        sdkmanager "ndk;${{ matrix.ndk_version }}"
+        ANDROID_NDK_HOME="$ANDROID_SDK_ROOT/ndk/${{ matrix.ndk_version }}"
+        ls $ANDROID_NDK_HOME
+        echo "ANDROID_NDK_HOME=$ANDROID_NDK_HOME" >> $GITHUB_ENV
+
+    # Ruby & Fastlane
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: ${{ matrix.ruby_version }}
+    - name: Install fastlane
+      run: |
+        gem install bundler
+        bundle install
+
+    - name: Download JNI libs
+      uses: actions/download-artifact@v3
+      with:
+        name: jniLibs
+        path: mobile/src/main/jniLibs
+    - name: Check that jniLibs present
+      run: |
+        test -e mobile/src/main/jniLibs/x86_64/libaw_server.so
+
+    - name: Download web UI
+      uses: actions/download-artifact@v3
+      with:
+        name: webui
+        path: mobile/src/main/assets/webui
+
+    - name: Set version
+      if: startsWith(github.ref, 'refs/tags/v')  # only on runs triggered from tag
+      run: |
+        # Sets versionName, tail used to skip "v" at start of tag name
+        SHORT_VERSION=$(echo "${{ github.ref_name }}" | tail -c +2 -)
+        sed -i "s/versionName \".*\"/versionName \"$SHORT_VERSION\"/g" \
+                mobile/build.gradle
+        bundle exec fastlane update_version
+
+    # Test
+    - name: Test
+      run: |
+        make test
+
+    # Install age & load secrets
+    - name: Install age
+      uses: adnsio/setup-age-action@v1.2.0
+    - name: Load secrets
+      if: env.KEY_ANDROID_JKS != null
+      env:
+        KEY_ANDROID_JKS: ${{ secrets.KEY_ANDROID_JKS }}
+      run: |
+        printf "$KEY_ANDROID_JKS" > android.jks.key
+        cat android.jks.age | age -d -i android.jks.key -o android.jks
+        rm android.jks.key
+
+    - name: Assemble APK
+      env:
+        JKS_STOREPASS: ${{ secrets.KEY_ANDROID_JKS_STOREPASS }}
+        JKS_KEYPASS: ${{ secrets.KEY_ANDROID_JKS_KEYPASS }}
+      run: |
+        make dist/aw-android.apk
+
+    - name: Upload release APK
+      uses: actions/upload-artifact@v3
+      with:
+        name: aw-android
+        path: dist/aw-android*.apk
+
+  test-e2e:
+    needs: [build-rust, build-webui]
+    name: Test E2E ${{ matrix.android_avd }} #-${{ matrix.os }}-eAPI-${{ matrix.android_emu_version }}-java-${{ matrix.java_version }}-node-${{ matrix.node_version }}
+    runs-on: ${{ matrix.os }}
+    env:
+      MATRIX_E_SDK: ${{ matrix.android_emu_version }}
+      MATRIX_AVD: ${{ matrix.android_avd }}
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        os: [macos-12] # macOS-latest,
+        android_avd: [Pixel_API_27_AOSP]
+        java_version: [11]
+        ndk_version: ['21.4.7075529']
+        include:
+          - android_avd: Pixel_API_27_AOSP
+            android_emu_version: 27
+          # # # Cannot run > 27-emuLevel -_- https://github.com/actions/runner-images/issues/6527
+          # - android_avd: Pixel_API_32_AOSP
+          #   android_emu_version: 32
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+
+    - name: Download JNI libs
+      uses: actions/download-artifact@v3
+      with:
+        name: jniLibs
+        path: mobile/src/main/jniLibs
+
+    - name: Download web UI
+      uses: actions/download-artifact@v3
+      with:
+        name: webui
+        path: mobile/src/main/assets/webui
+
+    - name: Display structure of downloaded files
+      run: |
+        pushd mobile/src/main/assets/webui && ls -R && popd
+        pushd mobile/src/main/jniLibs && ls -R && popd
+
+    # # # Below code is majorly from https://github.com/actions/runner-images/issues/6152#issuecomment-1243718140
+    - name: Create Android emulator
+      run: |
+        brew install intel-haxm
+        # Install AVD files
+        echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --install 'system-images;android-'$MATRIX_E_SDK';default;x86_64'
+        echo "y" | $ANDROID_HOME/tools/bin/sdkmanager --licenses
+
+        # Create emulator
+        $ANDROID_HOME/tools/bin/avdmanager create avd -n $MATRIX_AVD -d pixel --package 'system-images;android-'$MATRIX_E_SDK';default;x86_64'
+        $ANDROID_HOME/emulator/emulator -list-avds
+        if false; then
+        emulator_config=~/.android/avd/$MATRIX_AVD.avd/config.ini
+        # The following madness is to support empty OR populated config.ini files,
+        # the state of which is dependant on the version of the emulator used (which we don't control),
+        # so let's be defensive to be safe.
+        # Replace existing config (NOTE we're on MacOS so sed works differently!)
+        sed -i .bak 's/hw.lcd.density=.*/hw.lcd.density=420/' "$emulator_config"
+        sed -i .bak 's/hw.lcd.height=.*/hw.lcd.height=1920/' "$emulator_config"
+        sed -i .bak 's/hw.lcd.width=.*/hw.lcd.width=1080/' "$emulator_config"
+        # Or, add new config
+        if ! grep -q "hw.lcd.density" "$emulator_config"; then
+          echo "hw.lcd.density=420" >> "$emulator_config"
+        fi
+        if ! grep -q "hw.lcd.height" "$emulator_config"; then
+          echo "hw.lcd.height=1920" >> "$emulator_config"
+        fi
+        if ! grep -q "hw.lcd.width" "$emulator_config"; then
+          echo "hw.lcd.width=1080" >> "$emulator_config"
+        fi
+        echo "Emulator settings ($emulator_config)"
+        cat "$emulator_config"
+        fi
+
+    - name: Start Android emulator
+      timeout-minutes: 30 # ~4min normal - 3x DOSafety
+      env:
+        SUFFIX: ${{ matrix.android_avd }}-eAPI-${{ matrix.android_emu_version }}-${{ matrix.os }}
+        HOMEBREW_NO_INSTALL_CLEANUP: 1
+      run: |
+        echo "Starting emulator and waiting for boot to complete...."
+        ls -la $ANDROID_HOME/emulator
+        nohup $ANDROID_HOME/tools/emulator -avd $MATRIX_AVD -gpu host -no-audio -no-boot-anim -camera-back none -camera-front none -qemu -m 2048 2>&1 &
+        $ANDROID_HOME/platform-tools/adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do echo "wait..."; sleep 1; done; input keyevent 82'
+        echo "Emulator has finished booting"
+        $ANDROID_HOME/platform-tools/adb devices
+        sleep 30
+        mkdir -p screenshots
+        screencapture screenshots/screenshot-$SUFFIX.jpg
+        $ANDROID_HOME/platform-tools/adb exec-out screencap -p > screenshots/emulator-$SUFFIX.png
+
+    # # # Have to re-setup everything since we need to run emulator for faster performance on masOS ? Other os'es emulator will not startup ?
+    # TODO: Optimize the steps taking into consideration all software present by default on macOS runner image
+
+    # # # Test # # reactiveCircus is giving a black screenshot not working
+    # # # TODO: Take a screenshot of OS to confirm if its Emulator issue or testcode/androidsdk issue - or maybe the emulator is screen off ?
+    # # # https://github.com/ReactiveCircus/android-emulator-runner
+    # - name: Test Cache
+    #   uses: reactivecircus/android-emulator-runner@v2
+    #   with:
+    #     api-level: ${{ matrix.android_emu_version }}
+    #     arch: x86_64
+    #     profile: Nexus 6
+    #     target: google_apis
+    #     emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim
+    #     script: echo Meoooow !
+    # - name: Test
+    #   id: test
+    #   uses: reactivecircus/android-emulator-runner@v2
+    #   with:
+    #     api-level: ${{ matrix.android_emu_version }}
+    #     arch: x86_64
+    #     profile: Nexus 6
+    #     target: google_apis
+    #     emulator-options: -gpu swiftshader_indirect -noaudio -no-boot-anim -no-snapshot-save
+    #     # Only running specific Instrumentation tests cause others are failing right now. TODO: Fix others
+    #     script: ./gradlew connectedCheck -Pandroid.testInstrumentationRunnerArguments.class=net.activitywatch.android.ScreenshotTest --stacktrace
+
+    # - name: Install recorder and record session
+    #   env:
+    #     SUFFIX: ${{ matrix.android_avd }}-eAPI-${{ matrix.android_emu_version }}-${{ matrix.os }}
+    #   run: |
+    #     brew install ffmpeg
+    #     $ANDROID_HOME/tools/emulator -help-all
+    #     # -logcat *:v
+    #     # $ANDROID_HOME/tools/emulator -port 18725 -verbose -no-audio -gpu swiftshader_indirect -logcat *:v @$MATRIX_AVD &
+    #     ffmpeg -f avfoundation -i 0 -t 120 out$SUFFIX.mov &
+
+    - name: Set up JDK
+      uses: actions/setup-java@v1
+      with:
+        java-version: ${{ matrix.java_version }}
+
+    # Android SDK & NDK
+    - name: Set up Android SDK
+      uses: android-actions/setup-android@v2
+    - name: Install NDK
+      run: |
+        sdkmanager "ndk;${{ matrix.ndk_version }}"
+        ANDROID_NDK_HOME="$ANDROID_SDK_ROOT/ndk/${{ matrix.ndk_version }}"
+        ls $ANDROID_NDK_HOME
+        echo "ANDROID_NDK_HOME=$ANDROID_NDK_HOME" >> $GITHUB_ENV
+
+    - name: Run E2E tests
+      timeout-minutes: 20
+      id: test
+      run: |
+        make test-e2e
+
+    - name: Output and save logcat to file
+      if: ${{ success() || steps.test.conclusion == 'failure'}}
+      run: |
+        mkdir -p mobile/build
+        adb logcat -d > mobile/build/logcat.log
+        adb logcat -v color &
+
+    - name: Screenshot
+      if: ${{ success() || steps.test.conclusion == 'failure'}}
+      env:
+        SUFFIX: ${{ matrix.android_avd }}-eAPI-${{ matrix.android_emu_version }}-${{ matrix.os }}
+      run: |
+        adb shell monkey -p net.activitywatch.android.debug 1
+        sleep 10
+        screencapture screenshots/pscreenshot-$SUFFIX.jpg
+        $ANDROID_HOME/platform-tools/adb exec-out screencap -p > screenshots/pemulator-$SUFFIX.png
+        ls -alh screenshots/
+
+    - name: Upload logcat
+      if: ${{ success() || steps.test.conclusion == 'failure'}}
+      uses: actions/upload-artifact@v3
+      with:
+        name: logcat
+        # mobile\build\outputs\connected_android_test_additional_output\debugAndroidTest\connected\Pixel_XL_API_32(AVD) - 12\ScreenshotTest_saveDeviceScreenBitmap.png
+        path: |
+          mobile/build/logcat.log
+        #mobile/build/reports/*
+
+    # - name: Upload video
+    #   if: ${{ success() || steps.test.conclusion == 'failure'}}
+    #   uses: actions/upload-artifact@master
+    #   with:
+    #     name: video
+    #     path: ./*.mov # out.mov
+
+    - name: Upload screenshots
+      uses: actions/upload-artifact@v3
+      if: ${{ success() || steps.test.conclusion == 'failure'}}
+      with:
+        name: screenshots
+        path: |
+          screenshots/*
+          **/mobile/build/outputs/connected_android_test_additional_output/debugAndroidTest/connected/*
+
+    #- name: Publish Test Report
+    #  # # uses: mikepenz/action-junit-report@v3
+    #  # # # # TODO: Format a little ? or Use some utility to confier GITHUB_STE_SUMMARY.html below into markdown before outputting it into $GITHUB_STEP_SUMMARY?
+    #  if: ${{ success() || steps.test.conclusion == 'failure'}}
+    #  # # with:
+    #  # #   report_paths: '**/build/reports/*Tests/**/*.html' # '**/build/test-results/test/TEST-*.xml'
+    #  run: |
+    #    for file in ./mobile/build/reports/androidTests/connected/*.html; do cat $file >> GITHUB_STEP_SUMMARY.html ; done
+    #    # echo '<style>' >> GITHUB_STEP_SUMMARY.html;for file in ./mobile/build/reports/androidTests/connected/**/*.css; do cat $file >> GITHUB_STEP_SUMMARY.html ; done; echo '</style>' >> GITHUB_STEP_SUMMARY.html;
+    #    cat GITHUB_STEP_SUMMARY.html >> $GITHUB_STEP_SUMMARY
+
+  release-fastlane:
+    needs: [build-apk]
+    if: startsWith(github.ref, 'refs/tags/v')  # only on runs triggered from tag
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Download release APK
+      uses: actions/download-artifact@v3
+      with:
+        name: aw-android
+        path: dist
+
+    - name: Display structure of downloaded files
+      working-directory: dist
+      run: ls -R
+
+    # detect if version tag is stable/beta
+    - uses: nowsprinting/check-version-format-action@v2
+      id: version
+      with:
+        prefix: 'v'
+
+    - uses: adnsio/setup-age-action@v1.2.0
+
+    - name: Load secrets
+      env:
+        KEY_FASTLANE_API: ${{ secrets.KEY_FASTLANE_API }}
+      run: |
+        printf "$KEY_FASTLANE_API" > fastlane/api-8546008605074111507-287154-450dc77b365f.json.key
+        cat fastlane/api-8546008605074111507-287154-450dc77b365f.json.age \
+          | age -d -i fastlane/api-8546008605074111507-287154-450dc77b365f.json.key \
+                   -o fastlane/api-8546008605074111507-287154-450dc77b365f.json
+        rm fastlane/api-8546008605074111507-287154-450dc77b365f.json.key
+
+    - name: Release with fastlane
+      if: ${{ !(steps.version.outputs.is_stable == 'true') }}  # must compare to true, since boolean outputs are actually just strings, and "false" is truthy since it's not empty: https://github.com/actions/runner/issues/1483#issuecomment-994986996
+      run: |
+        bundle exec fastlane supply run --apk dist/*/*.apk
+
+  release-gh:
+    needs: [build-apk]
+    if: startsWith(github.ref, 'refs/tags/v')  # only on runs triggered from tag
+    runs-on: ubuntu-latest
+    steps:
+
+    # Will download all artifacts to path
+    - name: Download release APK
+      uses: actions/download-artifact@v3
+      with:
+        name: aw-android
+        path: dist
+
+    - name: Display structure of downloaded files
+      working-directory: dist
+      run: ls -R
+
+    # detect if version tag is stable/beta
+    - uses: nowsprinting/check-version-format-action@v2
+      id: version
+      with:
+        prefix: 'v'
+
+    # create a release
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        draft: true
+        prerelease: ${{ !(steps.version.outputs.is_stable == 'true') }}  # must compare to true, since boolean outputs are actually just strings, and "false" is truthy since it's not empty: https://github.com/actions/runner/issues/1483#issuecomment-994986996
+        files: dist/*/*.apk
+        # body_path: dist/release_notes/release_notes.md
+

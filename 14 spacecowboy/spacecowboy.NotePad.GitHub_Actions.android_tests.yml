@@ -1,0 +1,134 @@
+name: Android tests
+
+on:
+  push:
+    branches: [ "master" ]
+    # runs when you commit to the master branch, so also when merging pull requests.
+    # Not on receiving pull requests: it would be a waste.
+    paths-ignore:
+      - '**.md'
+      - '.github/**'
+      - '!.github/workflows/build.yml'
+jobs:
+  # this job runs all the tests
+  job_tests:
+    if: github.repository == 'spacecowboy/NotePad' # no need to run it on forks    
+    timeout-minutes: 70 # emulators are slow: a "test jobs" can finish in (up to) 57 minutes
+    continue-on-error: true # finish for all configurations, even if one fails
+    strategy:
+      matrix:
+        # test on emulators with these Android API versions. minSdk & higher
+        api-level: [ 23, 25, 27, 29, 31, 33 ]
+        target: [ default, google_apis ] # OS images without, or with, google apps
+        # TODO if you use this then disable the "avd cache" step, because you don't have space to save 20 emulator images
+        # profile: [ 5.1in WVGA, 10.1in WXGA ] # phone or tablet
+        exclude:
+            # the images for these configurations do not exist
+          - api-level: 33
+            target: default
+          - api-level: 27
+            target: google_apis
+    # Windows is unsupported. Ubuntu is slow so the emulators crash. List of installed software:
+    # https://github.com/actions/runner-images/blob/main/images/macos/macos-12-Readme.md
+    runs-on: macos-latest
+    permissions:
+      contents: read
+    steps:
+      - name: perform the checkout
+        uses: actions/checkout@v3
+
+      - name: perform the validation
+        continue-on-error: true
+        uses: gradle/wrapper-validation-action@v1
+
+      - name: perform the set up for the JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: 17
+          distribution: temurin
+
+      - name: perform Gradle setup & caching
+        uses: gradle/gradle-build-action@v2
+
+      - name: Check for hardware acceleration availability
+        continue-on-error: true
+        # Read the console logs for the result. The android emulator can't use
+        # acceleration, according to the logs. No you can't install HAXM.
+        run: $ANDROID_HOME/emulator/emulator -accel-check
+
+      - name: perform AVD caching
+        uses: actions/cache@v3
+        id: avd-cache
+        # they appear in
+        # https://github.com/spacecowboy/NotePad/actions/caches?query=sort%3Asize-desc
+        with:
+          path: |
+            ~/.android/avd/*
+            ~/.android/adb*
+          key: avd-${{ matrix.api-level }}-${{ matrix.target }}
+
+      - name: create AVD and generate snapshot for caching
+        # here it automatically installs the needed android SDK components
+        # see https://github.com/ReactiveCircus/android-emulator-runner/blob/main/README.md
+        if: steps.avd-cache.outputs.cache-hit != 'true'
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api-level }}
+          target: ${{ matrix.target }}
+          profile: 5.1in WVGA  # low resolution: faster. This has no software buttons
+          arch: x86_64          # faster
+          disk-size: 500M       # needed for saving org and json files
+          force-avd-creation: false
+          # The emulator is picky on these parameters. For...
+          # tests with "-accel on": see github run #84
+          # tests with "-gpu host": the emulators never boot!
+          # tests with "-gpu off": see github run #87, faster & more stable
+          emulator-options: -no-boot-anim -no-window -gpu off
+          disable-animations: true
+          disable-spellchecker: true
+          # starts the emulator, runs this script, then closes the emulator
+          script: |
+            # wait for it to finish booting, then take a screenshot
+            sleep 30
+            adb emu screenrecord screenshot ./screenshot-made-cache.png
+
+      - name: perform the Gradle build
+        run: ./gradlew build
+
+      - name: install ffmpeg
+        run: brew install ffmpeg
+
+      - name: check ffmpeg
+        run: ffmpeg -version
+
+      - name: make the emulator script executable
+        run: chmod +x github_on_emu_started.sh
+
+      - name: run the tests
+        # note that by now the app is already built
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api-level }}
+          target: ${{ matrix.target }}
+          arch: x86_64
+          profile: 5.4in FWVGA
+          disk-size: 500M
+          force-avd-creation: false
+          disable-animations: true
+          disable-spellchecker: true
+          emulator-options: -no-snapshot-save -verbose -no-boot-anim -no-window -gpu off
+          # runners also have powershell. maybe remake the script so it's comprehensible ?
+          script: bash ./github_on_emu_started.sh
+
+      - name: upload the generated files
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: files-api${{ matrix.api-level }}-${{ matrix.target }}
+          path: |
+            screenshot-desktop.jpg
+            screenshot-made-cache.png
+            screenshot-emu-tests-starting.png
+            emu-video.mp4                        
+            logcat-dump.txt
+            app/build/reports/androidTests/**

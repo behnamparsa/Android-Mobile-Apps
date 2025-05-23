@@ -1,0 +1,122 @@
+name: Unit Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      clearCaches:
+        description: "Clear workflow caches where possible"
+        required: false
+        type: string
+  pull_request:
+    branches:
+      - '**'
+    paths:
+      - '.github/workflows/**'
+      - 'AnkiDroid/**'
+      - 'api/**'
+      - 'lint-rules/**'
+      - 'annotations/**'
+      - '**/*.gradle'
+      - 'gradle/**'
+  push:
+    branches:
+      - main
+      - i18n_sync
+      - dependency-updates
+      - 'release**'
+    paths:
+      - '.github/workflows/**'
+      - 'AnkiDroid/**'
+      - 'api/**'
+      - 'lint-rules/**'
+      - 'annotations/**'
+      - '**/*.gradle'
+      - 'gradle/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  unit:
+    name: JUnit Tests (${{ matrix.os}}, legacy_schema = ${{ matrix.legacy_schema }})
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        legacy_schema: [true, false]
+        exclude:
+          - os: macos-latest
+            legacy_schema: false
+    runs-on: ${{ matrix.os }}
+    #env:
+    #  CODACY_TOKEN: ${{ secrets.CODACY_TOKEN }}
+    steps:
+      - name: Configure Windows Pagefile
+        uses: al-cheb/configure-pagefile-action@v1.3
+        if: matrix.os == 'windows-latest'
+        with:
+          minimum-size: 8GB
+          maximum-size: 12GB
+          disk-root: "D:"
+
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 50
+
+      - name: Configure JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: "temurin"
+          java-version: "17" # newer libraries require 17 now, force it everywhere
+
+      - name: Verify JDK17
+        # Default JDK varies depending on different runner flavors, make sure we are on 17
+        # Run a check that exits with error unless it is 17 version to future-proof against unexpected upgrades
+        run: java -fullversion 2>&1 | grep '17.0'
+        shell: bash
+
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
+        timeout-minutes: 5
+        with:
+          # Only write to the cache for builds on the 'main' branches, stops branches evicting main cache
+          # Builds on other branches will only read from main branch cache writes
+          # Comment this and the with: above out for performance testing on a branch
+          cache-read-only: ${{ github.ref != 'refs/heads/main' }}
+          gradle-home-cache-cleanup: true
+
+      - name: Clear Caches Optionally
+        if: "${{ github.event.inputs.clearCaches != '' }}"
+        shell: bash
+        run: |
+          du -sk ~/.gradle
+          rm -fr ~/.gradle
+          du -sk ~/.gradle || echo ~/.gradle is gone
+
+      - name: Gradle Dependency Download
+        uses: nick-invision/retry@v2
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 60
+          max_attempts: 3
+          command: ./gradlew robolectricSdkDownload --daemon
+
+      - name: Set legacy schema property
+        run: echo "legacy_schema = ${{ matrix.legacy_schema }}" >> local.properties
+
+      - name: Run Unit Tests
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: jacocoUnitTestReport --daemon
+
+      - name: Stop Gradle
+        if: matrix.os == 'windows-latest'
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: --stop
+
+      - uses: codecov/codecov-action@v3
+        with:
+          verbose: true
