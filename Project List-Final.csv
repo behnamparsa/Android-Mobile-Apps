@@ -1,0 +1,4339 @@
+project,ci_platform,test_types
+detoxiom,GitHub Actions,none
+signalr-chatroom,GitHub Actions,Unit_Test
+progressnote,GitHub Actions,Unit_Test
+progressnote,GitHub Actions,Unit_Test
+cboy,GitHub Actions,Unit_Test
+cboy,GitHub Actions,Unit_Test
+cboy,GitHub Actions,Unit_Test
+cboy,GitHub Actions,Unit_Test
+motionmate,GitHub Actions,Unit_Test
+motionmate,Travis CI,none
+vocabletrainer-android,GitHub Actions,Unit_Test
+opmt,GitHub Actions,Unit_Test
+oiapp,CircleCI,Unit_Test
+stormappmaster2020,GitHub Actions,Unit_Test
+stormappuser2020,GitHub Actions,Unit_Test
+socialgist,GitHub Actions,Unit_Test
+usbhidterminal,Travis CI,none
+scala-android,Travis CI,Unit_Test
+canvasscript,Travis CI,Unit_Test
+transmissionic,GitHub Actions,Unit_Test
+transmissionic,GitHub Actions,Unit_Test
+transmissionic,GitHub Actions,Unit_Test
+android-temporarybrightness,Travis CI,none
+callconfirm,GitHub Actions,Unit_Test
+fileshortcut,Travis CI,none
+android-2048-compose-material3,GitHub Actions,Unit_Test
+android-2048-compose-material3,GitHub Actions,Unit_Test
+appopsx,GitHub Actions,none
+labeled-range-slider,GitHub Actions,Unit_Test
+cataclysm-dda-android,GitHub Actions,Unit_Test
+ricknmortycompose,GitHub Actions,Unit_Test
+you-coach-you,GitHub Actions,Unit_Test
+otpview,Travis CI,none
+pure,GitHub Actions,Unit_Test
+serious-sam-android,Unknown,none
+juicetimetable,GitHub Actions,Unit_Test
+juicetimetable,GitHub Actions,Unit_Test
+dmix,Travis CI,none
+filepickerdialog-master,Travis CI,none
+semantic,GitHub Actions,Unit_Test
+semantic,GitHub Actions,Unit_Test
+ad-free,GitHub Actions,Unit_Test
+water-me,GitHub Actions,Unit_Test
+photon,GitHub Actions,Unit_Test
+photon,GitHub Actions,Unit_Test
+ez-recipes-android,GitHub Actions,Unit_Test
+ez-recipes-android,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+brouter,GitHub Actions,Unit_Test
+brouter,GitHub Actions,Unit_Test
+shoppinglist,GitHub Actions,Unit_Test
+shoppinglist,GitHub Actions,Unit_Test
+aztube-app,GitHub Actions,Unit_Test
+brassexcerpts,GitHub Actions,Unit_Test
+scalepractice,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+accrescent,GitHub Actions,Unit_Test
+accrescent,GitHub Actions,Unit_Test
+accrescent,GitHub Actions,Unit_Test
+15puzzle,GitHub Actions,Unit_Test
+acdisplay,Travis CI,"Travis_emulator_manual, Unit_Test"
+c2c-android-2021,GitHub Actions,Unit_Test
+c2c-android-2021,GitHub Actions,Unit_Test
+gitpositive,GitHub Actions,Unit_Test
+gitpositive,GitHub Actions,Unit_Test
+amirisback_frogo-admob,GitHub Actions,Unit_Test
+amirisback_frogo-admob,GitHub Actions,Unit_Test
+amirisback_frogo-admob,GitHub Actions,Unit_Test
+alt,GitHub Actions,Unit_Test
+alt,GitHub Actions,Unit_Test
+alt,GitHub Actions,Unit_Test
+aw-android,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+aw-android,GitHub Actions,Unit_Test
+rlad,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+lineflag,GitHub Actions,Unit_Test
+lineflag,GitHub Actions,Unit_Test
+lineflag,GitHub Actions,Unit_Test
+adaway,GitHub Actions,Unit_Test
+adaway,GitHub Actions,Unit_Test
+adaway,GitHub Actions,Unit_Test
+adaway,GitHub Actions,Unit_Test
+watomatic,GitHub Actions,Unit_Test
+watomatic,GitHub Actions,Unit_Test
+watchtower,Travis CI,none
+madesubmsission,CircleCI,Unit_Test
+companion-for-band,Travis CI,Unit_Test
+canteen_app,GitHub Actions,Unit_Test
+inventory-tracker,GitHub Actions,Unit_Test
+met-cs622-chatbot-project,GitHub Actions,Unit_Test
+met-cs622-chatbot-project,GitHub Actions,Unit_Test
+dcipher-app,Travis CI,none
+word-list,GitHub Actions,none
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,"Unit_Test, browserstack_test"
+covidcertificate-app-android,GitHub Actions,Unit_Test
+covidcertificate-app-android,GitHub Actions,Unit_Test
+compose-challenges,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+got-trivia,Travis CI,none
+secure-storage-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+secure-storage-android,GitHub Actions,Unit_Test
+secure-storage-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+cheddar,GitHub Actions,Unit_Test
+cheddar,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+pict2cam,GitHub Actions,Unit_Test
+kaptain,GitHub Actions,Unit_Test
+mtg-familiar,CircleCI,Unit_Test
+sai,GitHub Actions,Unit_Test
+mypass-app,Unknown,Unit_Test
+spi,GitHub Actions,none
+fastlane-android-ci,Travis CI,none
+pixelwheels,GitHub Actions,none
+pixelwheels,GitHub Actions,Unit_Test
+polaris-android,GitHub Actions,Unit_Test
+polaris-android,GitHub Actions,none
+polaris-android,GitHub Actions,none
+ad-silence,GitHub Actions,Unit_Test
+agoradesk-app-foss,GitHub Actions,Unit_Test
+loaderspack-android,CircleCI,Unit_Test
+todolist-room-mvvm,GitHub Actions,Unit_Test
+laverna-android,GitHub Actions,Unit_Test
+ane-branchio,GitHub Actions,Unit_Test
+hail,GitHub Actions,Unit_Test
+kpassnotes,GitHub Actions,Unit_Test
+fastadapter,Travis CI,none
+floatingactionbutton-menu,GitHub Actions,Unit_Test
+expensemanager,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+sherlock,Travis CI,Unit_Test
+nofbeventscraper,GitHub Actions,Unit_Test
+nofbeventscraper,GitHub Actions,Unit_Test
+enroute,GitHub Actions,Unit_Test
+enroute,GitHub Actions,Unit_Test
+enroute,GitHub Actions,Unit_Test
+enroute,GitHub Actions,none
+sparta,GitHub Actions,Unit_Test
+sparta,GitHub Actions,Unit_Test
+sparta,GitHub Actions,Unit_Test
+sparta,GitHub Actions,Unit_Test
+sparta,GitHub Actions,Unit_Test
+pokemar,GitHub Actions,Unit_Test
+palette-compose,GitHub Actions,Unit_Test
+palette-compose,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+android-beginner-projects,GitHub Actions,none
+android-beginner-projects,GitHub Actions,Unit_Test
+android-beginner-projects,GitHub Actions,Unit_Test
+android-beginner-projects,GitHub Actions,Unit_Test
+android-beginner-projects,GitHub Actions,Unit_Test
+snaptimepicker,GitHub Actions,Unit_Test
+discusim,CircleCI,none
+seiun,GitHub Actions,Unit_Test
+seiun,GitHub Actions,Unit_Test
+upnext,GitHub Actions,Unit_Test
+coolweather,CircleCI,Unit_Test
+oblique,Travis CI,none
+piximagepicker,GitHub Actions,Unit_Test
+gofun-android,Travis CI,none
+akvo-flow-mobile,GitHub Actions,Unit_Test
+akvo-rsr-up,GitHub Actions,"Unit_Test, firebase_Compact"
+mypodcasts-android,Travis CI,Unit_Test
+flap,Travis CI,none
+pokedex,GitHub Actions,Unit_Test
+pokedex,GitHub Actions,Unit_Test
+pokedex,GitHub Actions,Unit_Test
+innoextract-android,GitHub Actions,Unit_Test
+innoextract-android,GitHub Actions,Unit_Test
+innoextract-android,GitHub Actions,Unit_Test
+wallme-wallpaper,GitHub Actions,Unit_Test
+datmusic-android,GitHub Actions,Unit_Test
+datmusic-android,GitHub Actions,Unit_Test
+dira,GitHub Actions,Unit_Test
+fastshopping,GitHub Actions,Unit_Test
+fastshopping,GitHub Actions,Unit_Test
+fastshopping,GitHub Actions,Unit_Test
+fastshopping,GitHub Actions,Unit_Test
+fastshopping,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+fastshopping,GitHub Actions,Unit_Test
+arpavbts,GitHub Actions,Unit_Test
+ouilookup,GitHub Actions,Unit_Test
+ouilookup,GitHub Actions,Unit_Test
+new-ultrasonic-fork-for-mymusicqoe,GitHub Actions,Unit_Test
+flutter-weather,GitHub Actions,Unit_Test
+jetpack,GitHub Actions,Unit_Test
+affinidiid,GitHub Actions,Unit_Test
+monster-compendium,GitHub Actions,Unit_Test
+wifiauto,Travis CI,none
+rickandmorty,GitHub Actions,Unit_Test
+kanade,GitHub Actions,Unit_Test
+kanade,GitHub Actions,Unit_Test
+coffeedrinkswithjetpackcompose,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+coffeedrinkswithjetpackcompose,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+mapnotes,CircleCI,"Other, Unit_Test, firebase_Full"
+ensicord,GitHub Actions,Unit_Test
+ensicord,GitHub Actions,Unit_Test
+bitnews,GitHub Actions,Unit_Test
+jreader,GitHub Actions,Unit_Test
+fivethingskotlin,CircleCI,Unit_Test
+presently,CircleCI,Unit_Test
+frost-for-facebook,GitHub Actions,Unit_Test
+opennotescanner,GitHub Actions,Unit_Test
+opennotescanner,GitHub Actions,Unit_Test
+opennotescanner,Unknown,Unit_Test
+opennotescanner,Travis CI,none
+alldebrid,Travis CI,none
+ebeveynkontrollutwitter,Travis CI,none
+marketplace-list,GitHub Actions,Unit_Test
+pokedex,GitHub Actions,Unit_Test
+orgro,GitHub Actions,Unit_Test
+router_remote2,GitHub Actions,Unit_Test
+tinylisp,CircleCI,Unit_Test
+task-scheduler,GitHub Actions,Unit_Test
+drinks,CircleCI,Unit_Test
+drinks,Travis CI,none
+cms-mobile,Unknown,none
+templeapp,Unknown,Unit_Test
+templeapp,Travis CI,none
+automated-build-android-app-with-github-action,GitHub Actions,Unit_Test
+automated-build-android-app-with-github-action,GitHub Actions,Unit_Test
+automated-build-android-app-with-github-action,GitHub Actions,Unit_Test
+automated-build-android-app-with-github-action,GitHub Actions,Unit_Test
+automated-build-android-app-with-github-action,GitHub Actions,Unit_Test
+automated-build-android-app-with-github-action,GitHub Actions,Unit_Test
+automated-build-android-app-with-github-action,GitHub Actions,Unit_Test
+cleaner,GitHub Actions,Unit_Test
+frogo-notification,GitHub Actions,Unit_Test
+frogo-notification,GitHub Actions,Unit_Test
+keyboard,GitHub Actions,Unit_Test
+keyboard,GitHub Actions,Unit_Test
+keyboard,GitHub Actions,Unit_Test
+piano-tiles-clone,GitHub Actions,Unit_Test
+wallpaper,GitHub Actions,Unit_Test
+amos-tub-ws18-proj1,Travis CI,none
+corridor-navigation-android,Travis CI,Unit_Test
+muslimday,GitHub Actions,none
+linkhub,GitHub Actions,Unit_Test
+nextinpact-unofficial,GitHub Actions,Unit_Test
+nutrifit,GitHub Actions,Unit_Test
+nutrifit,GitHub Actions,Unit_Test
+nutrifit,GitHub Actions,Unit_Test
+anbox,GitHub Actions,Unit_Test
+anbox,Travis CI,none
+and-bible,GitHub Actions,Unit_Test
+and-bible,GitHub Actions,none
+and-bible,GitHub Actions,Unit_Test
+and-bible,GitHub Actions,Unit_Test
+and-bible,GitHub Actions,Unit_Test
+and-bible,GitHub Actions,Unit_Test
+and-bible,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+vergiss-nix,GitHub Actions,Unit_Test
+andprox,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+anilist,GitHub Actions,Unit_Test
+xzil-wallet,CircleCI,Unit_Test
+hostel,CircleCI,"Other, Unit_Test, firebase_Full"
+kandroid,Travis CI,none
+nextcloudservices,GitHub Actions,Unit_Test
+sstreu2017,Travis CI,Unit_Test
+trekarta,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+trekarta,GitHub Actions,Unit_Test
+trekarta,Travis CI,none
+swift-weather-app,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+swift-weather-app,GitHub Actions,Unit_Test
+swift-weather-app,GitHub Actions,Unit_Test
+virtualxposed,GitHub Actions,Unit_Test
+virtualxposed,Travis CI,none
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+android-password-store,GitHub Actions,Unit_Test
+devto-android,GitHub Actions,Unit_Test
+androidktx,CircleCI,none
+androidktx,GitHub Actions,Unit_Test
+androidktx,Travis CI,none
+kotlin-android-starter,GitHub Actions,Unit_Test
+androidx,GitHub Actions,Unit_Test
+androidx,GitHub Actions,Unit_Test
+androidx,GitHub Actions,Unit_Test
+androidx,GitHub Actions,Unit_Test
+androidx,GitHub Actions,Unit_Test
+androidx,GitHub Actions,Unit_Test
+androidx,GitHub Actions,Unit_Test
+androidx,GitHub Actions,Unit_Test
+andstatus,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+conning_tower,GitHub Actions,Unit_Test
+conning_tower,GitHub Actions,Unit_Test
+conning_tower,GitHub Actions,Unit_Test
+quotey,GitHub Actions,Unit_Test
+sms_my_gps,GitHub Actions,Unit_Test
+assume,GitHub Actions,Unit_Test
+twist-mobile,GitHub Actions,Unit_Test
+easylocationfetch,GitHub Actions,Unit_Test
+mentorship-android,GitHub Actions,Unit_Test
+mentorship-android,GitHub Actions,Unit_Test
+mentorship-android,GitHub Actions,Unit_Test
+mentorship-android,GitHub Actions,Unit_Test
+anitrend-v2,GitHub Actions,Unit_Test
+anitrend-v2,GitHub Actions,none
+anitrend-v2,GitHub Actions,Unit_Test
+anitrend-v2,GitHub Actions,none
+anitrend-v2,GitHub Actions,Unit_Test
+anitrend-v2,GitHub Actions,none
+anitrend-v2,GitHub Actions,Unit_Test
+anitrend-v2,GitHub Actions,Unit_Test
+anitrend-v2,GitHub Actions,Unit_Test
+anitrend-v2,GitHub Actions,Unit_Test
+anitrend-v2,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+anki-android,GitHub Actions,Unit_Test
+slipview,Travis CI,none
+tickmarks,CircleCI,"Other, Unit_Test"
+appwatcher,GitHub Actions,Unit_Test
+ant-design-mobile-rn,GitHub Actions,Unit_Test
+ant-design-mobile-rn,GitHub Actions,Unit_Test
+ant-design-mobile-rn,Travis CI,Unit_Test
+antennapod,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+antennapod,GitHub Actions,Unit_Test
+jetpack-compose-bible,GitHub Actions,Unit_Test
+animatedprogressbar,Travis CI,none
+regalandroid,Travis CI,none
+cattle,CircleCI,"Other, Unit_Test, firebase_Full"
+pendu,GitHub Actions,Unit_Test
+vnavi,GitHub Actions,Unit_Test
+vnavi,GitHub Actions,Unit_Test
+antox,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+antox,GitHub Actions,none
+thunder,GitHub Actions,Unit_Test
+mindustry,GitHub Actions,Unit_Test
+mindustry,GitHub Actions,Unit_Test
+mindustry,GitHub Actions,Unit_Test
+anysoftkeyboard,GitHub Actions,none
+anysoftkeyboard,GitHub Actions,Unit_Test
+anysoftkeyboard,GitHub Actions,none
+anysoftkeyboard,GitHub Actions,none
+anysoftkeyboard,GitHub Actions,Unit_Test
+anysoftkeyboard,GitHub Actions,Unit_Test
+anysoftkeyboard,GitHub Actions,Unit_Test
+anysoftkeyboard,GitHub Actions,Unit_Test
+mcinabox,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+rpncalc,GitHub Actions,Unit_Test
+mtuo,GitHub Actions,Unit_Test
+mtuo,GitHub Actions,Unit_Test
+otter,GitHub Actions,Unit_Test
+otter,GitHub Actions,Unit_Test
+easyrecipe,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+easyrecipe,GitHub Actions,Unit_Test
+easyrecipe,GitHub Actions,Unit_Test
+etsmobile-android2,Travis CI,Unit_Test
+notre-dame-v3,Travis CI,"Travis_emulator_manual, Unit_Test"
+notre-dame,GitHub Actions,Unit_Test
+notre-dame,GitHub Actions,Unit_Test
+notre-dame,GitHub Actions,Unit_Test
+avare,Travis CI,Unit_Test
+apple-flinger,Unknown,Unit_Test
+jtt_android,GitHub Actions,"GitHub_emulator_manual, Other, Unit_Test"
+jtt_android,Travis CI,Unit_Test
+open-source-android-weather-app,Travis CI,none
+proexpense,CircleCI,none
+elfeed-cljsrn,GitHub Actions,Unit_Test
+elfeed-cljsrn,GitHub Actions,Unit_Test
+elfeed-cljsrn,GitHub Actions,Unit_Test
+notes,GitHub Actions,Unit_Test
+simpleandroidmvvm,GitHub Actions,Unit_Test
+simpleandroidmvvm,GitHub Actions,Unit_Test
+hello-react-native,GitHub Actions,none
+hello-react-native,GitHub Actions,none
+hello-react-native,GitHub Actions,Unit_Test
+ark-navigator,GitHub Actions,Unit_Test
+ark-navigator,GitHub Actions,Unit_Test
+ark-rate,GitHub Actions,Unit_Test
+ark-rate,GitHub Actions,Unit_Test
+ark-shelf,GitHub Actions,Unit_Test
+ark-shelf,GitHub Actions,Unit_Test
+vulkan_best_practice_for_mobile_developers,Unknown,Unit_Test
+integral,GitHub Actions,Unit_Test
+staysafe,GitHub Actions,Unit_Test
+cafe-payment-system,Travis CI,none
+general-feedback,GitHub Actions,Unit_Test
+aio_myday_app,GitHub Actions,Unit_Test
+calculator,GitHub Actions,Unit_Test
+calculator,GitHub Actions,Unit_Test
+calculator,GitHub Actions,Unit_Test
+calculator,GitHub Actions,Unit_Test
+watermaniac,GitHub Actions,Unit_Test
+openticator,Travis CI,Unit_Test
+openchord,Travis CI,none
+arcade-plaza,GitHub Actions,Unit_Test
+readyou,GitHub Actions,Unit_Test
+readyou,GitHub Actions,Unit_Test
+picasa-gallery-android,GitHub Actions,Unit_Test
+picasa-gallery-android,Travis CI,"Other, Unit_Test"
+retrofit-lite,GitHub Actions,Unit_Test
+retrofit-lite,Travis CI,"Travis_emulator_manual, Unit_Test"
+paperless-mobile,GitHub Actions,Unit_Test
+paperless-mobile,GitHub Actions,Unit_Test
+paperless-mobile,GitHub Actions,Unit_Test
+paperless-mobile,GitHub Actions,Unit_Test
+cardiac-zone-android,GitHub Actions,Unit_Test
+cardiac-zone-android,GitHub Actions,Unit_Test
+miwok-app,GitHub Actions,Unit_Test
+wordpress-app-with-flutter,GitHub Actions,Unit_Test
+atomicgameengine,GitHub Actions,none
+atomicgameengine,Travis CI,none
+aap-juce-frequalizer,GitHub Actions,none
+fluidsynth-midi-service-j,GitHub Actions,Unit_Test
+atmosweather,GitHub Actions,Unit_Test
+atmosweather,GitHub Actions,Unit_Test
+s-launcher,Travis CI,none
+subtracks,GitHub Actions,none
+subtracks,GitHub Actions,Unit_Test
+authpass,GitHub Actions,Unit_Test
+authpass,GitHub Actions,Unit_Test
+authpass,GitHub Actions,Unit_Test
+authpass,GitHub Actions,Unit_Test
+authpass,GitHub Actions,Unit_Test
+authpass,GitHub Actions,none
+authpass,GitHub Actions,Unit_Test
+authpass,GitHub Actions,Unit_Test
+authpass,GitHub Actions,Unit_Test
+authpass,GitHub Actions,none
+authpass,GitHub Actions,none
+authpass,GitHub Actions,Unit_Test
+clean-sms-forwarding,GitHub Actions,Unit_Test
+fitbuddy,Travis CI,Unit_Test
+mini-games,GitHub Actions,Unit_Test
+mini-games,GitHub Actions,Unit_Test
+watermelonquotes,Travis CI,none
+minimal-todo,Travis CI,none
+zandy,GitHub Actions,Unit_Test
+smartdock,GitHub Actions,Unit_Test
+smartdock,GitHub Actions,Unit_Test
+smartdock,GitHub Actions,Unit_Test
+biblio,GitHub Actions,Unit_Test
+biblio,GitHub Actions,Unit_Test
+weather-forecast-id,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+weather-forecast-id,GitHub Actions,Unit_Test
+weather-forecast-id,GitHub Actions,Unit_Test
+callrecorder,GitHub Actions,Unit_Test
+sweetloc,GitHub Actions,Unit_Test
+androidcustomviews,GitHub Actions,Unit_Test
+androidcustomviews,GitHub Actions,Unit_Test
+ktx,GitHub Actions,Unit_Test
+ktx,GitHub Actions,Unit_Test
+logger,GitHub Actions,Unit_Test
+logger,GitHub Actions,Unit_Test
+cac-tripplanner-android,CircleCI,Unit_Test
+terminal_flutter,GitHub Actions,Unit_Test
+terminal_flutter,GitHub Actions,Unit_Test
+terminal_flutter,GitHub Actions,Unit_Test
+dial-dial,GitHub Actions,Unit_Test
+lionheart-remake,GitHub Actions,Unit_Test
+lionheart-remake,GitHub Actions,Unit_Test
+babybook,GitHub Actions,Unit_Test
+babydots,GitHub Actions,Unit_Test
+snapdroid,GitHub Actions,none
+aat,GitHub Actions,Unit_Test
+snow,GitHub Actions,Unit_Test
+databag,GitHub Actions,Unit_Test
+huaxiaoyu-fe,GitHub Actions,Unit_Test
+huaxiaoyu-fe,GitHub Actions,Unit_Test
+buddhaquotes,GitHub Actions,Unit_Test
+bible,GitHub Actions,Unit_Test
+qbitcontroller,GitHub Actions,Unit_Test
+bbct-android,GitHub Actions,Unit_Test
+battlebuddy-android,GitHub Actions,Unit_Test
+paperless_app,GitHub Actions,Unit_Test
+paperless_app,GitHub Actions,Unit_Test
+paperless_app,GitHub Actions,Unit_Test
+paperless_app,GitHub Actions,Unit_Test
+paperless_app,GitHub Actions,Unit_Test
+bcvax-android,GitHub Actions,Unit_Test
+fbp-go,GitHub Actions,Unit_Test
+secure-image-app,GitHub Actions,Unit_Test
+secure-image-app,GitHub Actions,Unit_Test
+secure-image-app,GitHub Actions,Unit_Test
+secure-image-app,GitHub Actions,Unit_Test
+edmflare,GitHub Actions,Unit_Test
+tic-tac-toe,Travis CI,Unit_Test
+groupno1-vehicular-traffic-abatement,Travis CI,none
+beat-feet,GitHub Actions,Unit_Test
+beat-feet,GitHub Actions,Unit_Test
+aegis,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+aegis,GitHub Actions,Unit_Test
+aegis,GitHub Actions,Unit_Test
+mobile,Travis CI,none
+linphone-android,Unknown,none
+offlinecookbook,GitHub Actions,none
+offlinecookbook,GitHub Actions,Unit_Test
+chinesettstflite,GitHub Actions,Unit_Test
+ocrliteandroidncnn,GitHub Actions,Unit_Test
+white-noise-player,GitHub Actions,Unit_Test
+white-noise-player,GitHub Actions,Unit_Test
+heartbeat,GitHub Actions,Unit_Test
+changedetection,CircleCI,Unit_Test
+changedetection,Unknown,Unit_Test
+bluetooth-le-analyzer,Travis CI,none
+bluetooth-remote-control,GitHub Actions,none
+pusher,CircleCI,Unit_Test
+rfdroid-scanparam,Travis CI,none
+sim-password-wallet,CircleCI,Unit_Test
+sms-group-sender,CircleCI,Unit_Test
+berty,GitHub Actions,none
+berty,GitHub Actions,none
+berty,GitHub Actions,none
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+berty,GitHub Actions,Unit_Test
+learn-android,GitHub Actions,none
+searchlight,GitHub Actions,Unit_Test
+xifan,Travis CI,none
+zaptap,CircleCI,Unit_Test
+epicture,Travis CI,none
+fediverse,GitHub Actions,Unit_Test
+fediverse,GitHub Actions,Unit_Test
+fediverse,GitHub Actions,Unit_Test
+fediverse,GitHub Actions,Unit_Test
+fediverse,GitHub Actions,Unit_Test
+fediverse,GitHub Actions,Unit_Test
+movie-app-android,GitHub Actions,Unit_Test
+movie-app-android,GitHub Actions,Unit_Test
+movie-app-android,Unknown,Unit_Test
+iconic-tab-bar,Travis CI,"Travis_emulator_manual, Unit_Test"
+mangindo,Travis CI,"Travis_emulator_manual, Unit_Test"
+readhub-android,GitHub Actions,Unit_Test
+accordion,GitHub Actions,Unit_Test
+accordion,GitHub Actions,Unit_Test
+crossword,GitHub Actions,Unit_Test
+crossword,GitHub Actions,Unit_Test
+editor,GitHub Actions,Unit_Test
+editor,GitHub Actions,Unit_Test
+gridle,GitHub Actions,Unit_Test
+gridle,GitHub Actions,Unit_Test
+gurgle,GitHub Actions,Unit_Test
+gurgle,GitHub Actions,Unit_Test
+melodeon,GitHub Actions,Unit_Test
+melodeon,GitHub Actions,Unit_Test
+print,GitHub Actions,Unit_Test
+print,GitHub Actions,Unit_Test
+scope,GitHub Actions,Unit_Test
+scope,GitHub Actions,Unit_Test
+shorty,GitHub Actions,Unit_Test
+shorty,GitHub Actions,Unit_Test
+sig-gen,GitHub Actions,Unit_Test
+sig-gen,GitHub Actions,Unit_Test
+tuner,GitHub Actions,Unit_Test
+tuner,GitHub Actions,Unit_Test
+wordlesolver,GitHub Actions,Unit_Test
+wordlesolver,GitHub Actions,Unit_Test
+rachma-android,Travis CI,"Travis_emulator_manual, Unit_Test"
+defiscan,GitHub Actions,Unit_Test
+jagrati,GitHub Actions,Unit_Test
+technical-fest,GitHub Actions,Unit_Test
+bitcoin-wallet,Unknown,none
+icsx5,GitHub Actions,Unit_Test
+icsx5,GitHub Actions,Unit_Test
+icsx5,GitHub Actions,Unit_Test
+icsx5,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+autonomy-client,GitHub Actions,Unit_Test
+autonomy-client,GitHub Actions,Unit_Test
+autonomy-client,GitHub Actions,Unit_Test
+autonomy-client,GitHub Actions,Unit_Test
+autonomy-client,GitHub Actions,Unit_Test
+autonomy-client,GitHub Actions,Unit_Test
+autonomy-client,GitHub Actions,Unit_Test
+bitportal-client,CircleCI,Unit_Test
+bitportal-client,GitHub Actions,Unit_Test
+tucao,Travis CI,none
+dinewell-carehome-app,Travis CI,Unit_Test
+mobileprism,GitHub Actions,Unit_Test
+mobileprism,GitHub Actions,Unit_Test
+dwyco,GitHub Actions,none
+just_another_workout_timer,GitHub Actions,Unit_Test
+just_another_workout_timer,GitHub Actions,Unit_Test
+green_android,Unknown,Unit_Test
+green_android,Travis CI,none
+drip,Unknown,Unit_Test
+view404,Travis CI,none
+unity,GitHub Actions,Unit_Test
+unity,GitHub Actions,Unit_Test
+android-pitchpipe,GitHub Actions,Unit_Test
+android-appcachecleaner,Travis CI,Unit_Test
+translateyou,GitHub Actions,Unit_Test
+translateyou,GitHub Actions,Unit_Test
+translateyou,GitHub Actions,Unit_Test
+translateyou,GitHub Actions,Unit_Test
+gobi-player,Travis CI,none
+easysshfs,GitHub Actions,Unit_Test
+national-geography,Travis CI,none
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,none
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+boinc,GitHub Actions,Unit_Test
+graphhopper-maps-capacitor,GitHub Actions,Unit_Test
+graphhopper-maps-capacitor,GitHub Actions,Unit_Test
+bombusmod,GitHub Actions,none
+bombusmod,GitHub Actions,Unit_Test
+bookdash-android-app,CircleCI,Unit_Test
+bluepass,GitHub Actions,Unit_Test
+android03-contact,GitHub Actions,Unit_Test
+android04-god-fisherman,GitHub Actions,Unit_Test
+android07-notto,GitHub Actions,Unit_Test
+android05-mogakrun,GitHub Actions,Unit_Test
+android06-mogle,GitHub Actions,Unit_Test
+android06-mogle,GitHub Actions,Unit_Test
+tictactoe,GitHub Actions,Unit_Test
+gallerywall,GitHub Actions,Unit_Test
+gallerywall,GitHub Actions,Unit_Test
+photo-sharing-android,GitHub Actions,Unit_Test
+photo-sharing-android,Travis CI,"Travis_emulator_manual, Unit_Test"
+uatranslit,GitHub Actions,Unit_Test
+uatranslit,GitHub Actions,Unit_Test
+uatranslit,Travis CI,"Travis_emulator_manual, Unit_Test"
+openbikesharing,Travis CI,none
+wifikeyshare,Travis CI,Unit_Test
+leavesheet,GitHub Actions,Unit_Test
+house,GitHub Actions,Unit_Test
+cone,GitHub Actions,Unit_Test
+learn-braille,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+,CircleCI,Unit_Test
+ameixa,Unknown,Unit_Test
+baby-sleep-sounds,GitHub Actions,Unit_Test
+budget-watch,GitHub Actions,Unit_Test
+gift-card-guard,Travis CI,Unit_Test
+loyalty-card-locker,GitHub Actions,Unit_Test
+protect-baby-monitor,Travis CI,Unit_Test
+rental-calc,Travis CI,Unit_Test
+video-transcoder,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+mixpanel-android,Travis CI,"Travis_emulator_manual, Unit_Test"
+readmoretextview,Travis CI,none
+todozy,GitHub Actions,Unit_Test
+amplify,GitHub Actions,Unit_Test
+price-per-unit,GitHub Actions,Unit_Test
+opensesame,GitHub Actions,Unit_Test
+briar,Unknown,"Other, Unit_Test"
+boxbox,GitHub Actions,Unit_Test
+kuwas,GitHub Actions,Unit_Test
+pokedex,GitHub Actions,Unit_Test
+androidscreenshot_sysapi,GitHub Actions,Unit_Test
+softcodec,GitHub Actions,Unit_Test
+sdp-project,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+anime-watcher,CircleCI,Unit_Test
+anime-watcher,Travis CI,none
+padumper,GitHub Actions,Unit_Test
+news,GitHub Actions,Unit_Test
+buildapks,GitHub Actions,Unit_Test
+buildapks,GitHub Actions,Unit_Test
+buildapks,GitHub Actions,Unit_Test
+activitylauncher,GitHub Actions,Unit_Test
+activitylauncher,GitHub Actions,Unit_Test
+activitylauncher,GitHub Actions,Unit_Test
+activitylauncher,GitHub Actions,Unit_Test
+smartmediapicker,Travis CI,none
+universal-native-boilerplate,Travis CI,Unit_Test
+c3nav-android,Travis CI,none
+poet-assistant,Travis CI,Unit_Test
+repadclient,CircleCI,none
+repadclient,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+sanmill,GitHub Actions,Unit_Test
+remote_pair_pomodoro,GitHub Actions,Unit_Test
+if26-projet-android,Travis CI,Unit_Test
+apde,GitHub Actions,Unit_Test
+bitmask_android,Unknown,Unit_Test
+bookworm,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+bookworm,GitHub Actions,Unit_Test
+jetcountrypicker,GitHub Actions,Unit_Test
+jetcountrypicker,GitHub Actions,Unit_Test
+capgo,GitHub Actions,Unit_Test
+capgo,GitHub Actions,Unit_Test
+capgo,GitHub Actions,Unit_Test
+capgo,GitHub Actions,Unit_Test
+capgo,GitHub Actions,Unit_Test
+android-sms-gateway,GitHub Actions,Unit_Test
+android-sms-gateway,GitHub Actions,Unit_Test
+droidinfo,Travis CI,Unit_Test
+superheroes,GitHub Actions,Unit_Test
+gsyricktext,Travis CI,none
+gsyvideoplayer,GitHub Actions,Unit_Test
+gsyvideoplayer,GitHub Actions,Unit_Test
+gsy_github_app_flutter,GitHub Actions,Unit_Test
+neko,GitHub Actions,Unit_Test
+neko,GitHub Actions,Unit_Test
+neko,GitHub Actions,Unit_Test
+neko,GitHub Actions,Unit_Test
+autonotifylist,CircleCI,none
+monoadapter,CircleCI,none
+viewmodeladapter,CircleCI,none
+cartsbusboarding,Travis CI,Unit_Test
+simple_app_blocker,GitHub Actions,Unit_Test
+better-internet-tiles,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+paintroid,GitHub Actions,Unit_Test
+paintroid,GitHub Actions,Unit_Test
+fosdem-companion-android,GitHub Actions,Unit_Test
+ultimatewordfinder,Travis CI,"Travis_emulator_manual, Unit_Test"
+boardgamegeek4android,GitHub Actions,Unit_Test
+cculife,Unknown,Unit_Test
+cculife,Travis CI,none
+android-imsi-catcher-detector,GitHub Actions,none
+rethink-app,GitHub Actions,Unit_Test
+rethink-app,GitHub Actions,Unit_Test
+rethink-app,GitHub Actions,Unit_Test
+ics-openconnect,Travis CI,none
+edujam,GitHub Actions,Unit_Test
+sona-flutter,GitHub Actions,Unit_Test
+pageindicator,Travis CI,none
+weipay,CircleCI,none
+chatgpt-app,GitHub Actions,Unit_Test
+playcode,GitHub Actions,Unit_Test
+opentraining,Travis CI,"Travis_emulator_manual, Unit_Test"
+meteroid,GitHub Actions,Unit_Test
+share-my-number,GitHub Actions,Unit_Test
+chatwoot-mobile-app,CircleCI,Unit_Test
+cheers-li-app,GitHub Actions,Unit_Test
+cheers-li-app,GitHub Actions,Unit_Test
+videocrop,GitHub Actions,none
+nekome,GitHub Actions,Unit_Test
+nekome,GitHub Actions,Unit_Test
+pushie,GitHub Actions,Unit_Test
+pushie,GitHub Actions,Unit_Test
+carcinofit,GitHub Actions,Unit_Test
+debt-manager,CircleCI,Unit_Test
+good_first_issue,GitHub Actions,Unit_Test
+bark,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+phonograph_plus,GitHub Actions,Unit_Test
+phonograph_plus,GitHub Actions,none
+phonograph_plus,GitHub Actions,none
+curriculumvitae,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+curriculumvitae,GitHub Actions,Unit_Test
+curriculumvitae,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+socketweather,GitHub Actions,Unit_Test
+socketweather,GitHub Actions,Unit_Test
+socketweather,GitHub Actions,Unit_Test
+ratingdialok,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+songs,GitHub Actions,Unit_Test
+songs,GitHub Actions,Unit_Test
+songs,GitHub Actions,Unit_Test
+songs,GitHub Actions,Unit_Test
+tacere,Travis CI,none
+encryptedsharedpreferences,Travis CI,"Travis_emulator_manual, Unit_Test"
+mutecamera,GitHub Actions,none
+robinhood-options-mobile,GitHub Actions,Unit_Test
+robinhood-options-mobile,GitHub Actions,Unit_Test
+ncihost,GitHub Actions,Unit_Test
+calendula,CircleCI,Unit_Test
+attachcontact,GitHub Actions,Unit_Test
+clarifai-android-starter,Travis CI,"Travis_emulator_manual, Unit_Test"
+lazydb,Travis CI,none
+cleantodo,CircleCI,none
+expensetracker,Travis CI,none
+android-remote,GitHub Actions,Unit_Test
+days,GitHub Actions,Unit_Test
+cloudinary_android,Travis CI,"Travis_emulator_manual, Unit_Test"
+snu_class_2021_art,GitHub Actions,Unit_Test
+distantworlds-muzei,GitHub Actions,Unit_Test
+distantworlds-muzei,GitHub Actions,Unit_Test
+boromi,GitHub Actions,Unit_Test
+habot,GitHub Actions,Unit_Test
+momentum,GitHub Actions,Unit_Test
+cmput301f22t06_team_project,GitHub Actions,Unit_Test
+nlweer,GitHub Actions,Unit_Test
+vt-androidclient,GitHub Actions,Unit_Test
+vt-androidclient,GitHub Actions,Unit_Test
+noisepercolator,Travis CI,Travis_emulator_manual
+bundel,GitHub Actions,Unit_Test
+bundel,GitHub Actions,Unit_Test
+harmony,GitHub Actions,Unit_Test
+harmony,Unknown,Unit_Test
+de-urgenta-android,GitHub Actions,Unit_Test
+de-urgenta-android,GitHub Actions,Unit_Test
+farebot,Travis CI,none
+study-buddy-app,GitHub Actions,Unit_Test
+study-buddy-app,GitHub Actions,Unit_Test
+study-buddy-app,GitHub Actions,Unit_Test
+study-buddy-app,GitHub Actions,Unit_Test
+koffeemate,Travis CI,"Travis_emulator_manual, Unit_Test"
+referandumproject,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+awol,GitHub Actions,Unit_Test
+enigmatic-mouse,Travis CI,none
+gnucash-android,Travis CI,none
+perfectus,CircleCI,none
+batterytile,GitHub Actions,Unit_Test
+alakazam,Travis CI,none
+cheatsheet,Travis CI,none
+coil-imagegetter,GitHub Actions,Unit_Test
+easel,Travis CI,none
+firestoreadapter,Travis CI,none
+fitternumberpicker,Travis CI,none
+frankenstein,Travis CI,none
+horizontalpicker,Travis CI,none
+inkpageindicator,Travis CI,none
+internallinkmovementmethod,Travis CI,none
+jounce,GitHub Actions,Unit_Test
+labcoat,Unknown,Unit_Test
+labcoat,Travis CI,Unit_Test
+lift,GitHub Actions,Unit_Test
+morphtransitions,GitHub Actions,Unit_Test
+reptar,Travis CI,none
+tisk,Travis CI,none
+viewtiful,Travis CI,none
+fractalzoo,GitHub Actions,Unit_Test
+fractalzoo,Travis CI,"Travis_emulator_manual, Unit_Test"
+sslsocks,Travis CI,none
+hello-java-android,GitHub Actions,"Other, Unit_Test"
+connectbot,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+connectbot,GitHub Actions,Unit_Test
+connectbot,GitHub Actions,Unit_Test
+connectbot,GitHub Actions,Unit_Test
+smartcookieweb,GitHub Actions,Unit_Test
+paristransporttraffic,GitHub Actions,Unit_Test
+medicationmanager,CircleCI,Unit_Test
+medicationmanager,GitHub Actions,Unit_Test
+nightlight,Travis CI,none
+cosmic-ide,GitHub Actions,Unit_Test
+cosmic-ide,GitHub Actions,Unit_Test
+cosmic-ide,GitHub Actions,Unit_Test
+cosmic-ide,GitHub Actions,Unit_Test
+cosmic-ide,GitHub Actions,Unit_Test
+cosmic-ide,GitHub Actions,Unit_Test
+cosmic-ide,GitHub Actions,Unit_Test
+cosmic-ide,GitHub Actions,Unit_Test
+cosmic-ide,GitHub Actions,Unit_Test
+atom-tasks,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+atom-tasks,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+android-comonadic-ui,Travis CI,"Travis_emulator_manual, Unit_Test"
+crawl,GitHub Actions,Unit_Test
+flashy,GitHub Actions,Unit_Test
+flashy,GitHub Actions,Unit_Test
+fucksgiven,GitHub Actions,Unit_Test
+fucksgiven,GitHub Actions,Unit_Test
+fucksgiven,GitHub Actions,Unit_Test
+fucksgiven,GitHub Actions,none
+halma,GitHub Actions,Unit_Test
+halma,GitHub Actions,Unit_Test
+halma,GitHub Actions,none
+halma,GitHub Actions,Unit_Test
+metadataremover,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+metadataremover,GitHub Actions,none
+morningwood,GitHub Actions,Unit_Test
+morningwood,GitHub Actions,none
+todont,GitHub Actions,Unit_Test
+todont,GitHub Actions,Unit_Test
+todont,GitHub Actions,Unit_Test
+todont,GitHub Actions,Unit_Test
+todont,GitHub Actions,Unit_Test
+txt,GitHub Actions,Unit_Test
+txt,GitHub Actions,none
+vacationdays,GitHub Actions,Unit_Test
+vacationdays,GitHub Actions,Unit_Test
+vacationdays,GitHub Actions,Unit_Test
+criticalmaps-android,GitHub Actions,Unit_Test
+croma,GitHub Actions,Unit_Test
+croma,GitHub Actions,Unit_Test
+cms-android,GitHub Actions,Unit_Test
+pokedex,GitHub Actions,none
+student_app,GitHub Actions,Unit_Test
+student_app,GitHub Actions,Unit_Test
+mensaplan,CircleCI,Unit_Test
+mensaplan,Unknown,Unit_Test
+ning,Unknown,none
+2021-1-ossp2-barcode-8,CircleCI,Unit_Test
+android-minimal-todo,CircleCI,Unit_Test
+ludwig-android,CircleCI,"Other, Unit_Test, firebase_Full"
+stockcontrol,Travis CI,none
+spotifykt,GitHub Actions,Unit_Test
+spotifykt,GitHub Actions,Unit_Test
+darkmodewallpaper,GitHub Actions,Unit_Test
+darkmodewallpaper,GitHub Actions,Unit_Test
+wallpaperexport,GitHub Actions,Unit_Test
+canvass-app,GitHub Actions,Unit_Test
+canvass-app,GitHub Actions,Unit_Test
+flashdim,GitHub Actions,Unit_Test
+flashdim,GitHub Actions,Unit_Test
+flashdim,GitHub Actions,Unit_Test
+pincredible,GitHub Actions,Unit_Test
+pincredible,GitHub Actions,Unit_Test
+pincredible,GitHub Actions,Unit_Test
+android,Travis CI,Unit_Test
+phphub-android,Travis CI,none
+userland,GitHub Actions,"Other, Unit_Test, firebase_Full"
+stack_wallet,GitHub Actions,Unit_Test
+code-scanner,GitHub Actions,Unit_Test
+code-scanner,GitHub Actions,Unit_Test
+code-scanner,GitHub Actions,none
+capod,GitHub Actions,Unit_Test
+capod,GitHub Actions,Unit_Test
+capod,GitHub Actions,Unit_Test
+fpv-dvca,GitHub Actions,Unit_Test
+fpv-dvca,GitHub Actions,Unit_Test
+fpv-dvca,GitHub Actions,Unit_Test
+octi,GitHub Actions,Unit_Test
+octi,GitHub Actions,Unit_Test
+octi,GitHub Actions,Unit_Test
+permission-pilot,GitHub Actions,Unit_Test
+permission-pilot,GitHub Actions,Unit_Test
+permission-pilot,GitHub Actions,Unit_Test
+reddit-android-appstore,Travis CI,Unit_Test
+wakelock-revamp,GitHub Actions,Unit_Test
+wakelock-revamp,GitHub Actions,Unit_Test
+dagda-app,GitHub Actions,Unit_Test
+dagda-app,GitHub Actions,Unit_Test
+dagda-app,GitHub Actions,Unit_Test
+dagda-app,GitHub Actions,Unit_Test
+afh_downloader,Travis CI,none
+androidpn-client,Travis CI,none
+basketbuild_downloader,Travis CI,none
+opengapps_downloader,Travis CI,none
+suddenly-wifi,CircleCI,Unit_Test
+websiterss,Travis CI,Unit_Test
+the-movie-db-kotlin,GitHub Actions,Unit_Test
+notification-notes,GitHub Actions,Unit_Test
+notification-notes,GitHub Actions,Unit_Test
+ratatosk,CircleCI,Unit_Test
+stepper-touch,CircleCI,Unit_Test
+jumpdontdie,GitHub Actions,Unit_Test
+jumpdontdie,GitHub Actions,Unit_Test
+peruvian-food-app,GitHub Actions,none
+peruvian-food-app,GitHub Actions,Unit_Test
+peruvian-food-app,GitHub Actions,Unit_Test
+peruvian-food-app,GitHub Actions,Unit_Test
+danxi,GitHub Actions,Unit_Test
+danxi,GitHub Actions,Unit_Test
+danxi,GitHub Actions,Unit_Test
+dfm,CircleCI,Unit_Test
+dfm,GitHub Actions,Unit_Test
+dfm,GitHub Actions,Unit_Test
+whatsthere,GitHub Actions,Unit_Test
+logcatreader,Travis CI,Unit_Test
+dash-wallet,GitHub Actions,Unit_Test
+dash-wallet,GitHub Actions,Unit_Test
+dash-wallet,GitHub Actions,Unit_Test
+munchkin-counter-android,CircleCI,none
+burning-series,GitHub Actions,Unit_Test
+burning-series,GitHub Actions,Unit_Test
+openfe-android,GitHub Actions,Unit_Test
+covid,GitHub Actions,Unit_Test
+tensor,Travis CI,none
+patco-today,GitHub Actions,Unit_Test
+electricity_front,GitHub Actions,Unit_Test
+prognoza,GitHub Actions,Unit_Test
+marvel,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+halfdot,GitHub Actions,Unit_Test
+dawnn_client,GitHub Actions,Unit_Test
+dawnn_client,GitHub Actions,Unit_Test
+android-boilerplate,GitHub Actions,Unit_Test
+android-boilerplate,Travis CI,none
+upcomingmovies,GitHub Actions,Unit_Test
+webaudio-spectrum-analyser,GitHub Actions,Unit_Test
+webaudio-spectrum-analyser,GitHub Actions,Unit_Test
+webaudio-spectrum-analyser,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,none
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+jazz2-native,GitHub Actions,Unit_Test
+aves,GitHub Actions,Unit_Test
+aves,GitHub Actions,Unit_Test
+mobile_nebula,GitHub Actions,Unit_Test
+mobile_nebula,GitHub Actions,Unit_Test
+mobile_nebula,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+amarok-hider,GitHub Actions,Unit_Test
+amarok-hider,GitHub Actions,Unit_Test
+demixr-app,GitHub Actions,Unit_Test
+daqs,GitHub Actions,Unit_Test
+three-days-android,GitHub Actions,Unit_Test
+three-days-android,GitHub Actions,Unit_Test
+three-days-android,GitHub Actions,Unit_Test
+noefinderlein,Travis CI,none
+nitmgpt,GitHub Actions,Unit_Test
+nitmgpt,GitHub Actions,Unit_Test
+weatherapp-android,GitHub Actions,Unit_Test
+weatherapp-android,GitHub Actions,Unit_Test
+instiapp-android,GitHub Actions,Unit_Test
+klimatic,GitHub Actions,Unit_Test
+klimatic,GitHub Actions,Unit_Test
+klimatic,GitHub Actions,Unit_Test
+ns-usbloader-mobile,GitHub Actions,Unit_Test
+logmein-android,Travis CI,Unit_Test
+aria2app,GitHub Actions,Unit_Test
+dnshero,GitHub Actions,Unit_Test
+pretendyourexyzzyandroid,GitHub Actions,Unit_Test
+devhub,GitHub Actions,none
+mapwall,Travis CI,Unit_Test
+slider,Travis CI,none
+paperlaunch,GitHub Actions,Unit_Test
+challenge-ci-android,GitHub Actions,Unit_Test
+ard,Travis CI,none
+clipboardcleaner,GitHub Actions,Unit_Test
+droid-feed,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+droid-feed,GitHub Actions,Unit_Test
+scheduler,GitHub Actions,Unit_Test
+weatherradar,Travis CI,none
+githubvisualizer,GitHub Actions,none
+shabda,Travis CI,Unit_Test
+ladybuddy-app,Unknown,Unit_Test
+currency,GitHub Actions,Unit_Test
+currency,GitHub Actions,Unit_Test
+price_comparison_app,CircleCI,Unit_Test
+gorestaurant-app,GitHub Actions,Unit_Test
+minijvm,Travis CI,none
+flutter-timesheet,GitHub Actions,Unit_Test
+commcare-android,GitHub Actions,"Other, Unit_Test"
+commcare-android,GitHub Actions,Unit_Test
+aplikasi_absen_karyawan,GitHub Actions,Unit_Test
+aplikasi_pendaftaran_pasien,GitHub Actions,Unit_Test
+tesserpg-android,Unknown,none
+tesserpg-android,GitHub Actions,none
+tesserpg-android,Travis CI,none
+bottomnavigationbar,CircleCI,Unit_Test
+myluaapp,GitHub Actions,Unit_Test
+lastcaller,Travis CI,none
+popular-movies,GitHub Actions,none
+group-05,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+hypatia,Unknown,Unit_Test
+irremote,Unknown,Unit_Test
+maps,Unknown,Unit_Test
+motionlock,Unknown,Unit_Test
+wlanbackend,Unknown,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+aaaaxy,GitHub Actions,Unit_Test
+gelli,GitHub Actions,Unit_Test
+speedrun-browser-android,GitHub Actions,Unit_Test
+speedrun-browser-android,Unknown,Unit_Test
+opentasks,Travis CI,"Travis_emulator_manual, Unit_Test"
+emulator-detector,Travis CI,none
+ididit,GitHub Actions,Unit_Test
+ididit,GitHub Actions,Unit_Test
+ididit,GitHub Actions,Unit_Test
+ididit,GitHub Actions,Unit_Test
+infinity-for-reddit,GitHub Actions,Unit_Test
+infinity-for-reddit,GitHub Actions,Unit_Test
+android-client,GitHub Actions,Unit_Test
+android-client,GitHub Actions,none
+android-client,GitHub Actions,none
+android-client,GitHub Actions,none
+tvremoteplay,GitHub Actions,Unit_Test
+hacked,GitHub Actions,Unit_Test
+amlv,GitHub Actions,Unit_Test
+any,GitHub Actions,Unit_Test
+any,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+any,GitHub Actions,Unit_Test
+any,GitHub Actions,Unit_Test
+draggable-menu,GitHub Actions,Unit_Test
+domodroid,Travis CI,none
+nuwm-frontend,Travis CI,Unit_Test
+mensaplan,GitHub Actions,Unit_Test
+micropinner,GitHub Actions,Unit_Test
+micropinner,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+bartrunnerandroid,Travis CI,none
+clear-todolist,Travis CI,none
+waterfly-iii,GitHub Actions,Unit_Test
+client,GitHub Actions,Unit_Test
+client,GitHub Actions,Unit_Test
+client,GitHub Actions,Unit_Test
+client,GitHub Actions,Unit_Test
+conference-app-2021,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+conference-app-2021,GitHub Actions,Unit_Test
+conference-app-2021,GitHub Actions,Unit_Test
+conference-app-2021,GitHub Actions,none
+conference-app-2021,GitHub Actions,Unit_Test
+conference-app-2021,GitHub Actions,Unit_Test
+conference-app-2021,GitHub Actions,Unit_Test
+conference-app-2021,GitHub Actions,Unit_Test
+conference-app-2021,GitHub Actions,Unit_Test
+android-font-binder,GitHub Actions,none
+tajmahalapp-android,GitHub Actions,Unit_Test
+tajmahalapp-android,GitHub Actions,Unit_Test
+tajmahalapp-android,GitHub Actions,Unit_Test
+drone-scanner,GitHub Actions,Unit_Test
+drone-scanner,GitHub Actions,none
+anchors,Travis CI,none
+plasma-donor-app,GitHub Actions,Unit_Test
+project-avocado,GitHub Actions,none
+project-avocado,GitHub Actions,Unit_Test
+project-avocado,GitHub Actions,Unit_Test
+project-raasan,GitHub Actions,Unit_Test
+spot,GitHub Actions,Unit_Test
+spot,GitHub Actions,Unit_Test
+spot,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,"Other, Unit_Test"
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,"Other, Unit_Test"
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,"Other, Unit_Test"
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+quack-quack-android,GitHub Actions,Unit_Test
+quack-quack-android,GitHub Actions,Unit_Test
+quack-quack-android,GitHub Actions,Unit_Test
+sn4ke,GitHub Actions,Unit_Test
+sn4ke,GitHub Actions,Unit_Test
+upgradeall,GitHub Actions,Unit_Test
+upgradeall,GitHub Actions,Unit_Test
+upgradeall,GitHub Actions,Unit_Test
+upgradeall,GitHub Actions,Unit_Test
+dndplayer,GitHub Actions,Unit_Test
+alarmandjob,Travis CI,none
+android-app-eye-rest-blue-light-filter,CircleCI,Unit_Test
+android-app-get-device-id,CircleCI,Unit_Test
+android-app-get-device-id,Travis CI,none
+dzikirqu-android,GitHub Actions,Unit_Test
+dzikirqu-android,GitHub Actions,Unit_Test
+e_luminous_mobile,GitHub Actions,Unit_Test
+translator,GitHub Actions,Unit_Test
+translator,GitHub Actions,Unit_Test
+frameview,CircleCI,Unit_Test
+easybangumi,GitHub Actions,Unit_Test
+player,GitHub Actions,Unit_Test
+instant,GitHub Actions,Unit_Test
+instant,GitHub Actions,Unit_Test
+gaugeprogressview,GitHub Actions,Unit_Test
+labeledseekslider,GitHub Actions,Unit_Test
+materialtextfield,GitHub Actions,Unit_Test
+segmentedarcview,GitHub Actions,Unit_Test
+chatifyapp-flutter,GitHub Actions,Unit_Test
+food_delivery_ui_flutter,GitHub Actions,Unit_Test
+osu-lab,Travis CI,none
+manga2kindle,Travis CI,none
+android,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+blood-donor-blood-bank-finder,Unknown,Unit_Test
+app,GitHub Actions,Unit_Test
+lady-happy-android,GitHub Actions,Unit_Test
+lady-happy-android,GitHub Actions,Unit_Test
+radiotok,GitHub Actions,Unit_Test
+mszprogressindicator,GitHub Actions,Unit_Test
+rpicheck,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+houseparty,GitHub Actions,Unit_Test
+nmedia,GitHub Actions,none
+delish,GitHub Actions,none
+delish,GitHub Actions,Unit_Test
+electrode-native,Unknown,Unit_Test
+electrode-native,GitHub Actions,Unit_Test
+electrode-native,GitHub Actions,Unit_Test
+electrode-native,GitHub Actions,Unit_Test
+mirrordisplay,GitHub Actions,Unit_Test
+appstore,GitHub Actions,Unit_Test
+start-guide,GitHub Actions,Unit_Test
+light-controller,Travis CI,none
+fwdportforwardingapp,Travis CI,none
+pomodoro-timer,GitHub Actions,Unit_Test
+pomodoro-timer,GitHub Actions,Unit_Test
+simple-accounting,Travis CI,none
+snmp-cockpit,Unknown,"Other, Unit_Test, Unknown_emulator_manual"
+brainteaser,GitHub Actions,Unit_Test
+brainteaser,GitHub Actions,Unit_Test
+music-player-go,GitHub Actions,Unit_Test
+jamme,GitHub Actions,Unit_Test
+photos-app,GitHub Actions,Unit_Test
+photos-app,GitHub Actions,Unit_Test
+photos-app,GitHub Actions,Unit_Test
+envelop-android,GitHub Actions,Unit_Test
+envelop-android,GitHub Actions,"Other, Unit_Test, firebase_Full"
+my-career,GitHub Actions,Unit_Test
+my-career,GitHub Actions,Unit_Test
+my-career,GitHub Actions,Unit_Test
+epimetheus,GitHub Actions,Unit_Test
+tremotesf-android,GitHub Actions,Unit_Test
+jetpuppy,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+user-controlled-decryption-operations,Unknown,Unit_Test
+virtual-keycard,Unknown,Unit_Test
+minder,GitHub Actions,Unit_Test
+android-image-picker,GitHub Actions,"Unit_Test, firebase_Compact"
+compose-ui-book,GitHub Actions,Unit_Test
+compose-ui-book,GitHub Actions,Unit_Test
+compose-ui-book,GitHub Actions,Unit_Test
+karma,GitHub Actions,Unit_Test
+espeak-ng,GitHub Actions,Unit_Test
+espeak-ng,GitHub Actions,Unit_Test
+espeak-ng,GitHub Actions,Unit_Test
+espeak-ng,GitHub Actions,Unit_Test
+espeak-ng,GitHub Actions,Unit_Test
+espeak-ng,GitHub Actions,Unit_Test
+espeak-ng,GitHub Actions,Unit_Test
+espeak-ng,Travis CI,none
+etar-calendar,GitHub Actions,Unit_Test
+deathprogress,GitHub Actions,Unit_Test
+headingcalculator,Travis CI,none
+euphony-hub-collector,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+evmap,GitHub Actions,Unit_Test
+evmap,GitHub Actions,Unit_Test
+equate,CircleCI,Unit_Test
+eventfahrplan,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+eventfahrplan,Travis CI,Unit_Test
+atox,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+atox,GitHub Actions,none
+kotlin-soundboard,GitHub Actions,Unit_Test
+anlinux-adfree,CircleCI,none
+exodus-android-app,GitHub Actions,Unit_Test
+exodus-android-app,GitHub Actions,Unit_Test
+exokit,GitHub Actions,Unit_Test
+exokit,GitHub Actions,Unit_Test
+android-rxfirebase,CircleCI,Unit_Test
+nearbychat,Travis CI,none
+hglauncher,GitHub Actions,Unit_Test
+hglauncher,Travis CI,"Travis_emulator_manual, Unit_Test"
+hid-barcode-scanner,GitHub Actions,Unit_Test
+hid-barcode-scanner,GitHub Actions,Unit_Test
+hid-barcode-scanner,GitHub Actions,Unit_Test
+dokuwikiandroid,GitHub Actions,Unit_Test
+dokuwikiandroid,Unknown,Unit_Test
+debty-v2,CircleCI,Unit_Test
+theprincipleapp,GitHub Actions,Unit_Test
+guide7,GitHub Actions,Unit_Test
+facted-camera,Travis CI,none
+shachi,GitHub Actions,Unit_Test
+shachi,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+diaguard,GitHub Actions,Unit_Test
+discreet-launcher,GitHub Actions,Unit_Test
+mensa,GitHub Actions,Unit_Test
+v2ex-simple,CircleCI,Unit_Test
+v2ex-simple,Travis CI,none
+colorosnotifyicon,GitHub Actions,Unit_Test
+colorosnotifyicon,GitHub Actions,Unit_Test
+miuinativenotifyicon,GitHub Actions,Unit_Test
+miuinativenotifyicon,GitHub Actions,Unit_Test
+fantlab-android,GitHub Actions,none
+taskbar,GitHub Actions,Unit_Test
+my_pos_android,Travis CI,none
+reminderpro,CircleCI,Unit_Test
+fancyshowcaseview,GitHub Actions,Unit_Test
+wifiview,Travis CI,none
+todo-compose,GitHub Actions,Unit_Test
+todo-compose,GitHub Actions,Unit_Test
+todo-compose,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+moveery,Travis CI,"Travis_emulator_manual, Unit_Test"
+mood-tracker-android,GitHub Actions,Unit_Test
+omni-notes,GitHub Actions,Unit_Test
+omni-notes,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+octo4a,GitHub Actions,Unit_Test
+snapstreak-alarm,GitHub Actions,Unit_Test
+afreesvg,GitHub Actions,Unit_Test
+usbserial,GitHub Actions,none
+6502android,Travis CI,none
+gifimageview,Travis CI,none
+ktnes,GitHub Actions,Unit_Test
+marvel-app,CircleCI,"Other, Unit_Test, firebase_Full"
+marvel-app,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+marvel-app,Travis CI,"Travis_emulator_manual, Unit_Test"
+marvel-client,CircleCI,Unit_Test
+lyricly,CircleCI,Unit_Test
+yummy,GitHub Actions,Unit_Test
+alarmio,GitHub Actions,Unit_Test
+alarmio,GitHub Actions,Unit_Test
+status,GitHub Actions,none
+sunrisesunsetview,Travis CI,none
+simple-paint,GitHub Actions,Unit_Test
+simple-paint,GitHub Actions,Unit_Test
+sallefy,GitHub Actions,Unit_Test
+converternow,GitHub Actions,Unit_Test
+converternow,GitHub Actions,Unit_Test
+converternow,GitHub Actions,Unit_Test
+deezerclone,GitHub Actions,Unit_Test
+flone-android,Travis CI,"Travis_emulator_manual, Unit_Test"
+relaxfinger,Travis CI,none
+ka27,Travis CI,none
+ws2022_pme_flipsen,GitHub Actions,Unit_Test
+family-care,Travis CI,"Travis_emulator_manual, Unit_Test"
+android-invoice-generator,CircleCI,Unit_Test
+noefinderlein_flutter,GitHub Actions,Unit_Test
+noefinderlein_flutter,GitHub Actions,Unit_Test
+noefinderlein_flutter,GitHub Actions,Unit_Test
+noefinderlein_flutter,GitHub Actions,Unit_Test
+noefinderlein_flutter,GitHub Actions,Unit_Test
+noefinderlein_flutter,GitHub Actions,Unit_Test
+noefinderlein_flutter,GitHub Actions,Unit_Test
+noefinderlein_flutter,GitHub Actions,Unit_Test
+nabung,Unknown,Unit_Test
+meteorite,Travis CI,none
+mityurl,GitHub Actions,Unit_Test
+lisu-android,GitHub Actions,Unit_Test
+lisu-android,GitHub Actions,Unit_Test
+myhackerspace,CircleCI,Unit_Test
+brainjogging,GitHub Actions,Unit_Test
+flare-engine,GitHub Actions,none
+flare-engine,Travis CI,none
+dankchat,GitHub Actions,Unit_Test
+flexbooru,CircleCI,none
+flinspirer,GitHub Actions,Unit_Test
+flipper-android-app,GitHub Actions,Unit_Test
+flipper-android-app,GitHub Actions,Unit_Test
+flipper-android-app,GitHub Actions,Unit_Test
+flipper-android-app,GitHub Actions,Unit_Test
+flipper-android-app,GitHub Actions,Unit_Test
+floccus,GitHub Actions,Unit_Test
+floccus,GitHub Actions,Unit_Test
+floccus,GitHub Actions,Unit_Test
+floccus,GitHub Actions,Unit_Test
+floccus,GitHub Actions,Unit_Test
+floccus,GitHub Actions,Unit_Test
+floccus,GitHub Actions,Unit_Test
+shapeofview,CircleCI,Unit_Test
+towers,Travis CI,none
+flowit,GitHub Actions,Unit_Test
+flutter_thrio,GitHub Actions,Unit_Test
+snapdrop-android,GitHub Actions,Unit_Test
+snapdrop-android,GitHub Actions,Unit_Test
+resync,GitHub Actions,Unit_Test
+androiddatawithoutrootapi33,GitHub Actions,Unit_Test
+truck-me-android,GitHub Actions,Unit_Test
+melon,CircleCI,Unit_Test
+melon,GitHub Actions,Unit_Test
+melon,GitHub Actions,Unit_Test
+suntimescalendars,GitHub Actions,Unit_Test
+relay,CircleCI,Unit_Test
+relay,Travis CI,none
+tonedef,GitHub Actions,Unit_Test
+badge-magic-android,GitHub Actions,Unit_Test
+neurolab-android,Travis CI,none
+pslab-android,GitHub Actions,Unit_Test
+pslab-android,GitHub Actions,Unit_Test
+hanstargram,GitHub Actions,Unit_Test
+doubanmovie,GitHub Actions,Unit_Test
+learn-digits,GitHub Actions,Unit_Test
+digiview-android,GitHub Actions,Unit_Test
+androbd,GitHub Actions,Unit_Test
+bikesharinghub,Travis CI,none
+vsmartcard,GitHub Actions,none
+vsmartcard,GitHub Actions,none
+vsmartcard,GitHub Actions,none
+vsmartcard,GitHub Actions,Unit_Test
+cavedroid,Travis CI,none
+mobile-app,GitHub Actions,GitHub_emulator_full
+mobile-app,GitHub Actions,none
+mobile,GitHub Actions,Unit_Test
+mobile,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+mobile,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+mobile,GitHub Actions,Unit_Test
+mobile,GitHub Actions,Unit_Test
+mobile,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+freeotp-android,Travis CI,none
+freezeyou,GitHub Actions,Unit_Test
+freezeyou,Travis CI,none
+daytomato,GitHub Actions,none
+mhabit,GitHub Actions,Unit_Test
+mhabit,GitHub Actions,Unit_Test
+mhabit,GitHub Actions,Unit_Test
+mhabit,GitHub Actions,Unit_Test
+secure-sms-proxy,GitHub Actions,Unit_Test
+secure-sms-proxy,GitHub Actions,none
+secure-sms-proxy,GitHub Actions,none
+secure-sms-proxy,GitHub Actions,Unit_Test
+frinder-app,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+lapd,GitHub Actions,Unit_Test
+android-base,CircleCI,Unit_Test
+android-base,Travis CI,Unit_Test
+reclaim,Travis CI,Unit_Test
+freesound-android,Travis CI,none
+flutter-healthbook,GitHub Actions,Unit_Test
+opencookieclicker,GitHub Actions,Unit_Test
+fancyplaces,GitHub Actions,none
+scrabble,GitHub Actions,Unit_Test
+exploitdb,GitHub Actions,Unit_Test
+exploitdb,Travis CI,none
+main,Travis CI,none
+fling,GitHub Actions,Unit_Test
+quoteiko,GitHub Actions,Unit_Test
+mhworlddatabase,CircleCI,Unit_Test
+whatsapp_status_saver,GitHub Actions,Unit_Test
+android-layout-transitions-kotlin,Travis CI,none
+android-vpn-client-ics-openvpn,GitHub Actions,Unit_Test
+android-vpn-client-ics-openvpn,Travis CI,none
+xiaexpressandroid,Travis CI,"Travis_emulator_manual, Unit_Test"
+zethree,GitHub Actions,Unit_Test
+frisbee,GitHub Actions,Unit_Test
+gidget,GitHub Actions,Unit_Test
+gidget,GitHub Actions,Unit_Test
+gidget,GitHub Actions,Unit_Test
+millennium-for-reddit,GitHub Actions,Unit_Test
+gbooks,GitHub Actions,Unit_Test
+gearoenix,GitHub Actions,Unit_Test
+gearoenix,GitHub Actions,Unit_Test
+counter,CircleCI,Unit_Test
+androidproject-kotlin,GitHub Actions,Unit_Test
+androidproject,GitHub Actions,Unit_Test
+logcat,GitHub Actions,Unit_Test
+multilanguages,GitHub Actions,Unit_Test
+titlebar,GitHub Actions,Unit_Test
+toaster,GitHub Actions,Unit_Test
+xxpermissions,GitHub Actions,Unit_Test
+sentry-mobile-release-health-app,GitHub Actions,Unit_Test
+stream-draw-android,GitHub Actions,Unit_Test
+android-helium,CircleCI,Unit_Test
+ghini,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+topdf,GitHub Actions,Unit_Test
+pdd-flow,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+fast-face-android,Travis CI,none
+livescoreapp,GitHub Actions,Unit_Test
+livescoreapp,GitHub Actions,Unit_Test
+pwswatcher,GitHub Actions,Unit_Test
+git-touch,GitHub Actions,Unit_Test
+git-point,Travis CI,Unit_Test
+mylocation,CircleCI,Unit_Test
+glass-notes-app,Travis CI,none
+glucosio-android,GitHub Actions,Unit_Test
+student-alarm,GitHub Actions,Unit_Test
+compose-color-picker,GitHub Actions,Unit_Test
+compose-color-picker,GitHub Actions,Unit_Test
+godot,GitHub Actions,Unit_Test
+godot,GitHub Actions,none
+godot,GitHub Actions,Unit_Test
+godot,GitHub Actions,Unit_Test
+godot,GitHub Actions,Unit_Test
+godot,GitHub Actions,none
+godot,GitHub Actions,Unit_Test
+godot,GitHub Actions,Unit_Test
+godot,GitHub Actions,Unit_Test
+draftsman,GitHub Actions,Unit_Test
+draftsman,GitHub Actions,Unit_Test
+musify,GitHub Actions,Unit_Test
+musify,GitHub Actions,Unit_Test
+musify,GitHub Actions,Unit_Test
+musify,GitHub Actions,Unit_Test
+musify,GitHub Actions,Unit_Test
+musify,GitHub Actions,Unit_Test
+musify,GitHub Actions,Unit_Test
+androidkeylogger,GitHub Actions,Unit_Test
+clipboard,GitHub Actions,Unit_Test
+mp3player,GitHub Actions,"Other, Unit_Test"
+mp3player,GitHub Actions,Unit_Test
+mp3player,GitHub Actions,Unit_Test
+mp3player,GitHub Actions,Unit_Test
+mp3player,GitHub Actions,Unit_Test
+mp3player,GitHub Actions,"Other, Unit_Test, firebase_Full"
+android-clean-arquitecture,CircleCI,Unit_Test
+dictionary-app,CircleCI,Unit_Test
+realtime-android,GitHub Actions,none
+display-nearby-places-ar-android,GitHub Actions,Unit_Test
+maps-platform-101-android,GitHub Actions,Unit_Test
+nothing,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+quotesapp,GitHub Actions,Unit_Test
+xplayer,GitHub Actions,Unit_Test
+xplayer,GitHub Actions,Unit_Test
+ausweisapp2,Unknown,Unit_Test
+ausweisapp2,GitHub Actions,Unit_Test
+travel-wise,GitHub Actions,Unit_Test
+anylayer,GitHub Actions,Unit_Test
+reddit-viewer,GitHub Actions,Unit_Test
+simacorrect,GitHub Actions,Unit_Test
+simaromur,GitHub Actions,Unit_Test
+auditor,GitHub Actions,Unit_Test
+auditor,GitHub Actions,Unit_Test
+pdfviewer,GitHub Actions,Unit_Test
+pdfviewer,GitHub Actions,Unit_Test
+thenounproject,Travis CI,Unit_Test
+greencloud,GitHub Actions,Unit_Test
+greencloud,GitHub Actions,Unit_Test
+abcore,Travis CI,"Travis_emulator_manual, Unit_Test"
+seed-android-design-system,GitHub Actions,Unit_Test
+treetracker-android,GitHub Actions,Unit_Test
+treetracker-android,GitHub Actions,Unit_Test
+nice-animals,GitHub Actions,Unit_Test
+transportr,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+ulev1plus,Travis CI,none
+leihen,CircleCI,Unit_Test
+dandelion,GitHub Actions,Unit_Test
+markor,GitHub Actions,Unit_Test
+memetastic,GitHub Actions,Unit_Test
+tootapp,Travis CI,none
+cythara,Travis CI,none
+obscuracam,Travis CI,none
+ripple,Unknown,Unit_Test
+ripple,Travis CI,none
+torservices,Unknown,Unit_Test
+moneybook,CircleCI,Unit_Test
+flash-drive,GitHub Actions,Unit_Test
+onehotminute-compose,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+zoo-compose,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+timetable,Travis CI,none
+avnc,GitHub Actions,Unit_Test
+avnc,GitHub Actions,Unit_Test
+ukurkecepatanstrippeds,Unknown,Unit_Test
+progressableimageview,Travis CI,none
+gyrodraw,Travis CI,"Travis_emulator_manual, Unit_Test"
+aliyungradleconfig,GitHub Actions,Unit_Test
+aliyungradleconfig,GitHub Actions,Unit_Test
+trackingwifi,GitHub Actions,Unit_Test
+appgt,GitHub Actions,Unit_Test
+hostelite,GitHub Actions,Unit_Test
+messsy,GitHub Actions,Unit_Test
+android-dev-challenge-compose-countdown-timer,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+flutter_instagram,GitHub Actions,Unit_Test
+hadithmv,GitHub Actions,Unit_Test
+movieland,GitHub Actions,Unit_Test
+movieland,GitHub Actions,Unit_Test
+movieland,GitHub Actions,Unit_Test
+haifa3d-hand-app,GitHub Actions,Unit_Test
+seadroid,Travis CI,Unit_Test
+dropdowntextview,CircleCI,none
+cimoc,Travis CI,none
+animearch,GitHub Actions,Unit_Test
+popularmovies,Travis CI,none
+volumekeys,Travis CI,none
+inure,GitHub Actions,Unit_Test
+wazaker,GitHub Actions,Unit_Test
+wazaker,GitHub Actions,Unit_Test
+wazaker,GitHub Actions,Unit_Test
+kotlinandroidbase,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+1rramp-android,Unknown,Unit_Test
+1rramp-android,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+covid-19-tracker,GitHub Actions,Unit_Test
+moonshot,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+moviedb,Travis CI,none
+dairy-management,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+hash-checker,GitHub Actions,Unit_Test
+hash-checker,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+music-player,GitHub Actions,Unit_Test
+rally,GitHub Actions,Unit_Test
+memorygame,GitHub Actions,Unit_Test
+hathor-wallet-mobile,GitHub Actions,Unit_Test
+prismatikremote,GitHub Actions,Unit_Test
+coffeecutie,GitHub Actions,Unit_Test
+coffeecutie,GitHub Actions,Unit_Test
+coffeecutie,GitHub Actions,Unit_Test
+coffeecutie,GitHub Actions,Unit_Test
+coffeecutie,Travis CI,Unit_Test
+arcane-tracker,GitHub Actions,Unit_Test
+arcane-tracker,Travis CI,none
+nextcloudpasswords,GitHub Actions,Unit_Test
+racoandroid,GitHub Actions,Unit_Test
+helio-workstation,GitHub Actions,Unit_Test
+helio-workstation,Travis CI,Unit_Test
+mobile-app,GitHub Actions,browserstack_test
+boum,GitHub Actions,Unit_Test
+boum,GitHub Actions,Unit_Test
+boum,GitHub Actions,Unit_Test
+boum,GitHub Actions,Unit_Test
+qscan,GitHub Actions,Unit_Test
+supertttandroid,Travis CI,none
+moviedatabase,GitHub Actions,Unit_Test
+moviedatabase,GitHub Actions,Unit_Test
+calendar,Travis CI,Unit_Test
+tldroid,GitHub Actions,Unit_Test
+flutter_callkit_incoming,GitHub Actions,Unit_Test
+simple-note-application,GitHub Actions,Unit_Test
+mealmania,Travis CI,Unit_Test
+animation-garden,GitHub Actions,Unit_Test
+animation-garden,GitHub Actions,Unit_Test
+relayapp,GitHub Actions,Unit_Test
+hishoot2i,GitHub Actions,Unit_Test
+hishoot2i,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+circularprogressbar-compose,CircleCI,none
+popcorn2,CircleCI,Unit_Test
+braillebox,Travis CI,Unit_Test
+bitcoin-wallet,Travis CI,none
+nuntius-android,Travis CI,none
+homepi-android,GitHub Actions,Unit_Test
+cloudy,GitHub Actions,Unit_Test
+dividerseekbar,GitHub Actions,Unit_Test
+unstoppable-wallet-android,GitHub Actions,Unit_Test
+unstoppable-wallet-android,GitHub Actions,Unit_Test
+unstoppable-wallet-android,GitHub Actions,Unit_Test
+android-police-brutality-incidents,GitHub Actions,Unit_Test
+android-police-brutality-incidents,GitHub Actions,Unit_Test
+android-police-brutality-incidents,GitHub Actions,Unit_Test
+android-police-brutality-incidents,GitHub Actions,Unit_Test
+todo,GitHub Actions,Unit_Test
+tinyritro,Travis CI,none
+leamonax,Travis CI,none
+hrv-band,Travis CI,Unit_Test
+ppsspp,Unknown,Unit_Test
+ppsspp,GitHub Actions,Unit_Test
+ppsspp,GitHub Actions,Unit_Test
+ppsspp,GitHub Actions,Unit_Test
+ppsspp,GitHub Actions,Unit_Test
+ppsspp,Unknown,none
+anecdote,GitHub Actions,none
+android-notification-converter,GitHub Actions,Unit_Test
+tilegame,GitHub Actions,Unit_Test
+tilegame,GitHub Actions,Unit_Test
+unconnectify-re,CircleCI,Unit_Test
+androideastereggs,GitHub Actions,Unit_Test
+interfast,GitHub Actions,Unit_Test
+mefab,GitHub Actions,Unit_Test
+epistolaire,CircleCI,none
+android-camera2-secret-picture-taker,Travis CI,none
+ijh-android,GitHub Actions,Unit_Test
+qaq-android,GitHub Actions,Unit_Test
+qaq-android,GitHub Actions,Unit_Test
+zatca,GitHub Actions,Unit_Test
+lunar-launcher,GitHub Actions,Unit_Test
+lunar-launcher,GitHub Actions,Unit_Test
+androidapp,CircleCI,Unit_Test
+cattlebodyconditioning,GitHub Actions,none
+devstat,GitHub Actions,Unit_Test
+secure-shared-preferences,GitHub Actions,Unit_Test
+secure-shared-preferences,GitHub Actions,Unit_Test
+secure-shared-preferences,GitHub Actions,Unit_Test
+serverless-followupapp-android,Travis CI,none
+knot,GitHub Actions,Unit_Test
+knot,GitHub Actions,none
+knot,GitHub Actions,none
+knot,GitHub Actions,none
+knot,GitHub Actions,none
+mather,Travis CI,none
+code_wars_android,GitHub Actions,none
+wanandroid,GitHub Actions,none
+kanji-recognition-android,GitHub Actions,Unit_Test
+best-seller-book-app,CircleCI,Unit_Test
+psm-mobile-app,GitHub Actions,Unit_Test
+psm-mobile-app,GitHub Actions,none
+ideatrackerplus,Travis CI,"Travis_emulator_manual, Unit_Test"
+duocamera,Travis CI,none
+tfprofiler,Travis CI,none
+logginginterceptor,Travis CI,Unit_Test
+iit-bhu-app,GitHub Actions,Unit_Test
+iit-bhu-app,GitHub Actions,Unit_Test
+iit-bhu-app,GitHub Actions,Unit_Test
+ingress-intel-total-conversion,GitHub Actions,Unit_Test
+ingress-intel-total-conversion,GitHub Actions,Unit_Test
+ingress-intel-total-conversion,GitHub Actions,Unit_Test
+ingress-intel-total-conversion,GitHub Actions,Unit_Test
+ingress-intel-total-conversion,GitHub Actions,Unit_Test
+iliad,Travis CI,Unit_Test
+repeatcard,GitHub Actions,Unit_Test
+open_edisu,GitHub Actions,Unit_Test
+hmi-android,Travis CI,none
+typewriter,Travis CI,Unit_Test
+tmdb-client,CircleCI,Unit_Test
+android-starter,CircleCI,Unit_Test
+radiocontrol,GitHub Actions,Unit_Test
+radiocontrol,GitHub Actions,Unit_Test
+radiocontrol,Travis CI,none
+openredmine,Travis CI,none
+faceslim,Travis CI,none
+nfc-explorer,Travis CI,none
+wsa-installedapps,GitHub Actions,Unit_Test
+android-kdrive,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+android-kdrive,GitHub Actions,Unit_Test
+android-kmail,GitHub Actions,"Other, Unit_Test"
+android-kmail,GitHub Actions,Unit_Test
+android-kmail,GitHub Actions,Unit_Test
+android-kmail,GitHub Actions,Unit_Test
+android-kmail,GitHub Actions,Unit_Test
+minimal-quotes,Travis CI,Unit_Test
+office-assistant-legacy,Travis CI,Unit_Test
+zup-android-tecnico,Unknown,Unit_Test
+insync,GitHub Actions,Unit_Test
+interconnected_mobile_client,GitHub Actions,Unit_Test
+picgo,GitHub Actions,none
+intent-intercept,Travis CI,none
+club-android,GitHub Actions,Unit_Test
+proxertv,CircleCI,Unit_Test
+mobile-cardio,Travis CI,none
+modalbottomsheetdialog,GitHub Actions,Unit_Test
+toaster,GitHub Actions,Unit_Test
+admin-portal,GitHub Actions,Unit_Test
+admin-portal,GitHub Actions,"Other, Unit_Test"
+dazzling-android-kt,Travis CI,none
+gomobile-ipfs,GitHub Actions,Unit_Test
+gomobile-ipfs,GitHub Actions,Unit_Test
+gomobile-ipfs,GitHub Actions,Unit_Test
+gomobile-ipfs,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+ireader,GitHub Actions,Unit_Test
+ireader,GitHub Actions,Unit_Test
+ireader,GitHub Actions,Unit_Test
+ireader,GitHub Actions,Unit_Test
+ireader,GitHub Actions,Unit_Test
+ireader,GitHub Actions,Unit_Test
+ireader,GitHub Actions,Unit_Test
+android-codebase-modularity,CircleCI,Unit_Test
+hackernews-react-native,GitHub Actions,Unit_Test
+uhabits,GitHub Actions,Unit_Test
+android-wisefy,CircleCI,Unit_Test
+15puzzle,GitHub Actions,Unit_Test
+15puzzle,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+lnch,GitHub Actions,Unit_Test
+yunshu_music,GitHub Actions,Unit_Test
+elder_launcher,GitHub Actions,Unit_Test
+spacelaunchnow-android,GitHub Actions,Unit_Test
+spacelaunchnow-android,GitHub Actions,Unit_Test
+spacelaunchnow-android,GitHub Actions,Unit_Test
+feedback-prime,GitHub Actions,Unit_Test
+fontster,Travis CI,Unit_Test
+layouteditor,GitHub Actions,Unit_Test
+daedalus,GitHub Actions,Unit_Test
+shouko,GitHub Actions,Unit_Test
+rxbluetooth,Travis CI,none
+android-app,GitHub Actions,Unit_Test
+android-app,GitHub Actions,Unit_Test
+android-app,GitHub Actions,Unit_Test
+sk-collab,GitHub Actions,Unit_Test
+bottomnavbar,GitHub Actions,Unit_Test
+pedometer,Travis CI,none
+systemappmover,Travis CI,none
+wifi-automatic,Travis CI,none
+glut,GitHub Actions,none
+glut,GitHub Actions,Unit_Test
+newsapp-retrofit,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+newsapp-retrofit,GitHub Actions,Unit_Test
+frames,GitHub Actions,Unit_Test
+multiplatformgithubtopics,GitHub Actions,Unit_Test
+athelite,GitHub Actions,Unit_Test
+turbojira,Travis CI,none
+eat-poop-you-cat-android,GitHub Actions,Unit_Test
+eat-poop-you-cat-android,GitHub Actions,Unit_Test
+note-me,GitHub Actions,Unit_Test
+donezo,GitHub Actions,Unit_Test
+af-pay,Travis CI,none
+osmin,GitHub Actions,Unit_Test
+osmin,GitHub Actions,Unit_Test
+osmin,GitHub Actions,Unit_Test
+nonocross,GitHub Actions,Unit_Test
+android-gif-search,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+flutter-gif-search,GitHub Actions,Unit_Test
+srml,Travis CI,Unit_Test
+memecreator,GitHub Actions,Unit_Test
+pdfviewer,Travis CI,Unit_Test
+mlmanager,Travis CI,Unit_Test
+whatsappbetaupdater,Travis CI,Unit_Test
+bitcoinpools,Travis CI,none
+dowel,GitHub Actions,Unit_Test
+ssh-daemon,GitHub Actions,Unit_Test
+android-ir-remote,GitHub Actions,Unit_Test
+sms-backup-plus,Travis CI,none
+external_jbirdvegas_mgerrit,Travis CI,none
+amerykahospital-personalized-advice-client-android,Travis CI,none
+material-sudoku,CircleCI,Unit_Test
+runlog-kmm,GitHub Actions,Unit_Test
+shop-with-mom,GitHub Actions,Unit_Test
+e2e-detox,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+e2e-detox,Travis CI,none
+jellyfin-android,GitHub Actions,none
+jellyfin-android,GitHub Actions,none
+jellyfin-android,GitHub Actions,none
+jellyfin-android,GitHub Actions,Unit_Test
+jellyfin-android,GitHub Actions,none
+jellyfin-android,GitHub Actions,none
+jellyfin-android,GitHub Actions,none
+jellyfin-android,GitHub Actions,Unit_Test
+jellyfin-androidtv,GitHub Actions,none
+jellyfin-androidtv,GitHub Actions,none
+jellyfin-androidtv,GitHub Actions,none
+jellyfin-androidtv,GitHub Actions,Unit_Test
+jellyfin-androidtv,GitHub Actions,none
+jellyfin-androidtv,GitHub Actions,none
+jellyfin-androidtv,GitHub Actions,Unit_Test
+oandbackup,Unknown,Unit_Test
+oandbackup,Travis CI,none
+bacon,GitHub Actions,Unit_Test
+sushi,GitHub Actions,Unit_Test
+sushi,GitHub Actions,Unit_Test
+gitnotes,Travis CI,Unit_Test
+flutter-social,GitHub Actions,Unit_Test
+flutter-social,GitHub Actions,Unit_Test
+timelineview,Travis CI,"Travis_emulator_manual, Unit_Test"
+armscomponent,Travis CI,none
+lifecyclemodel,Travis CI,none
+frag-den-staat-app,Travis CI,none
+feather,GitHub Actions,Unit_Test
+nicevieoplayer,Travis CI,"Travis_emulator_manual, Unit_Test"
+luadroid,Travis CI,none
+movies,GitHub Actions,Unit_Test
+sharetocomputer,Travis CI,"Travis_emulator_manual, Unit_Test"
+tts-server-android,GitHub Actions,Unit_Test
+tts-server-android,GitHub Actions,Unit_Test
+tts-server-android,GitHub Actions,Unit_Test
+jzandroidchart,Travis CI,none
+preferencesextension,CircleCI,none
+playword,Travis CI,none
+brethap,GitHub Actions,Unit_Test
+brethap,GitHub Actions,Unit_Test
+android-conferences,GitHub Actions,Unit_Test
+jitsi-meet,GitHub Actions,Unit_Test
+jitsi-meet,GitHub Actions,Unit_Test
+jitsi-meet,GitHub Actions,Unit_Test
+jitsi-meet,Travis CI,none
+wanandroid,GitHub Actions,Unit_Test
+wanandroid,Travis CI,none
+enginedriver,Travis CI,"Travis_emulator_manual, Unit_Test"
+plantmanager,GitHub Actions,Unit_Test
+plantmanager,GitHub Actions,Unit_Test
+plantmanager,GitHub Actions,Unit_Test
+plantmanager,GitHub Actions,Unit_Test
+plantmanager,GitHub Actions,Unit_Test
+jreader,GitHub Actions,none
+titancompanion,GitHub Actions,"Other, Unit_Test, firebase_Full"
+portfolio,GitHub Actions,Unit_Test
+taskly,GitHub Actions,Unit_Test
+tailor_made,GitHub Actions,Unit_Test
+golearning,GitHub Actions,Unit_Test
+hajk,Unknown,Unit_Test
+hajk,GitHub Actions,Unit_Test
+fakestandby,GitHub Actions,Unit_Test
+how-to-flutter,GitHub Actions,Unit_Test
+wikiexplorer,CircleCI,Unit_Test
+wikiexplorer,GitHub Actions,Unit_Test
+runnerup,Travis CI,Unit_Test
+android-local-vpn,GitHub Actions,Unit_Test
+android-local-vpn,GitHub Actions,Unit_Test
+android-rss-reader,GitHub Actions,Unit_Test
+nes-emulator,GitHub Actions,Unit_Test
+androidssh,Travis CI,none
+fritter,GitHub Actions,Unit_Test
+fritter,GitHub Actions,Unit_Test
+bikeshare,GitHub Actions,Unit_Test
+bikeshare,GitHub Actions,Unit_Test
+movistartv,GitHub Actions,Unit_Test
+waypoint-compass,GitHub Actions,Unit_Test
+finance-manager,GitHub Actions,Unit_Test
+spanly,Travis CI,none
+android-metronome,GitHub Actions,Unit_Test
+android-jigsaw-puzzle,Travis CI,Unit_Test
+rickandmorty,GitHub Actions,Unit_Test
+rickandmorty,GitHub Actions,Unit_Test
+rickandmorty,GitHub Actions,Unit_Test
+rickandmorty,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+rickandmorty,GitHub Actions,Unit_Test
+photophase,Travis CI,Unit_Test
+rview,GitHub Actions,Unit_Test
+ubuntu-launcher,GitHub Actions,Unit_Test
+mentra-app,GitHub Actions,Unit_Test
+dns66,GitHub Actions,Unit_Test
+dns66,Travis CI,Unit_Test
+unexpected-keyboard,GitHub Actions,Unit_Test
+unexpected-keyboard,GitHub Actions,Unit_Test
+unexpected-keyboard,GitHub Actions,Unit_Test
+parceler,Travis CI,none
+psp_emulator,Unknown,Unit_Test
+psp_emulator,Unknown,none
+seal,GitHub Actions,Unit_Test
+seal,GitHub Actions,Unit_Test
+seal,GitHub Actions,Unit_Test
+seal,GitHub Actions,Unit_Test
+sensify-android,GitHub Actions,Unit_Test
+sensify-android,GitHub Actions,Unit_Test
+sensify-android,GitHub Actions,Unit_Test
+sensify-android,GitHub Actions,Unit_Test
+bitcoin-balance-check,GitHub Actions,Unit_Test
+stock-browser,GitHub Actions,Unit_Test
+simple-calculator,Travis CI,Unit_Test
+aimybox-android-assistant,GitHub Actions,Unit_Test
+aimybox-android-assistant,Travis CI,none
+quasseldroid-ng,Unknown,Unit_Test
+eta-android-2048,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,none
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,none
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+sherpa-onnx,GitHub Actions,Unit_Test
+aphotomanager,Travis CI,Unit_Test
+aphotomanager,GitHub Actions,Unit_Test
+calef,GitHub Actions,Unit_Test
+de,GitHub Actions,Unit_Test
+locationmapviewer,GitHub Actions,none
+losslessjpgcrop,GitHub Actions,Unit_Test
+togozip,GitHub Actions,Unit_Test
+togozip,GitHub Actions,Unit_Test
+to-do_jetpack_compose,CircleCI,Unit_Test
+kaidan,Travis CI,Unit_Test
+omrecorder,Travis CI,none
+secure-quick-reliable-login,Travis CI,"Travis_emulator_manual, Unit_Test"
+blacklist,Travis CI,none
+k6nele,GitHub Actions,Unit_Test
+kaltura-device-info-android,GitHub Actions,none
+safe-dot-android,GitHub Actions,Unit_Test
+cpu-info,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,GitHub Actions,Unit_Test
+rabbitremotecontrol,Unknown,Unit_Test
+serialportassistant,GitHub Actions,Unit_Test
+serialportassistant,GitHub Actions,Unit_Test
+serialportassistant,GitHub Actions,Unit_Test
+serialportassistant,GitHub Actions,Unit_Test
+serialportassistant,GitHub Actions,Unit_Test
+serialportassistant,GitHub Actions,Unit_Test
+serialportassistant,GitHub Actions,Unit_Test
+serialportassistant,GitHub Actions,Unit_Test
+todo-app,Travis CI,none
+pokedex,GitHub Actions,Unit_Test
+moviesy,GitHub Actions,Unit_Test
+cocwallpaper-android-,GitHub Actions,Unit_Test
+android-torchlight,Travis CI,none
+ktrip,Unknown,none
+shortyz,Unknown,Unit_Test
+shortyz,Travis CI,"Travis_emulator_manual, Unit_Test"
+keevault2,GitHub Actions,Unit_Test
+keevault2,GitHub Actions,Unit_Test
+keevault2,GitHub Actions,Unit_Test
+keibai-android,GitHub Actions,Unit_Test
+hexviewer,GitHub Actions,Unit_Test
+hexviewer,GitHub Actions,Unit_Test
+hexviewer,GitHub Actions,Unit_Test
+cocoa-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+onesentence,GitHub Actions,Unit_Test
+coffeebreaker,GitHub Actions,Unit_Test
+coffeebreaker,GitHub Actions,Unit_Test
+safenotes,GitHub Actions,Unit_Test
+archwiki-viewer,Travis CI,"Travis_emulator_manual, Unit_Test"
+swishticker,Travis CI,"Travis_emulator_manual, Unit_Test"
+keymapper,GitHub Actions,Unit_Test
+keymapper,GitHub Actions,Unit_Test
+keymapper,GitHub Actions,Unit_Test
+freetamilebooks,GitHub Actions,Unit_Test
+khumu-android,GitHub Actions,Unit_Test
+sobriety,GitHub Actions,Unit_Test
+androidresourceextensions,GitHub Actions,none
+fastexoplayerseeker,Travis CI,none
+mediagallery,GitHub Actions,none
+net,Travis CI,none
+parallaxscrollingview,Travis CI,none
+schlachtensee,GitHub Actions,Unit_Test
+streamingandroidlogger,GitHub Actions,none
+timebomb,Travis CI,none
+webviewadapter,Travis CI,none
+android-oss,GitHub Actions,Unit_Test
+discuzhub,GitHub Actions,Unit_Test
+discuzhub,GitHub Actions,Unit_Test
+wine,Unknown,Unit_Test
+movies,GitHub Actions,Unit_Test
+mitsumine,CircleCI,Unit_Test
+mealient,GitHub Actions,Unit_Test
+mealient,GitHub Actions,Unit_Test
+whatsapp-status-download,GitHub Actions,Unit_Test
+src,GitHub Actions,Unit_Test
+src,GitHub Actions,Unit_Test
+kiwix-android,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+kiwix-android,GitHub Actions,Unit_Test
+kiwix-android,GitHub Actions,none
+kiwix-android,GitHub Actions,none
+kiwix-android,GitHub Actions,none
+mvez,Travis CI,Unit_Test
+cloud-launcher,GitHub Actions,Unit_Test
+andfhem,GitHub Actions,Unit_Test
+andfhem,GitHub Actions,Unit_Test
+andfhem,GitHub Actions,Unit_Test
+pola-android,GitHub Actions,Unit_Test
+pola-android,GitHub Actions,Unit_Test
+wanandroid_compose,GitHub Actions,Unit_Test
+spwaitkiller,GitHub Actions,Unit_Test
+spwaitkiller,GitHub Actions,Unit_Test
+nostros,GitHub Actions,Unit_Test
+nostros,GitHub Actions,Unit_Test
+nostros,GitHub Actions,Unit_Test
+nostros,GitHub Actions,Unit_Test
+androidnotificationshowcase,CircleCI,Unit_Test
+spot,CircleCI,Unit_Test
+player,GitHub Actions,Unit_Test
+trickytripper,GitHub Actions,Unit_Test
+sph-planner,GitHub Actions,Unit_Test
+sph-planner,GitHub Actions,Unit_Test
+streetguide,GitHub Actions,Unit_Test
+spasic-app,GitHub Actions,Unit_Test
+ana,GitHub Actions,Unit_Test
+jukuu,GitHub Actions,Unit_Test
+androidclient,Travis CI,Unit_Test
+collinsdictionary,GitHub Actions,Unit_Test
+android-luajit-launcher,Travis CI,none
+wifi-radar,GitHub Actions,Unit_Test
+networkmapper,Travis CI,"Travis_emulator_manual, Unit_Test"
+android_navigator,GitHub Actions,Unit_Test
+android_navigator,GitHub Actions,Unit_Test
+flappybird,GitHub Actions,Unit_Test
+randomizer,GitHub Actions,Unit_Test
+kotatsu,GitHub Actions,Unit_Test
+singlefilescalablelasagnaapplication,GitHub Actions,Unit_Test
+findapet,CircleCI,Unit_Test
+siesgstarena-android-app,GitHub Actions,Unit_Test
+android-starter-2022,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+booksearch,GitHub Actions,Unit_Test
+kubenav,GitHub Actions,Unit_Test
+kubenav,GitHub Actions,Unit_Test
+kubenav,GitHub Actions,Unit_Test
+unishare,GitHub Actions,Unit_Test
+eastfoods,GitHub Actions,Unit_Test
+wellnesscity,GitHub Actions,Unit_Test
+smartexoplayer,GitHub Actions,Unit_Test
+jetpack-mvvm-best-practice,GitHub Actions,Unit_Test
+mvi-dispatcher-ktx,GitHub Actions,Unit_Test
+youtune-reactnative,GitHub Actions,Unit_Test
+youtune-reactnative,GitHub Actions,Unit_Test
+youtune-reactnative,GitHub Actions,Unit_Test
+musekit,GitHub Actions,Unit_Test
+musekit,GitHub Actions,Unit_Test
+atsy-cast,GitHub Actions,Unit_Test
+atsy-cast,GitHub Actions,Unit_Test
+atsy-cast,GitHub Actions,Unit_Test
+trail-sense,GitHub Actions,Unit_Test
+one_second_diary,GitHub Actions,Unit_Test
+csdnblog,GitHub Actions,Unit_Test
+itc-lms-unofficial,GitHub Actions,Unit_Test
+itc-lms-unofficial,GitHub Actions,Unit_Test
+rijks-studio,GitHub Actions,none
+rijks-studio,GitHub Actions,none
+rijks-studio,GitHub Actions,none
+simple-dimple-draw,GitHub Actions,Unit_Test
+coroutineasynctask,Travis CI,Unit_Test
+minimalin-watchface,GitHub Actions,Unit_Test
+android-base-project,CircleCI,Unit_Test
+joplin,GitHub Actions,Unit_Test
+joplin,GitHub Actions,Unit_Test
+joplin,GitHub Actions,Unit_Test
+joplin,GitHub Actions,Unit_Test
+joplin,GitHub Actions,Unit_Test
+facerecognitionapp,GitHub Actions,Unit_Test
+launchpadflightcontrollerandroid,Travis CI,none
+lawnchair,GitHub Actions,Unit_Test
+lawnchair,GitHub Actions,Unit_Test
+lawnchair,GitHub Actions,Unit_Test
+lawnchair,GitHub Actions,Unit_Test
+lawnchair,GitHub Actions,Unit_Test
+lawnchair,GitHub Actions,Unit_Test
+lawnchair,GitHub Actions,Unit_Test
+lawnchair,GitHub Actions,Unit_Test
+lawnicons,GitHub Actions,Unit_Test
+lawnicons,GitHub Actions,Unit_Test
+lawnicons,GitHub Actions,Unit_Test
+lawnicons,GitHub Actions,Unit_Test
+lawnicons,GitHub Actions,Unit_Test
+lawnicons,GitHub Actions,Unit_Test
+momento,GitHub Actions,Unit_Test
+qr-generator,GitHub Actions,Unit_Test
+lbry-android,GitHub Actions,Unit_Test
+lbry-fdroid,GitHub Actions,Unit_Test
+androidfacedetection,GitHub Actions,Unit_Test
+you-have-mail,GitHub Actions,Unit_Test
+leaonline-app,GitHub Actions,Unit_Test
+leaonline-app,GitHub Actions,Unit_Test
+leaonline-app,GitHub Actions,Unit_Test
+leaonline-app,GitHub Actions,Unit_Test
+leaonline-app,GitHub Actions,Unit_Test
+leaonline-app,GitHub Actions,Unit_Test
+rssaid,GitHub Actions,Unit_Test
+androidautotrack,GitHub Actions,Unit_Test
+jellyfin-audio-player,GitHub Actions,Unit_Test
+jellyfin-audio-player,GitHub Actions,Unit_Test
+mcpwn,CircleCI,Unit_Test
+router-companion-android,GitHub Actions,Unit_Test
+router-companion-android,GitHub Actions,Unit_Test
+router-companion-android,Unknown,Unit_Test
+petals,GitHub Actions,Unit_Test
+petals,GitHub Actions,Unit_Test
+petals,GitHub Actions,Unit_Test
+petals,GitHub Actions,Unit_Test
+petals,GitHub Actions,Unit_Test
+gesturelockview,GitHub Actions,Unit_Test
+watchlist,CircleCI,Unit_Test
+photok,GitHub Actions,Unit_Test
+photok,GitHub Actions,Unit_Test
+photok,GitHub Actions,Unit_Test
+photok,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+lesspass,GitHub Actions,Unit_Test
+sleep-cycle-alarm,Travis CI,"Travis_emulator_manual, Unit_Test"
+lexica,GitHub Actions,Unit_Test
+lexica,GitHub Actions,Unit_Test
+irl-link,GitHub Actions,Unit_Test
+irl-link,GitHub Actions,Unit_Test
+lrkfm,Unknown,Unit_Test
+lrkfm,Travis CI,none
+whs,Travis CI,Unit_Test
+engine,GitHub Actions,Unit_Test
+statusbar,GitHub Actions,Unit_Test
+gobandroid,GitHub Actions,Unit_Test
+satoshiproof,Travis CI,none
+android-carbon-forum,Travis CI,none
+flir_app,GitHub Actions,Unit_Test
+open2share,GitHub Actions,Unit_Test
+shaky-android,GitHub Actions,Unit_Test
+shaky-android,GitHub Actions,Unit_Test
+shaky-android,GitHub Actions,Unit_Test
+shaky-android,GitHub Actions,Unit_Test
+butterfly,GitHub Actions,Unit_Test
+butterfly,GitHub Actions,Unit_Test
+butterfly,GitHub Actions,Unit_Test
+butterfly,GitHub Actions,none
+butterfly,GitHub Actions,none
+butterfly,GitHub Actions,none
+coincap,GitHub Actions,"GitHub_GMD, Other, Unit_Test"
+microsphere,Travis CI,none
+pengchauferry,GitHub Actions,Unit_Test
+pengchauferry,GitHub Actions,Unit_Test
+calcupiano,GitHub Actions,Unit_Test
+covid-alert-app,GitHub Actions,Unit_Test
+android-app,GitHub Actions,Unit_Test
+listen1_mobile,GitHub Actions,Unit_Test
+permission-nanny,Travis CI,none
+launcherc,GitHub Actions,Unit_Test
+gjzs,GitHub Actions,Unit_Test
+gjzs,GitHub Actions,Unit_Test
+gjzs,GitHub Actions,Unit_Test
+xiaoxiazhihu,Travis CI,none
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+hacki,GitHub Actions,Unit_Test
+hacki,GitHub Actions,Unit_Test
+manji,GitHub Actions,Unit_Test
+keter-escape,CircleCI,Unit_Test
+unchained-android,GitHub Actions,Unit_Test
+continuousspeechrecognition,GitHub Actions,Unit_Test
+qpassword,GitHub Actions,none
+auto-fi,Travis CI,"Travis_emulator_manual, Unit_Test"
+apodktm,GitHub Actions,Unit_Test
+localsend,GitHub Actions,Unit_Test
+localsend,GitHub Actions,Unit_Test
+localsend,GitHub Actions,Unit_Test
+localsend,GitHub Actions,Unit_Test
+flutter_server_box,GitHub Actions,none
+flutter_server_box,GitHub Actions,Unit_Test
+klooni1010,GitHub Actions,Unit_Test
+hex,GitHub Actions,Unit_Test
+android_dev_quick,GitHub Actions,Unit_Test
+ebookreader,GitHub Actions,Unit_Test
+tickmate,GitHub Actions,Unit_Test
+tickmate,Travis CI,Unit_Test
+nwipe-android,GitHub Actions,Unit_Test
+metro-compose,GitHub Actions,Unit_Test
+metro-compose,GitHub Actions,Unit_Test
+metro-compose,GitHub Actions,Unit_Test
+android-arsenal,Travis CI,none
+battle-ships,Unknown,none
+pixelgym,GitHub Actions,Unit_Test
+pixelgym,GitHub Actions,Unit_Test
+pixelgym,GitHub Actions,Unit_Test
+pixelgym,GitHub Actions,Unit_Test
+pixelgym,GitHub Actions,Unit_Test
+pixelgym,GitHub Actions,Unit_Test
+domaine-nc-mobile,GitHub Actions,Unit_Test
+domaine-nc-mobile,GitHub Actions,Unit_Test
+domaine-nc-mobile,GitHub Actions,Unit_Test
+etopa,GitHub Actions,Unit_Test
+oring_reminder,GitHub Actions,Unit_Test
+zero,Travis CI,none
+limpazap,GitHub Actions,Unit_Test
+antimine-android,GitHub Actions,Unit_Test
+superimage,GitHub Actions,Unit_Test
+ludoscity,Travis CI,none
+bookend-android-ios,GitHub Actions,Unit_Test
+simple,GitHub Actions,Unit_Test
+simple,GitHub Actions,Unit_Test
+flutterwechat,GitHub Actions,Unit_Test
+saucenao,GitHub Actions,Unit_Test
+saucenao,GitHub Actions,Unit_Test
+gcam-services-provider,GitHub Actions,Unit_Test
+boi-balance-checker,Travis CI,none
+apklauncher_legacy,Travis CI,none
+pinetime-companion,GitHub Actions,Unit_Test
+ocnus,GitHub Actions,Unit_Test
+codeedittext,GitHub Actions,Unit_Test
+werewolf,GitHub Actions,Unit_Test
+werewolf,GitHub Actions,Unit_Test
+masterpassword,Unknown,Unit_Test
+birday,GitHub Actions,Unit_Test
+sublite,GitHub Actions,Unit_Test
+sublite,GitHub Actions,Unit_Test
+sublite,GitHub Actions,Unit_Test
+move-tickets-seats,GitHub Actions,Unit_Test
+machbarschaft-android-kotlin,GitHub Actions,Unit_Test
+ruumusic,GitHub Actions,Unit_Test
+developers-portfolio,GitHub Actions,Unit_Test
+mafqud-android,GitHub Actions,Unit_Test
+zazen,GitHub Actions,Unit_Test
+zazen,GitHub Actions,Unit_Test
+magicphotos-android,GitHub Actions,Unit_Test
+magicphotos-android,GitHub Actions,Unit_Test
+iconify,GitHub Actions,Unit_Test
+banjen,CircleCI,none
+todayhistory,Travis CI,Unit_Test
+mgit,GitHub Actions,Unit_Test
+popular-movies-app,CircleCI,"CircleCI_emulator_manual, Unit_Test"
+popular-movies-app,Travis CI,"Travis_emulator_manual, Unit_Test"
+cat-adoption-app,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+my-soothe,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+we-trade,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+android,GitHub Actions,none
+podplayer,GitHub Actions,Unit_Test
+podplayer,GitHub Actions,none
+designoverlay-android,Travis CI,none
+simplytranslate_mobile,GitHub Actions,Unit_Test
+timerinrecyclerview,CircleCI,Unit_Test
+bluetoothscanning,GitHub Actions,Unit_Test
+bluetoothscanning,GitHub Actions,Unit_Test
+4th_grade_is-master-,GitHub Actions,Unit_Test
+pokeapi-compose,GitHub Actions,none
+onedrawable,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+android,CircleCI,Unit_Test
+dynamic-island-android-full-application,GitHub Actions,Unit_Test
+fitary,GitHub Actions,Unit_Test
+fitary,GitHub Actions,Unit_Test
+wiimotedsu,GitHub Actions,Unit_Test
+wiimotedsu,GitHub Actions,Unit_Test
+wiimotedsu,GitHub Actions,Unit_Test
+osmeditor4android,GitHub Actions,Unit_Test
+osmeditor4android,GitHub Actions,Unit_Test
+umimecesky,Travis CI,none
+android-splitbus,GitHub Actions,Unit_Test
+android-splitbus,GitHub Actions,Unit_Test
+debitum,GitHub Actions,Unit_Test
+toaster,Travis CI,none
+android-commons,GitHub Actions,Unit_Test
+android-commons,GitHub Actions,Unit_Test
+italianfiscalcodecalculatorapp,GitHub Actions,Unit_Test
+udrive,Travis CI,none
+forecastie,CircleCI,none
+forecastie,GitHub Actions,Unit_Test
+anewjkuapp,GitHub Actions,Unit_Test
+pomodoro,GitHub Actions,Unit_Test
+9tique-android,Travis CI,none
+chat-app,Travis CI,none
+face_animate,Travis CI,none
+squircle-ce,GitHub Actions,Unit_Test
+inspector,GitHub Actions,Unit_Test
+inspector,GitHub Actions,Unit_Test
+inspector,GitHub Actions,Unit_Test
+subscene,GitHub Actions,Unit_Test
+flutsapp,GitHub Actions,none
+mangaka,GitHub Actions,Unit_Test
+mangaka,GitHub Actions,Unit_Test
+sunsetscrob,GitHub Actions,Unit_Test
+sunsetscrob,GitHub Actions,"GitHub_GMD, Other, Unit_Test"
+sunsetscrob,GitHub Actions,Unit_Test
+sunsetscrob,GitHub Actions,Unit_Test
+mate_app,GitHub Actions,Unit_Test
+android-icon-pack,Travis CI,none
+gloom,GitHub Actions,Unit_Test
+gloom,GitHub Actions,Unit_Test
+opencord,GitHub Actions,Unit_Test
+opencord,GitHub Actions,Unit_Test
+openreads-android,GitHub Actions,Unit_Test
+sdbviewer,GitHub Actions,none
+trackworktime,GitHub Actions,none
+trackworktime,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+compose-kotlin-repositories,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+nextcloud-quicknotes-android,GitHub Actions,Unit_Test
+smilodon,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+matsuri,GitHub Actions,Unit_Test
+mattermost-mobile,GitHub Actions,Unit_Test
+mattermost-mobile,GitHub Actions,Unit_Test
+mattermost-mobile,GitHub Actions,Unit_Test
+mattermost-mobile,GitHub Actions,Unit_Test
+mattermost-mobile,GitHub Actions,Unit_Test
+mattermost-mobile,GitHub Actions,Unit_Test
+mattermost-mobile,GitHub Actions,Unit_Test
+mattermost-mobile,GitHub Actions,Unit_Test
+yelpexplorer,GitHub Actions,Unit_Test
+yelpexplorer,GitHub Actions,Unit_Test
+scaleway-manager,GitHub Actions,none
+orion-viewer,GitHub Actions,none
+textpad,Unknown,"Other, Unit_Test"
+pindroid,Travis CI,"Travis_emulator_manual, Unit_Test"
+vueddit,GitHub Actions,Unit_Test
+modularized-flicker-showcase,CircleCI,Unit_Test
+modularized-marvel-showcase,CircleCI,Unit_Test
+dailyfootball,CircleCI,Unit_Test
+mindful-android-launcher,Unknown,none
+hunters,GitHub Actions,Unit_Test
+delock,GitHub Actions,Unit_Test
+delock,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+spending_tracker,GitHub Actions,Unit_Test
+faketraveler,GitHub Actions,Unit_Test
+faketraveler,GitHub Actions,Unit_Test
+ideabag2,Travis CI,Unit_Test
+react-native-starter-kit,GitHub Actions,Unit_Test
+android-webview-darkmode-with-javascript,GitHub Actions,Unit_Test
+trading,GitHub Actions,Unit_Test
+trading,GitHub Actions,Unit_Test
+trading,GitHub Actions,Unit_Test
+mcerebrum-autosense,GitHub Actions,none
+mcerebrum-emascheduler,GitHub Actions,none
+mcerebrum-microsoftband,GitHub Actions,none
+mcerebrum-moodsurfing,GitHub Actions,Unit_Test
+mcerebrum-omron,GitHub Actions,none
+mcerebrum-phonesensor,GitHub Actions,none
+mcerebrum-plotter,GitHub Actions,none
+mcerebrum-streamprocessor,GitHub Actions,none
+mcerebrum-study,GitHub Actions,none
+mcerebrum-thoughtshakeup,GitHub Actions,none
+zapp,GitHub Actions,Unit_Test
+cht-android,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+cht-android,GitHub Actions,none
+medito-app,GitHub Actions,Unit_Test
+medito-app,GitHub Actions,Unit_Test
+medito-app,GitHub Actions,Unit_Test
+covid-19,GitHub Actions,Unit_Test
+booksswipe,GitHub Actions,Unit_Test
+cadar,Travis CI,none
+sliding-puzzle,GitHub Actions,Unit_Test
+sliding-puzzle,GitHub Actions,Unit_Test
+gpslogger,GitHub Actions,Unit_Test
+gpslogger,GitHub Actions,Unit_Test
+dribbbleclient,GitHub Actions,Unit_Test
+soundboard,Travis CI,none
+file-android,GitHub Actions,Unit_Test
+mercy-emotion-sns,GitHub Actions,Unit_Test
+anime-twist,GitHub Actions,Unit_Test
+musicbrainz-android,GitHub Actions,Unit_Test
+musicbrainz-android,GitHub Actions,Unit_Test
+musicbrainz-android,GitHub Actions,Unit_Test
+musicbrainz-android,GitHub Actions,Unit_Test
+metrodroid,GitHub Actions,Unit_Test
+clustmpay-sih2019,GitHub Actions,Unit_Test
+al-azan,GitHub Actions,Unit_Test
+al-azan,GitHub Actions,Unit_Test
+al-azan,GitHub Actions,Unit_Test
+caveexpress,GitHub Actions,Unit_Test
+dodroid,CircleCI,Unit_Test
+corona-warn-companion-android,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+animewallpaper,Travis CI,"Travis_emulator_manual, Unit_Test"
+detective-droid,CircleCI,Unit_Test
+detective-droid,GitHub Actions,Unit_Test
+seven_minute_workout_android,Travis CI,none
+cobadge,GitHub Actions,Unit_Test
+greenpass-android,GitHub Actions,Unit_Test
+greenpass-android,GitHub Actions,Unit_Test
+greenpass-android,GitHub Actions,Unit_Test
+greenpass-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+shape-detection-android,GitHub Actions,Unit_Test
+shape-detection-android,GitHub Actions,Unit_Test
+messenger-android,GitHub Actions,Unit_Test
+androidappshortcuts,Travis CI,"Travis_emulator_manual, Unit_Test"
+loopy,GitHub Actions,Unit_Test
+loopy,GitHub Actions,Unit_Test
+applewifinlpbackend,Travis CI,none
+ichnaeanlpbackend,GitHub Actions,Unit_Test
+ichnaeanlpbackend,GitHub Actions,Unit_Test
+nominatimgeocoderbackend,Travis CI,none
+unifiednlp,GitHub Actions,Unit_Test
+unifiednlp,GitHub Actions,Unit_Test
+adaptivecards,GitHub Actions,Unit_Test
+adaptivecards,GitHub Actions,Unit_Test
+adaptivecards,GitHub Actions,Unit_Test
+adaptivecards,GitHub Actions,Unit_Test
+harbour-berlin-vegan,Travis CI,Unit_Test
+emblaflutterapp,GitHub Actions,Unit_Test
+trip-o-meter,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+custombottomsheetbehavior,Travis CI,"Travis_emulator_manual, Unit_Test"
+shimmer-recyclerview-x,GitHub Actions,none
+dexter,GitHub Actions,Unit_Test
+dexter,GitHub Actions,Unit_Test
+ssvmandroid,GitHub Actions,Unit_Test
+android-iconics,GitHub Actions,Unit_Test
+multiplatform-markdown-renderer,GitHub Actions,Unit_Test
+retroboy,GitHub Actions,none
+open-fcu,GitHub Actions,Unit_Test
+open-fcu,GitHub Actions,Unit_Test
+open-fcu,GitHub Actions,Unit_Test
+app-ins-gruene,GitHub Actions,Unit_Test
+symbol,Travis CI,none
+audio_player_flutter,GitHub Actions,Unit_Test
+soundcloud_audio_player,GitHub Actions,Unit_Test
+mirakel-android,Travis CI,Unit_Test
+mirru-android,GitHub Actions,Unit_Test
+scanit,GitHub Actions,Unit_Test
+scanit,GitHub Actions,none
+hashr,Travis CI,none
+simplebible,GitHub Actions,Unit_Test
+android-anuto,GitHub Actions,Unit_Test
+android-anuto,Travis CI,none
+mkdocseditor-android,GitHub Actions,Unit_Test
+spaceship,GitHub Actions,Unit_Test
+spaceship,GitHub Actions,Unit_Test
+samremote,Travis CI,none
+easyadapter,CircleCI,none
+easyadapter,GitHub Actions,Unit_Test
+easyshapeview,GitHub Actions,Unit_Test
+kvaesitso,GitHub Actions,Unit_Test
+kvaesitso,GitHub Actions,Unit_Test
+kvaesitso,GitHub Actions,Unit_Test
+bananapeel,Travis CI,none
+syncplayer,GitHub Actions,Unit_Test
+colorful_notes,GitHub Actions,none
+team2,GitHub Actions,Unit_Test
+ies-ips-android,GitHub Actions,none
+android-accounting,GitHub Actions,none
+android-accounting,Travis CI,none
+drinkable,GitHub Actions,Unit_Test
+drinkable,GitHub Actions,Unit_Test
+drinkable,GitHub Actions,Unit_Test
+player,GitHub Actions,Unit_Test
+moonlight-android,Unknown,none
+moonmeet-crossplatform,GitHub Actions,Unit_Test
+moonmeet-crossplatform,GitHub Actions,Unit_Test
+moonmeet-crossplatform,GitHub Actions,Unit_Test
+moonmeet-crossplatform,GitHub Actions,Unit_Test
+mucke,GitHub Actions,Unit_Test
+mucke,GitHub Actions,Unit_Test
+mucke,GitHub Actions,Unit_Test
+mucke,GitHub Actions,Unit_Test
+fallasleep,GitHub Actions,Unit_Test
+glider,GitHub Actions,Unit_Test
+glider,GitHub Actions,Unit_Test
+magnum-extras,CircleCI,none
+reference-browser,GitHub Actions,none
+jisort,GitHub Actions,Unit_Test
+simpletask-android,CircleCI,Unit_Test
+simpletask-android,GitHub Actions,Unit_Test
+app_waktu_solat_malaysia,GitHub Actions,Unit_Test
+app_waktu_solat_malaysia,GitHub Actions,Unit_Test
+app_waktu_solat_malaysia,GitHub Actions,Unit_Test
+mpv-android,GitHub Actions,none
+mpv-android,GitHub Actions,none
+youtube-android,GitHub Actions,Unit_Test
+kotlin-pokedex,GitHub Actions,Unit_Test
+journal3,GitHub Actions,Unit_Test
+journal3,GitHub Actions,Unit_Test
+journal3,GitHub Actions,Unit_Test
+colorwaver,GitHub Actions,Unit_Test
+colorwaver,GitHub Actions,Unit_Test
+colorwaver,GitHub Actions,Unit_Test
+colorwaver,GitHub Actions,Unit_Test
+colorwaver,GitHub Actions,Unit_Test
+wqthrottle,GitHub Actions,Unit_Test
+wqthrottle,GitHub Actions,Unit_Test
+wqthrottle,GitHub Actions,Unit_Test
+androidnote,Travis CI,none
+compose-lobsters,GitHub Actions,Unit_Test
+compose-lobsters,GitHub Actions,Unit_Test
+compose-lobsters,GitHub Actions,Unit_Test
+decent,GitHub Actions,Unit_Test
+coffee,GitHub Actions,Unit_Test
+coffee,GitHub Actions,Unit_Test
+coffee,GitHub Actions,Unit_Test
+nfcreader,GitHub Actions,Unit_Test
+nfcreader,GitHub Actions,Unit_Test
+nfcreader,GitHub Actions,Unit_Test
+prepaidbalance,GitHub Actions,Unit_Test
+prepaidbalance,GitHub Actions,Unit_Test
+prepaidbalance,GitHub Actions,Unit_Test
+couleurbummel,GitHub Actions,Unit_Test
+swadeeq,GitHub Actions,Unit_Test
+swadeeq,GitHub Actions,Unit_Test
+elegantdialog,Unknown,Unit_Test
+android-otpview-pinview,GitHub Actions,none
+crime_map,GitHub Actions,Unit_Test
+crime_map,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,"Other, Unit_Test"
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+mullvadvpn-app,GitHub Actions,Unit_Test
+munich-ways-app,GitHub Actions,none
+munich-ways-app,GitHub Actions,Unit_Test
+appmanager,GitHub Actions,Unit_Test
+appmanager,GitHub Actions,Unit_Test
+appmanager,GitHub Actions,Unit_Test
+mupen64plus-ae,GitHub Actions,Unit_Test
+kotlin-order-food-app,GitHub Actions,Unit_Test
+kotlin-order-food-app,GitHub Actions,Unit_Test
+class-organizer,Travis CI,none
+mbrc,GitHub Actions,Unit_Test
+mpd,GitHub Actions,Unit_Test
+dev-tiles,CircleCI,Unit_Test
+sensorssandbox,Travis CI,none
+spoilerblocker,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+rtchat,GitHub Actions,Unit_Test
+mewconnect-android,GitHub Actions,none
+pogoplusle,CircleCI,Unit_Test
+energy-meter-scanner,Unknown,Unit_Test
+tetris,GitHub Actions,Unit_Test
+my-special-way-android,Travis CI,Unit_Test
+mysterium-vpn-mobile,GitHub Actions,Unit_Test
+virtual_traveller_flutter,GitHub Actions,Unit_Test
+virtual_traveller_flutter,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+virtual_traveller_flutter,GitHub Actions,Unit_Test
+nearby-live,Travis CI,Unit_Test
+flutter_permission_using_bloc,GitHub Actions,Unit_Test
+dsrweatherapp,CircleCI,none
+smart-autoclicker,GitHub Actions,Unit_Test
+smart-autoclicker,GitHub Actions,Unit_Test
+smart-autoclicker,GitHub Actions,Unit_Test
+smart-autoclicker,GitHub Actions,Unit_Test
+timber,Travis CI,none
+projectblue,GitHub Actions,Unit_Test
+lazycolumnscrollbar,GitHub Actions,Unit_Test
+calculator,GitHub Actions,Unit_Test
+waylan_android,GitHub Actions,Unit_Test
+waylan_android,GitHub Actions,Unit_Test
+zoomlayout,GitHub Actions,Unit_Test
+zoomlayout,GitHub Actions,Unit_Test
+zoomlayout,GitHub Actions,Unit_Test
+aelf-flutter,Unknown,none
+angular-seed-advanced,Travis CI,Unit_Test
+packlist,Travis CI,Unit_Test
+materialfilepicker,Travis CI,none
+ncine,GitHub Actions,Unit_Test
+ncine,GitHub Actions,Unit_Test
+ncine,GitHub Actions,Unit_Test
+ncine,GitHub Actions,Unit_Test
+ncine,GitHub Actions,Unit_Test
+ncine,GitHub Actions,Unit_Test
+click,Travis CI,none
+kiss,GitHub Actions,Unit_Test
+kiss,GitHub Actions,Unit_Test
+sheep,CircleCI,Unit_Test
+sheep,GitHub Actions,Unit_Test
+sheep,GitHub Actions,Unit_Test
+nekox,GitHub Actions,Unit_Test
+nekox,GitHub Actions,Unit_Test
+wwwjdic,GitHub Actions,Unit_Test
+wwwjdic,GitHub Actions,Unit_Test
+wwwjdic,GitHub Actions,Unit_Test
+wwwjdic,GitHub Actions,Unit_Test
+passshout,GitHub Actions,Unit_Test
+tat,GitHub Actions,Unit_Test
+tat,GitHub Actions,Unit_Test
+tat_flutter,GitHub Actions,Unit_Test
+tat_flutter,GitHub Actions,Unit_Test
+neoterm,GitHub Actions,Unit_Test
+ncsms-android,Travis CI,none
+tic-80,GitHub Actions,Unit_Test
+tic-80,GitHub Actions,Unit_Test
+android-usb-script,GitHub Actions,Unit_Test
+atimetracker,GitHub Actions,Unit_Test
+kikke,GitHub Actions,Unit_Test
+kikke,GitHub Actions,Unit_Test
+kikke,GitHub Actions,Unit_Test
+meow,GitHub Actions,none
+pangea,GitHub Actions,Unit_Test
+flutter-calculator,GitHub Actions,Unit_Test
+nexd-android,GitHub Actions,Unit_Test
+nexd-android,GitHub Actions,Unit_Test
+nexd-android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,none
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,none
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,none
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+news-android,GitHub Actions,Unit_Test
+news-android,GitHub Actions,Unit_Test
+news-android,GitHub Actions,Unit_Test
+notes-android,GitHub Actions,Unit_Test
+notes-android,GitHub Actions,Unit_Test
+notes-android,GitHub Actions,Unit_Test
+notes-android,GitHub Actions,none
+notes-android,GitHub Actions,Unit_Test
+notes-android,GitHub Actions,Unit_Test
+notes-android,GitHub Actions,Unit_Test
+notes-android,GitHub Actions,none
+notes-android,GitHub Actions,Unit_Test
+notes-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,none
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,none
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+talk-android,GitHub Actions,Unit_Test
+nextrot_android,GitHub Actions,Unit_Test
+nfcgate,Unknown,none
+nfsee,GitHub Actions,Unit_Test
+nfsee,GitHub Actions,Unit_Test
+bluelineconsole,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+bluelineconsole,GitHub Actions,Unit_Test
+bluelineconsole,Unknown,Unit_Test
+mundraub-android,GitHub Actions,none
+chaosflix,CircleCI,Unit_Test
+chaosflix,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+chaosflix,Travis CI,"Travis_emulator_manual, Unit_Test"
+timeclock,GitHub Actions,Unit_Test
+partyq-android,CircleCI,Unit_Test
+tv-launcher,GitHub Actions,none
+dagger,GitHub Actions,Unit_Test
+lockscreennotes,GitHub Actions,Unit_Test
+lockscreennotes,Travis CI,none
+moneycontrol,Travis CI,none
+unblockmusicpro_xposed,GitHub Actions,Unit_Test
+show-java,Travis CI,none
+mathview,GitHub Actions,Unit_Test
+mathview,Travis CI,none
+snoredetector,GitHub Actions,Unit_Test
+simpletweet,Travis CI,none
+nitroshare-android,Travis CI,none
+daisy,GitHub Actions,Unit_Test
+pikapika,GitHub Actions,Unit_Test
+wax,GitHub Actions,Unit_Test
+cronet-engine,GitHub Actions,Unit_Test
+leafylauncher,GitHub Actions,Unit_Test
+leafylauncher,GitHub Actions,Unit_Test
+leafylauncher,GitHub Actions,Unit_Test
+leafylauncher,GitHub Actions,Unit_Test
+leafylauncher,GitHub Actions,Unit_Test
+iitp-connect,CircleCI,Unit_Test
+iitp-connect,Travis CI,Unit_Test
+sa-android,Travis CI,none
+nkit-launcher,GitHub Actions,Unit_Test
+nkit-launcher,GitHub Actions,Unit_Test
+meaning_android,GitHub Actions,Unit_Test
+mkloader,Travis CI,none
+gymroutines,CircleCI,none
+kyouen-android,CircleCI,Unit_Test
+noodle,Travis CI,Unit_Test
+motorsport-circuits,GitHub Actions,Unit_Test
+motorsport-circuits,Travis CI,"Travis_emulator_manual, Unit_Test"
+android,GitHub Actions,Unit_Test
+apcupsd-monitor,GitHub Actions,Unit_Test
+cell-wall,GitHub Actions,Unit_Test
+cell-wall,GitHub Actions,Unit_Test
+peepz,CircleCI,Unit_Test
+peepz,GitHub Actions,Unit_Test
+now-u-app,GitHub Actions,Unit_Test
+now-u-app,GitHub Actions,Unit_Test
+now-u-app,GitHub Actions,Unit_Test
+now-u-app,GitHub Actions,Unit_Test
+android,GitHub Actions,none
+sweyer,GitHub Actions,Unit_Test
+sweyer,GitHub Actions,Unit_Test
+sweyer,GitHub Actions,Unit_Test
+apollo-music,GitHub Actions,Unit_Test
+foss_warn,GitHub Actions,Unit_Test
+trippo-the_travel_guide,GitHub Actions,Unit_Test
+loadmorewrapper,Travis CI,"Travis_emulator_manual, Unit_Test"
+boorusphere,GitHub Actions,Unit_Test
+boorusphere,GitHub Actions,Unit_Test
+dagashiapp-android,GitHub Actions,"GitHub_GMD, Other, Unit_Test"
+dagashiapp-android,GitHub Actions,Unit_Test
+sojodia-android,GitHub Actions,Unit_Test
+sojodia-android,GitHub Actions,Unit_Test
+regobs4,Unknown,Unit_Test
+regobs4,GitHub Actions,Unit_Test
+application,Travis CI,none
+piping-phone-android,CircleCI,Unit_Test
+nyaapantsu-android-app,Travis CI,none
+ehviewer,GitHub Actions,Unit_Test
+jiten-webview,GitHub Actions,none
+sigblock-code-poc,GitHub Actions,none
+objectbox-performance,GitHub Actions,Unit_Test
+bofilo,GitHub Actions,Unit_Test
+dimba,Travis CI,none
+firebasechatapp,Travis CI,none
+ricknmortycompose,GitHub Actions,Unit_Test
+simple-counter,GitHub Actions,none
+simple-counter,Travis CI,none
+android-covidbedrest,GitHub Actions,Unit_Test
+android-kotlin-covid19,GitHub Actions,Unit_Test
+mobile,Travis CI,none
+odysee-android,GitHub Actions,Unit_Test
+odysee-android,GitHub Actions,Unit_Test
+habitbuilder,GitHub Actions,Unit_Test
+the-channels,GitHub Actions,none
+ghostotp,GitHub Actions,Unit_Test
+imagesearcher,GitHub Actions,Unit_Test
+wessager,GitHub Actions,Unit_Test
+discordjetpackcompose,GitHub Actions,Unit_Test
+vlillechecker,Travis CI,none
+openscale,GitHub Actions,Unit_Test
+openworkout,GitHub Actions,Unit_Test
+wilt-android,Travis CI,Unit_Test
+remotedroid,Travis CI,none
+covidnow,GitHub Actions,Unit_Test
+spacexfollower,GitHub Actions,Unit_Test
+spacexfollower,GitHub Actions,Unit_Test
+onebusaway-android,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+picasso,GitHub Actions,Unit_Test
+picasso,GitHub Actions,Unit_Test
+picasso,GitHub Actions,Unit_Test
+picasso,GitHub Actions,Unit_Test
+cvcamera-mobile,GitHub Actions,Unit_Test
+cvcamera-mobile,GitHub Actions,Unit_Test
+cvcamera-mobile,GitHub Actions,none
+probe-android,GitHub Actions,none
+probe-android,GitHub Actions,Unit_Test
+probe-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+probe-android,GitHub Actions,Unit_Test
+wordle-kt,GitHub Actions,Unit_Test
+open-keychain,GitHub Actions,"GitHub_emulator_compact, Other, Unit_Test"
+open-keychain,GitHub Actions,Unit_Test
+open-keychain,GitHub Actions,Unit_Test
+roboclub-flutter,GitHub Actions,Unit_Test
+openair-android,GitHub Actions,Unit_Test
+openblocks-app,GitHub Actions,Unit_Test
+bigsolarhunt,GitHub Actions,Unit_Test
+flutter-music-app,GitHub Actions,none
+opendocument,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+openstop,GitHub Actions,Unit_Test
+openstop,GitHub Actions,Unit_Test
+openstop,GitHub Actions,Unit_Test
+openstop,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,none
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+smooth-app,GitHub Actions,Unit_Test
+openhab-android,GitHub Actions,Unit_Test
+openhab-android,GitHub Actions,Unit_Test
+openhab-android,GitHub Actions,Unit_Test
+openhab-android,GitHub Actions,Unit_Test
+openhab-android,GitHub Actions,Unit_Test
+xikolo-android,GitHub Actions,Unit_Test
+xikolo-android,GitHub Actions,Unit_Test
+safe,GitHub Actions,none
+shoppinglist,Travis CI,"Travis_emulator_manual, Unit_Test"
+activity-tracker,GitHub Actions,Unit_Test
+fineract-cn-mobile,Travis CI,none
+openmsupply-client,GitHub Actions,Unit_Test
+lesscode,Travis CI,none
+covid19-tracker-app-kenya,GitHub Actions,Unit_Test
+lumicall,Travis CI,none
+opentracks,GitHub Actions,Unit_Test
+opentracks,GitHub Actions,Unit_Test
+osmdashboard,GitHub Actions,Unit_Test
+osmdashboard,GitHub Actions,Unit_Test
+mobile-android-legacy,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,"Unit_Test, firebase_Full"
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,none
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,none
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+organicmaps,GitHub Actions,Unit_Test
+orgzly-android,GitHub Actions,none
+dialogplus,Travis CI,none
+symphony,GitHub Actions,Unit_Test
+myweatherforecast,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+super-pub-android,CircleCI,Unit_Test
+app_kookmobanuser_ponjohmnaimann,GitHub Actions,Unit_Test
+amiibowiki,GitHub Actions,Unit_Test
+amiibowiki,GitHub Actions,Unit_Test
+amiibowiki,GitHub Actions,"Unit_Test, firebase_Full"
+amiibowiki,Unknown,Unit_Test
+trime,GitHub Actions,Unit_Test
+trime,GitHub Actions,Unit_Test
+trime,GitHub Actions,Unit_Test
+osmand,GitHub Actions,Unit_Test
+osmand,GitHub Actions,Unit_Test
+osmand,GitHub Actions,Unit_Test
+presencepublisher,GitHub Actions,Unit_Test
+osu-droid,GitHub Actions,Unit_Test
+osu-droid,GitHub Actions,Unit_Test
+caffeinetile,Travis CI,none
+basil-android,CircleCI,Unit_Test
+ottodiyapp,GitHub Actions,Unit_Test
+small-talk,GitHub Actions,Unit_Test
+small-talk,GitHub Actions,Unit_Test
+small-talk,GitHub Actions,Unit_Test
+small-talk,GitHub Actions,Unit_Test
+small-talk,GitHub Actions,Unit_Test
+small-talk,GitHub Actions,Unit_Test
+just-chatting,GitHub Actions,Unit_Test
+just-chatting,GitHub Actions,Unit_Test
+woolly-app,GitHub Actions,Unit_Test
+woolly-app,GitHub Actions,Unit_Test
+junior,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+watchcat,GitHub Actions,Unit_Test
+ansvif_android,Travis CI,Unit_Test
+oxygen-updater,GitHub Actions,Unit_Test
+auxio,GitHub Actions,Unit_Test
+evrimnews,Travis CI,none
+harmony,CircleCI,"Other, Unit_Test, firebase_Full"
+the_calculator,GitHub Actions,Unit_Test
+the_calculator,GitHub Actions,Unit_Test
+the_calculator,GitHub Actions,Unit_Test
+functionalandroidreference,Travis CI,"Travis_emulator_manual, Unit_Test"
+postcode,CircleCI,Unit_Test
+spaceteam-timer,Travis CI,Unit_Test
+talawa,GitHub Actions,Unit_Test
+talawa,GitHub Actions,Unit_Test
+talawa,GitHub Actions,Unit_Test
+talawa,GitHub Actions,Unit_Test
+talawa,GitHub Actions,Unit_Test
+talawa,GitHub Actions,Unit_Test
+talawa,GitHub Actions,Unit_Test
+pandemia,GitHub Actions,Unit_Test
+milktea,GitHub Actions,none
+milktea,GitHub Actions,none
+parabox,GitHub Actions,Unit_Test
+forecast,GitHub Actions,Unit_Test
+steamr,GitHub Actions,Unit_Test
+hash-launcher,GitHub Actions,Unit_Test
+passwd,GitHub Actions,Unit_Test
+quotes,GitHub Actions,Unit_Test
+gdgpune-devfest19-android,Travis CI,none
+notykt,GitHub Actions,Unit_Test
+notykt,GitHub Actions,Unit_Test
+notykt,GitHub Actions,Unit_Test
+biblionantes,GitHub Actions,Unit_Test
+biblionantes,GitHub Actions,Unit_Test
+a2ln-app,GitHub Actions,Unit_Test
+puppy-adoption-app,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+weather-app-compose,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+sonicear,GitHub Actions,Unit_Test
+android-app,Travis CI,Unit_Test
+grocy-android,GitHub Actions,Unit_Test
+androidmakersapp,GitHub Actions,Unit_Test
+awol,GitHub Actions,Unit_Test
+sercommh300svoipcredentialsrecovery,GitHub Actions,Unit_Test
+sercommh300svoipcredentialsrecovery,GitHub Actions,Unit_Test
+sercommh300svoipcredentialsrecovery,GitHub Actions,Unit_Test
+native-app,GitHub Actions,Unit_Test
+native-app,GitHub Actions,Unit_Test
+native-app,Travis CI,none
+rebble-sideloader,GitHub Actions,Unit_Test
+peercoin_flutter,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+peercoin_flutter,GitHub Actions,Unit_Test
+apng4android,GitHub Actions,Unit_Test
+weiju-androidclient,CircleCI,Unit_Test
+persian-calendar,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+persian-calendar,GitHub Actions,none
+persian-calendar,GitHub Actions,Unit_Test
+persian-calendar,GitHub Actions,Unit_Test
+persian-calendar,GitHub Actions,Unit_Test
+perun-eth-mobile,GitHub Actions,Unit_Test
+covid_tracker,GitHub Actions,Unit_Test
+mypetsage,GitHub Actions,Unit_Test
+statex,GitHub Actions,Unit_Test
+ditonton,GitHub Actions,Unit_Test
+keepass2android,GitHub Actions,Unit_Test
+whooby,GitHub Actions,none
+deezerkmp,GitHub Actions,Unit_Test
+deviantart,GitHub Actions,Unit_Test
+client-android,Travis CI,"Travis_emulator_manual, Unit_Test"
+jamuz-remote,GitHub Actions,Unit_Test
+jamuz-remote,GitHub Actions,Unit_Test
+foocam,Unknown,none
+picardbarcodescanner,GitHub Actions,Unit_Test
+picardbarcodescanner,GitHub Actions,Unit_Test
+picardbarcodescanner,GitHub Actions,Unit_Test
+drive,Travis CI,"Travis_emulator_manual, Unit_Test"
+paper,Travis CI,"Travis_emulator_manual, Unit_Test"
+android-http-server,GitHub Actions,Unit_Test
+android-http-server,GitHub Actions,Unit_Test
+robotv,GitHub Actions,Unit_Test
+robotv,GitHub Actions,Unit_Test
+superquiz,GitHub Actions,Unit_Test
+fuelup,Travis CI,"Travis_emulator_manual, Unit_Test"
+piwigo-android,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+pixelcat,GitHub Actions,Unit_Test
+khel-ke-baat-karen,GitHub Actions,Unit_Test
+pjproject,GitHub Actions,Unit_Test
+pjproject,GitHub Actions,Unit_Test
+pjproject,GitHub Actions,Unit_Test
+pjproject,GitHub Actions,Unit_Test
+pjproject,GitHub Actions,Unit_Test
+pjproject,GitHub Actions,Unit_Test
+pjproject,GitHub Actions,Unit_Test
+2022_2_wap_app_team1,GitHub Actions,Unit_Test
+writeily-pro,Travis CI,none
+plasma,GitHub Actions,Unit_Test
+plasma,GitHub Actions,Unit_Test
+forage,CircleCI,Unit_Test
+einkbro,GitHub Actions,Unit_Test
+einkbro,Travis CI,none
+antennamap,GitHub Actions,Unit_Test
+notes,GitHub Actions,Unit_Test
+dart-jobs,GitHub Actions,Unit_Test
+dart-jobs,GitHub Actions,Unit_Test
+dart-jobs,GitHub Actions,Unit_Test
+dart-jobs,GitHub Actions,Unit_Test
+dart-jobs,GitHub Actions,Unit_Test
+webtoon,GitHub Actions,Unit_Test
+webtoon,GitHub Actions,Unit_Test
+yaaic,Travis CI,none
+android-ponewheel,CircleCI,Unit_Test
+hearmenow-depressionchatbot-dialogflow,Travis CI,Unit_Test
+greenstash,GitHub Actions,Unit_Test
+greenstash,GitHub Actions,Unit_Test
+tracktor-composeui,GitHub Actions,Unit_Test
+mvoterandroid,GitHub Actions,Unit_Test
+mvoterandroid,GitHub Actions,Unit_Test
+kungfoo,Travis CI,Unit_Test
+openmapkitandroid,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+leaflet,GitHub Actions,Unit_Test
+nyandroid,GitHub Actions,none
+smsforwarder,GitHub Actions,Unit_Test
+smsforwarder,GitHub Actions,Unit_Test
+adb-wifi-setting-manager,GitHub Actions,Unit_Test
+know-corona,GitHub Actions,Unit_Test
+development_learning,GitHub Actions,Unit_Test
+development_learning,GitHub Actions,Unit_Test
+development_learning,GitHub Actions,Unit_Test
+development_learning,GitHub Actions,Unit_Test
+development_learning,GitHub Actions,none
+development_learning,GitHub Actions,Unit_Test
+development_learning,GitHub Actions,Unit_Test
+chocobar,GitHub Actions,Unit_Test
+vudit,GitHub Actions,Unit_Test
+vudit,GitHub Actions,Unit_Test
+vudit,GitHub Actions,Unit_Test
+movieapp,Travis CI,"Travis_emulator_manual, Unit_Test"
+expense-tracker,GitHub Actions,Unit_Test
+expense-tracker,GitHub Actions,Unit_Test
+topsed-speedometer,GitHub Actions,Unit_Test
+topsed-speedometer,GitHub Actions,Unit_Test
+basekotlinandroid,GitHub Actions,Unit_Test
+calculator-inator,GitHub Actions,Unit_Test
+humanizer,GitHub Actions,Unit_Test
+astro,GitHub Actions,Unit_Test
+astro,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+astro,GitHub Actions,Unit_Test
+pretixdroid,Unknown,none
+pretixdroid,Travis CI,none
+pretixprint-android,GitHub Actions,Unit_Test
+pretixprint-android,Unknown,Unit_Test
+pretixscan-android,GitHub Actions,Unit_Test
+pretixscan-android,GitHub Actions,Unit_Test
+opencamera-sensors,GitHub Actions,Unit_Test
+opencamera-sensors,GitHub Actions,Unit_Test
+opencamera-sensors,GitHub Actions,Unit_Test
+irmamobile,GitHub Actions,Unit_Test
+irmamobile,GitHub Actions,"Unit_Test, firebase_Full"
+notifier,GitHub Actions,Unit_Test
+android-app-cortesia-webview,GitHub Actions,Unit_Test
+android-super-app,GitHub Actions,Unit_Test
+osrm-text-instructions,CircleCI,Unit_Test
+antimalwareapp,GitHub Actions,Unit_Test
+wifisdcryptolocker,Travis CI,"Travis_emulator_manual, Unit_Test"
+anchored-behavior,Travis CI,"Travis_emulator_manual, Unit_Test"
+blink-comparison,GitHub Actions,Unit_Test
+blink-comparison,GitHub Actions,Unit_Test
+opencomicvine,GitHub Actions,Unit_Test
+adbclipboard,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+android-app,GitHub Actions,Unit_Test
+proxerandroid,GitHub Actions,Unit_Test
+zeptobird,Travis CI,Unit_Test
+nativescript-inappbrowser,Travis CI,Unit_Test
+rutmath,GitHub Actions,Unit_Test
+rutmath,GitHub Actions,Unit_Test
+wormhole-william-mobile,GitHub Actions,Unit_Test
+androidnotificationnotifier,GitHub Actions,Unit_Test
+ble-starter-android,CircleCI,Unit_Test
+purduelaundry-android,GitHub Actions,none
+i2pd-android,GitHub Actions,Unit_Test
+gitsurf,GitHub Actions,Unit_Test
+searchtwitter,Travis CI,none
+touch,GitHub Actions,Unit_Test
+touch,Travis CI,Unit_Test
+opentopomapviewer,Travis CI,Unit_Test
+pyrrha-mobile-app,GitHub Actions,Unit_Test
+pyrrha-mobile-app,GitHub Actions,Unit_Test
+pyrrha-mobile-app,GitHub Actions,Unit_Test
+encoder,GitHub Actions,Unit_Test
+kotlinlogger,Travis CI,none
+volunteery,GitHub Actions,Unit_Test
+volunteery,GitHub Actions,Unit_Test
+gdps-android-public,GitHub Actions,Unit_Test
+gdps-android-public,GitHub Actions,Unit_Test
+qiyutkandroid,GitHub Actions,Unit_Test
+qiyutkandroid,GitHub Actions,none
+qiyutkandroid,GitHub Actions,Unit_Test
+anisched-android,GitHub Actions,none
+netflix,GitHub Actions,Unit_Test
+good-weather,Travis CI,none
+dynamicnightlight,Travis CI,"Travis_emulator_manual, Unit_Test"
+xiaomiode2code2022,GitHub Actions,Unit_Test
+xiaomiode2code2022,GitHub Actions,Unit_Test
+xiaomiode2code2022,GitHub Actions,Unit_Test
+redreader,GitHub Actions,Unit_Test
+holokenmod,Travis CI,none
+sharetobrowser,Travis CI,none
+qmbform,Travis CI,none
+kidsphone,GitHub Actions,Unit_Test
+kidsphone,GitHub Actions,Unit_Test
+quria,GitHub Actions,Unit_Test
+quria,GitHub Actions,Unit_Test
+quria,GitHub Actions,Unit_Test
+quria,GitHub Actions,none
+deckbox,GitHub Actions,Unit_Test
+deckbox,GitHub Actions,Unit_Test
+deckbox,GitHub Actions,Unit_Test
+gamedealz,CircleCI,none
+raag,GitHub Actions,Unit_Test
+radar-covid-android,GitHub Actions,Unit_Test
+improov,GitHub Actions,Unit_Test
+improov,GitHub Actions,Unit_Test
+hilt-sandbox,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+mpp-kotlin,GitHub Actions,Unit_Test
+social-app,GitHub Actions,"Other, Unit_Test"
+movies,GitHub Actions,Unit_Test
+movies,GitHub Actions,Unit_Test
+notes,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+simple-notes,GitHub Actions,Unit_Test
+datepickertimeline,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+videoeditor,GitHub Actions,Unit_Test
+videoeditor,GitHub Actions,Unit_Test
+videoeditor,GitHub Actions,Unit_Test
+dictionary,GitHub Actions,Unit_Test
+voice-calci,Travis CI,none
+rsandroidapp,GitHub Actions,Unit_Test
+rsandroidapp,GitHub Actions,Unit_Test
+atrainingtracker,Travis CI,Unit_Test
+file-explorer,GitHub Actions,Unit_Test
+file-explorer,GitHub Actions,Unit_Test
+android-navigation-with-compose,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+crazie,GitHub Actions,Unit_Test
+crazie,GitHub Actions,Unit_Test
+crazie,GitHub Actions,Unit_Test
+notify-abroad,GitHub Actions,Unit_Test
+didaktikapp,GitHub Actions,Unit_Test
+activitydiary,Travis CI,none
+pokedex-android,GitHub Actions,Unit_Test
+rapidocrandroidonnxcompose,GitHub Actions,Unit_Test
+current-activity,GitHub Actions,Unit_Test
+current-activity,GitHub Actions,Unit_Test
+mmdb,GitHub Actions,"Other, Unit_Test"
+mmdb,GitHub Actions,Unit_Test
+mmdb,GitHub Actions,"Other, Unit_Test"
+mmdb,GitHub Actions,Unit_Test
+movie-list-by-jetpack-compose-01,GitHub Actions,Unit_Test
+android-simpletimetracker,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+android-simpletimetracker,GitHub Actions,Unit_Test
+context_launcher,GitHub Actions,Unit_Test
+release-probe,CircleCI,Unit_Test
+release-probe,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+readlax,GitHub Actions,Unit_Test
+android-app,GitHub Actions,Unit_Test
+redgram-for-reddit,Travis CI,"Travis_emulator_manual, Unit_Test"
+xabber-android,Travis CI,none
+gif-wallpaper,GitHub Actions,Unit_Test
+gif-wallpaper,GitHub Actions,Unit_Test
+gif-wallpaper,GitHub Actions,Unit_Test
+gif-wallpaper,GitHub Actions,Unit_Test
+gif-wallpaper,GitHub Actions,Unit_Test
+gif-wallpaper,GitHub Actions,Unit_Test
+gif-wallpaper,GitHub Actions,Unit_Test
+relaynet-gateway-android,GitHub Actions,"Other, Unit_Test, firebase_Compact"
+relaynet-gateway-android,GitHub Actions,Unit_Test
+scriptmanager,GitHub Actions,Unit_Test
+colorpicker,Travis CI,none
+edokuri,GitHub Actions,Unit_Test
+textfairy,Travis CI,none
+easer,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+easer,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+encrypted-datastore,GitHub Actions,Unit_Test
+eshop-android,GitHub Actions,Unit_Test
+eshop-android,GitHub Actions,Unit_Test
+eshop-android,GitHub Actions,Unit_Test
+mygithubuser,GitHub Actions,Unit_Test
+retrograde-android,Travis CI,none
+paisa,GitHub Actions,none
+retromusicplayer,GitHub Actions,Unit_Test
+retroshare,GitHub Actions,none
+retroshare,Unknown,Unit_Test
+retroshare,Travis CI,none
+android-twa,GitHub Actions,Unit_Test
+android-twa,GitHub Actions,Unit_Test
+recyclerkit,GitHub Actions,Unit_Test
+recyclerkit,GitHub Actions,Unit_Test
+recyclerkit,GitHub Actions,Unit_Test
+recyclerkit,GitHub Actions,Unit_Test
+recyclerkit,GitHub Actions,Unit_Test
+levelprogressbar,Travis CI,none
+rhvoice,GitHub Actions,Unit_Test
+rhvoice,GitHub Actions,Unit_Test
+rhvoice,GitHub Actions,Unit_Test
+debtr,GitHub Actions,Unit_Test
+debtr,GitHub Actions,Unit_Test
+rugby-ranker,GitHub Actions,Unit_Test
+adopt-me-compose,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+twitchapp,GitHub Actions,Unit_Test
+crossplatformvsthost,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+weatherapp,GitHub Actions,Unit_Test
+matcha,CircleCI,Unit_Test
+compose-timer,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+dev-feed,GitHub Actions,Unit_Test
+dev-feed,GitHub Actions,Unit_Test
+dev-feed,GitHub Actions,Unit_Test
+w203-canbus,GitHub Actions,Unit_Test
+w203-canbus,GitHub Actions,Unit_Test
+soundprofile,Travis CI,none
+minimal_todo,GitHub Actions,Unit_Test
+minimal_todo,Travis CI,none
+churrascometro,Travis CI,none
+scoutingapp,GitHub Actions,Unit_Test
+roc-droid,GitHub Actions,Unit_Test
+rocket,CircleCI,Unit_Test
+muzesto,Travis CI,none
+tracex,GitHub Actions,Unit_Test
+autoscrolltextview,Travis CI,none
+cachemanage,Travis CI,none
+switchbutton,Travis CI,none
+chatse,CircleCI,Unit_Test
+android-base,GitHub Actions,Unit_Test
+andriot,Travis CI,none
+easywatermark,GitHub Actions,Unit_Test
+easywatermark,GitHub Actions,Unit_Test
+cofi,GitHub Actions,Unit_Test
+cofi,GitHub Actions,Unit_Test
+cofi,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+cofi,GitHub Actions,Unit_Test
+oeis-android,GitHub Actions,Unit_Test
+oeis-android,GitHub Actions,Unit_Test
+oeis-android,GitHub Actions,Unit_Test
+tvhclient,GitHub Actions,Unit_Test
+t4-launcher,CircleCI,Unit_Test
+mtmods4android,Travis CI,Unit_Test
+shopapp-android,Travis CI,Unit_Test
+getback_gps,GitHub Actions,Unit_Test
+file,Travis CI,none
+runbhumi,GitHub Actions,Unit_Test
+mooltik,GitHub Actions,Unit_Test
+ruslin-android,GitHub Actions,Unit_Test
+ruslin-android,GitHub Actions,Unit_Test
+rust-keylock-android,Travis CI,none
+unicodepad,CircleCI,Unit_Test
+rebootmenu,GitHub Actions,Unit_Test
+pr0gramm-flutter,Unknown,Unit_Test
+raven-messenger,Travis CI,Unit_Test
+dialerloading,Travis CI,none
+heed,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+sagernet,GitHub Actions,Unit_Test
+garlic-launcher,GitHub Actions,Unit_Test
+travis-jr,Travis CI,Unit_Test
+seniordialerapp,GitHub Actions,Unit_Test
+iptv,GitHub Actions,Unit_Test
+sakura-android,GitHub Actions,Unit_Test
+sakura-android,GitHub Actions,Unit_Test
+deeplandroid,GitHub Actions,Unit_Test
+currencies,GitHub Actions,Unit_Test
+ndx,GitHub Actions,Unit_Test
+finder,Travis CI,none
+recyclerviewlisteners,CircleCI,Unit_Test
+recyclerviewlisteners,GitHub Actions,Unit_Test
+myanimeviewer,Travis CI,"Travis_emulator_manual, Unit_Test"
+generation,GitHub Actions,Unit_Test
+generation,GitHub Actions,Unit_Test
+generation,GitHub Actions,Unit_Test
+samourai-wallet-android,Travis CI,none
+blackhole,GitHub Actions,Unit_Test
+blackhole,GitHub Actions,Unit_Test
+blackhole,GitHub Actions,Unit_Test
+comicsapp,Travis CI,Unit_Test
+popular-movies-android-nanodegree,GitHub Actions,Unit_Test
+f5n,GitHub Actions,Unit_Test
+glowbutton,Travis CI,Unit_Test
+aspect-ratio-imageview,Travis CI,none
+diagonal-imageview,Travis CI,none
+empty-view,Travis CI,none
+maskara,Travis CI,none
+textmatcher,Travis CI,none
+markdownr,GitHub Actions,Unit_Test
+markdownr,GitHub Actions,Unit_Test
+betteruntis,GitHub Actions,none
+noticap,Travis CI,none
+onliner,Travis CI,Unit_Test
+tookit,GitHub Actions,Unit_Test
+flappyface,GitHub Actions,none
+android-customtabs,GitHub Actions,Unit_Test
+android-customtabs,GitHub Actions,Unit_Test
+birthdaycalendar,Travis CI,Unit_Test
+planningpoker,Unknown,Unit_Test
+planningpoker,Travis CI,none
+dvachmovie,Travis CI,"Travis_emulator_manual, Unit_Test"
+sasycakeawayapp,GitHub Actions,Unit_Test
+sasycakeawayapp,GitHub Actions,Unit_Test
+rxwebview,CircleCI,Unit_Test
+fitofy-india,GitHub Actions,Unit_Test
+uhuruphotos-android,GitHub Actions,Unit_Test
+uhuruphotos-android,GitHub Actions,Unit_Test
+uhuruphotos-android,GitHub Actions,Unit_Test
+uhuruphotos-android,GitHub Actions,Unit_Test
+uhuruphotos-android,GitHub Actions,none
+uhuruphotos-android,GitHub Actions,Unit_Test
+togglebuttonlayout,Travis CI,none
+browse,Travis CI,none
+my-bank,GitHub Actions,Unit_Test
+my-bank,GitHub Actions,Unit_Test
+my-bank,GitHub Actions,Unit_Test
+nusic,GitHub Actions,Unit_Test
+ics-openvpn,GitHub Actions,Unit_Test
+ics-openvpn,Travis CI,none
+blokish,GitHub Actions,Unit_Test
+android-slideshow,Travis CI,none
+phone-saver,Travis CI,none
+scummvm,GitHub Actions,Unit_Test
+scummvm,Unknown,none
+herculade,GitHub Actions,Unit_Test
+herculade,GitHub Actions,Unit_Test
+herculade,GitHub Actions,Unit_Test
+slim-launcher,CircleCI,Unit_Test
+cz3002,GitHub Actions,Unit_Test
+secured-app-android,Travis CI,Unit_Test
+privacy-friendly-2048,GitHub Actions,Unit_Test
+privacy-friendly-backup,GitHub Actions,Unit_Test
+privacy-friendly-backup,GitHub Actions,Unit_Test
+privacy-friendly-boardgame-clock,GitHub Actions,Unit_Test
+privacy-friendly-dame,GitHub Actions,Unit_Test
+privacy-friendly-dice-game,GitHub Actions,Unit_Test
+privacy-friendly-dicer,GitHub Actions,Unit_Test
+privacy-friendly-dicer,Travis CI,none
+privacy-friendly-finance-manager,GitHub Actions,Unit_Test
+privacy-friendly-food-tracker,GitHub Actions,Unit_Test
+privacy-friendly-interval-timer,GitHub Actions,Unit_Test
+privacy-friendly-ludo,GitHub Actions,Unit_Test
+privacy-friendly-memo-game,GitHub Actions,Unit_Test
+privacy-friendly-minesweeper,GitHub Actions,Unit_Test
+privacy-friendly-notes,GitHub Actions,Unit_Test
+privacy-friendly-notes,GitHub Actions,Unit_Test
+privacy-friendly-pain-diary,GitHub Actions,Unit_Test
+privacy-friendly-passwordgenerator,GitHub Actions,Unit_Test
+privacy-friendly-passwordgenerator,GitHub Actions,none
+privacy-friendly-pausing-healthily,GitHub Actions,Unit_Test
+privacy-friendly-pedometer,GitHub Actions,Unit_Test
+privacy-friendly-pedometer,GitHub Actions,Unit_Test
+privacy-friendly-pin-mnemonic,GitHub Actions,Unit_Test
+privacy-friendly-qr-scanner,GitHub Actions,Unit_Test
+privacy-friendly-reckoning-skills,GitHub Actions,Unit_Test
+privacy-friendly-ruler,GitHub Actions,Unit_Test
+privacy-friendly-shopping-list,GitHub Actions,Unit_Test
+privacy-friendly-sketching,GitHub Actions,Unit_Test
+privacy-friendly-solitaire,GitHub Actions,Unit_Test
+privacy-friendly-sudoku,GitHub Actions,Unit_Test
+privacy-friendly-sudoku,GitHub Actions,Unit_Test
+privacy-friendly-tape-measure,GitHub Actions,Unit_Test
+privacy-friendly-todo-list,GitHub Actions,Unit_Test
+privacy-friendly-todo-list,GitHub Actions,none
+privacy-friendly-torchlight,GitHub Actions,Unit_Test
+airguard,GitHub Actions,Unit_Test
+seeneva-reader-android,GitHub Actions,Unit_Test
+seeneva-reader-android,GitHub Actions,Unit_Test
+sonofy,GitHub Actions,Unit_Test
+sonofy,GitHub Actions,none
+radiodroid,CircleCI,"CircleCI_emulator_manual, Unit_Test"
+radiodroid,GitHub Actions,Unit_Test
+radiodroid,GitHub Actions,"GitHub_emulator_compact, Other, Unit_Test"
+radiodroid,GitHub Actions,Unit_Test
+looper,Travis CI,"Travis_emulator_manual, Unit_Test"
+glowing-potato,Travis CI,Unit_Test
+numberslidingpicker,Travis CI,none
+foundry,GitHub Actions,Unit_Test
+marvelapp,GitHub Actions,Unit_Test
+mss,GitHub Actions,Unit_Test
+mss,GitHub Actions,none
+mss,GitHub Actions,none
+waifu,GitHub Actions,Unit_Test
+feudaltactics,GitHub Actions,Unit_Test
+photonet,GitHub Actions,Unit_Test
+photonet,GitHub Actions,Unit_Test
+compose-scrobbler,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+compose-scrobbler,GitHub Actions,Unit_Test
+shadowsocks-android,CircleCI,Unit_Test
+shadowsocks-android,Travis CI,none
+android-dev-challenge-compose-week1,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+axion-technologies-hnh,CircleCI,Unit_Test
+sozlik-android,Travis CI,Unit_Test
+shake-it-android,GitHub Actions,Unit_Test
+daily-learning-app,GitHub Actions,Unit_Test
+daily-learning-app,GitHub Actions,Unit_Test
+gitexplorer-android,GitHub Actions,Unit_Test
+espionage,Unknown,none
+car-server,Travis CI,none
+readhub-rn,GitHub Actions,Unit_Test
+readhub-rn,GitHub Actions,Unit_Test
+readhub-rn,GitHub Actions,Unit_Test
+stable-diffusion-android,GitHub Actions,Unit_Test
+cyirc-mobile,GitHub Actions,Unit_Test
+compose-breakingbad,GitHub Actions,Unit_Test
+direct-net-share,Travis CI,none
+shipr-community-android,CircleCI,Unit_Test
+shipr-community-android,GitHub Actions,Unit_Test
+shipr-community-android,Travis CI,Unit_Test
+ocelot,GitHub Actions,Unit_Test
+livepokemonfinder,GitHub Actions,none
+marknote,Travis CI,none
+my-music,GitHub Actions,Unit_Test
+collapsible-calendar-view-android,GitHub Actions,Unit_Test
+age-gender_estimation_tf-android,GitHub Actions,Unit_Test
+simple_document_scanner_android,GitHub Actions,Unit_Test
+insticomplaints-app,GitHub Actions,Unit_Test
+badpixels,Travis CI,"Travis_emulator_manual, Unit_Test"
+ny-times-popular-articles,GitHub Actions,Unit_Test
+ny-times-popular-articles,GitHub Actions,Unit_Test
+ny-times-popular-articles,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+shopkart,GitHub Actions,Unit_Test
+httptracking,GitHub Actions,Unit_Test
+coordinatejoker,GitHub Actions,Unit_Test
+coordinatejoker,GitHub Actions,Unit_Test
+translate,GitHub Actions,Unit_Test
+translate,GitHub Actions,Unit_Test
+photos,GitHub Actions,Unit_Test
+silence,Unknown,"Unit_Test, Unknown_emulator_manual"
+bindapter,Travis CI,Unit_Test
+conveyor,GitHub Actions,Unit_Test
+simlar-android,GitHub Actions,none
+stato_covid19_italia_android,GitHub Actions,Unit_Test
+stato_covid19_italia_android,GitHub Actions,Unit_Test
+klingar,CircleCI,none
+tiles-for-developers,CircleCI,none
+simple-login-android,GitHub Actions,Unit_Test
+simple-login-android,GitHub Actions,Unit_Test
+flutter,GitHub Actions,Unit_Test
+simplex-chat,GitHub Actions,Unit_Test
+simplex-chat,GitHub Actions,Unit_Test
+simplex-chat,GitHub Actions,Unit_Test
+flutter_japanese_restaurant_app,GitHub Actions,Unit_Test
+knigopis,Travis CI,none
+diary,GitHub Actions,Unit_Test
+nepaltoday-app-old,GitHub Actions,Unit_Test
+nepaltoday-app-old,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+nepaltoday-app-old,GitHub Actions,Unit_Test
+antispam,Travis CI,none
+musicmanager,Travis CI,none
+reader,Travis CI,Unit_Test
+kite-app,GitHub Actions,Unit_Test
+kite-app,GitHub Actions,Unit_Test
+kite-app,GitHub Actions,Unit_Test
+kite-app,GitHub Actions,Unit_Test
+kite-app,GitHub Actions,Unit_Test
+go4lunch,Travis CI,Unit_Test
+flutter-learn,GitHub Actions,Unit_Test
+flutter-learn,GitHub Actions,Unit_Test
+codeblitzapp,GitHub Actions,Unit_Test
+wellness_meter,GitHub Actions,Unit_Test
+themoviedb,GitHub Actions,Unit_Test
+yana,GitHub Actions,Unit_Test
+stardroid,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+stardroid,GitHub Actions,Unit_Test
+stardroid,Travis CI,none
+all-in-one,CircleCI,Unit_Test
+disneymotions,GitHub Actions,Unit_Test
+pokedex,GitHub Actions,Unit_Test
+sealedx,GitHub Actions,Unit_Test
+sealedx,GitHub Actions,Unit_Test
+sealedx,GitHub Actions,Unit_Test
+skytube,GitHub Actions,Unit_Test
+skytube,Travis CI,none
+skytubelegacy,GitHub Actions,Unit_Test
+skytubelegacy,Travis CI,none
+simpleaccounting,Travis CI,none
+4pdaclient-plus,GitHub Actions,Unit_Test
+4pdaclient-plus,GitHub Actions,Unit_Test
+fulguris,GitHub Actions,Unit_Test
+fulguris,GitHub Actions,Unit_Test
+fulguris,GitHub Actions,Unit_Test
+fulguris,GitHub Actions,Unit_Test
+fulguris,Travis CI,Unit_Test
+cv,CircleCI,none
+sevibus,Travis CI,none
+android2048,CircleCI,Unit_Test
+simple-dilbert,Travis CI,none
+packagemanager,GitHub Actions,Unit_Test
+jsonviewer,Travis CI,none
+snikket-android,GitHub Actions,Unit_Test
+deedum,GitHub Actions,Unit_Test
+animals3d,GitHub Actions,Unit_Test
+torgi,GitHub Actions,none
+appteka-android,Travis CI,none
+drawa-android,CircleCI,none
+drawa-android,Travis CI,none
+mandarin-android,Travis CI,none
+instigo,GitHub Actions,none
+geonotesplus,GitHub Actions,Unit_Test
+geonotesplus,Unknown,Unit_Test
+aladin-aos,GitHub Actions,Unit_Test
+soundcrowd,GitHub Actions,Unit_Test
+soundcrowd,Travis CI,none
+notepad,GitHub Actions,Unit_Test
+notepad,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+notepad,GitHub Actions,Unit_Test
+notepad,GitHub Actions,Unit_Test
+cineaste-android,GitHub Actions,Unit_Test
+otl-app,GitHub Actions,Unit_Test
+otl-app,GitHub Actions,Unit_Test
+otl-app,GitHub Actions,Unit_Test
+otl-app,GitHub Actions,Unit_Test
+otl-app,GitHub Actions,Unit_Test
+otl-app,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+epoch,GitHub Actions,Unit_Test
+epoch,GitHub Actions,Unit_Test
+jetquotes,GitHub Actions,Unit_Test
+runstone,Travis CI,none
+vlsm-subnet-mask-calculator,Travis CI,none
+flutter-hackernews,GitHub Actions,Unit_Test
+dreamdroid,Travis CI,none
+quotes,Travis CI,"Travis_emulator_manual, Unit_Test"
+newsapp,Travis CI,none
+proximityservice,CircleCI,"Other, Unit_Test, firebase_Full"
+proximityservice,GitHub Actions,Unit_Test
+parandroid,Unknown,none
+parandroid,Travis CI,none
+easyrepost,GitHub Actions,Unit_Test
+peertube-android,GitHub Actions,Unit_Test
+peertube-android,GitHub Actions,Unit_Test
+todolist-react-native,GitHub Actions,Unit_Test
+advanced-settings-for-android-wear,Travis CI,none
+red-calorie,Travis CI,none
+expandablebottombar,CircleCI,Unit_Test
+native,Unknown,Unit_Test
+native,CircleCI,Unit_Test
+native,GitHub Actions,Unit_Test
+native,Travis CI,Unit_Test
+randomwordgenerator,Travis CI,none
+manyverse,GitHub Actions,none
+manyverse,GitHub Actions,none
+manyverse,GitHub Actions,none
+manyverse,GitHub Actions,Unit_Test
+manyverse,Unknown,Unit_Test
+movies_tmdb,Travis CI,none
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,none
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+app,GitHub Actions,Unit_Test
+dagashiapp,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+dagashiapp,GitHub Actions,Unit_Test
+dynamicoperu,Travis CI,Unit_Test
+steedos-notification-center,GitHub Actions,none
+nextcloud-deck,GitHub Actions,Unit_Test
+nextcloud-deck,GitHub Actions,Unit_Test
+nextcloud-tables,GitHub Actions,Unit_Test
+nextcloud-tables,GitHub Actions,Unit_Test
+kaesekaestchen,GitHub Actions,Unit_Test
+freezer,Travis CI,none
+flutter_developer_portfolio,GitHub Actions,Unit_Test
+termux-app-bluetooth,GitHub Actions,Unit_Test
+mausam-app,GitHub Actions,Unit_Test
+flutter-ci-deployment,GitHub Actions,Unit_Test
+stopstalk-android,GitHub Actions,Unit_Test
+stopstalk-android,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,none
+notesnook,GitHub Actions,Unit_Test
+notesnook,GitHub Actions,Unit_Test
+stroke-input-android,GitHub Actions,Unit_Test
+cpymo,GitHub Actions,Unit_Test
+acs-upb-mobile,GitHub Actions,Unit_Test
+acs-upb-mobile,GitHub Actions,Unit_Test
+acs-upb-mobile,GitHub Actions,Unit_Test
+macrozilla,GitHub Actions,Unit_Test
+macrozilla,GitHub Actions,Unit_Test
+macrozilla,GitHub Actions,Unit_Test
+macrozilla,GitHub Actions,Unit_Test
+stylo,GitHub Actions,Unit_Test
+enchantedfortress,GitHub Actions,Unit_Test
+android-ocr,GitHub Actions,Unit_Test
+last-launcher,GitHub Actions,Unit_Test
+openinwa,GitHub Actions,Unit_Test
+openinwa,Unknown,none
+openinwa,Travis CI,none
+quick-calculation,GitHub Actions,Unit_Test
+calendar-import-export,GitHub Actions,Unit_Test
+calendar-import-export,GitHub Actions,Unit_Test
+pandroid,GitHub Actions,Unit_Test
+pandroid,GitHub Actions,Unit_Test
+memerizeapp,GitHub Actions,Unit_Test
+starlord,GitHub Actions,Unit_Test
+login-multi-role,GitHub Actions,Unit_Test
+de-bloater,GitHub Actions,Unit_Test
+snotz,GitHub Actions,Unit_Test
+translator,Travis CI,none
+customcalendar,GitHub Actions,none
+robot-scouter,GitHub Actions,Unit_Test
+kotlin-permissions,Travis CI,none
+macronium-android,GitHub Actions,Unit_Test
+macronium-android,GitHub Actions,Unit_Test
+wordlecompose,GitHub Actions,Unit_Test
+stk-code,GitHub Actions,Unit_Test
+stk-code,GitHub Actions,Unit_Test
+stk-code,GitHub Actions,Unit_Test
+stk-code,GitHub Actions,Unit_Test
+arduino-usb-terminal,CircleCI,Unit_Test
+arduino-usb-terminal,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+explorern,GitHub Actions,Unit_Test
+mobile-jisho,Travis CI,"Travis_emulator_manual, Unit_Test"
+circulartimer,GitHub Actions,Unit_Test
+gocorona,GitHub Actions,Unit_Test
+sustcast-android-app-v1,GitHub Actions,Unit_Test
+pingo,Travis CI,Unit_Test
+leon,GitHub Actions,Unit_Test
+leon,GitHub Actions,Unit_Test
+experiment-compose,GitHub Actions,Unit_Test
+viz,Travis CI,Unit_Test
+starkeverben,Travis CI,none
+images-to-pdf,Travis CI,Unit_Test
+bus-when-twin-cities,Travis CI,"Travis_emulator_manual, Unit_Test"
+textmatic,GitHub Actions,Unit_Test
+textmatic,GitHub Actions,Unit_Test
+swisscovid-app-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+swisscovid-app-android,GitHub Actions,Unit_Test
+swisscovid-app-android,GitHub Actions,Unit_Test
+swisscovid-app-android,GitHub Actions,Unit_Test
+lemuroid,GitHub Actions,Unit_Test
+lemuroid,GitHub Actions,Unit_Test
+vmconsole,GitHub Actions,Unit_Test
+myntratinder,Travis CI,"Travis_emulator_manual, Unit_Test"
+itracing2,CircleCI,none
+meeroo,GitHub Actions,Unit_Test
+valenbisi,GitHub Actions,Unit_Test
+szkolny-android,GitHub Actions,Unit_Test
+szkolny-android,GitHub Actions,none
+szkolny-android,GitHub Actions,Unit_Test
+fridgexlight,GitHub Actions,Unit_Test
+download-navi,GitHub Actions,Unit_Test
+tailscale-android,GitHub Actions,Unit_Test
+tailscale-android,GitHub Actions,Unit_Test
+wasp-os-companion,GitHub Actions,Unit_Test
+skywayclient,GitHub Actions,Unit_Test
+android-lock9view,Travis CI,none
+cnode-material-design,Travis CI,none
+wifiindoorpositioning,Travis CI,none
+passport-reader,GitHub Actions,Unit_Test
+passport-reader,GitHub Actions,Unit_Test
+material-intro-screen,Travis CI,none
+blog,GitHub Actions,Unit_Test
+blog,GitHub Actions,Unit_Test
+napkin-collect-android,GitHub Actions,Unit_Test
+documentocr,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+stud,GitHub Actions,Unit_Test
+tasks,GitHub Actions,Unit_Test
+tasks,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+hackdash,Travis CI,none
+tblauncher,GitHub Actions,none
+tblauncher,GitHub Actions,Unit_Test
+tblauncher,GitHub Actions,none
+dms-android,GitHub Actions,Unit_Test
+dui-android,GitHub Actions,Unit_Test
+simtong-android,GitHub Actions,Unit_Test
+peekabook-aos,GitHub Actions,Unit_Test
+amazefilemanager,GitHub Actions,none
+amazefilemanager,GitHub Actions,Unit_Test
+amazefilemanager,GitHub Actions,none
+amazefilemanager,GitHub Actions,Unit_Test
+amazefilemanager,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+btcmap-android,GitHub Actions,Unit_Test
+mascota-android,GitHub Actions,Unit_Test
+newpipe,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+newpipe,GitHub Actions,Unit_Test
+newpipe,GitHub Actions,Unit_Test
+subtlenews_android_app,Travis CI,none
+sohappy,GitHub Actions,Unit_Test
+sohappy,GitHub Actions,Unit_Test
+sotired,GitHub Actions,Unit_Test
+projectconf,GitHub Actions,"GitHub_emulator_compact, Unit_Test"
+jtxboard,GitHub Actions,Unit_Test
+jtxboard,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+jtxboard,GitHub Actions,"GitHub_GMD, Other, Unit_Test"
+jtxboard,GitHub Actions,Unit_Test
+jtxboard,GitHub Actions,Unit_Test
+jtxboard,Unknown,Unit_Test
+todone,GitHub Actions,Unit_Test
+wantum-android,GitHub Actions,Unit_Test
+enginedatalogger---dashboard,GitHub Actions,Unit_Test
+enginedatalogger---dashboard,Travis CI,none
+flutter_book,GitHub Actions,Unit_Test
+mutify,GitHub Actions,Unit_Test
+whats-nearby,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+telegram-sms,GitHub Actions,Unit_Test
+exif-thumbnail-adder,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+t-tasks,Travis CI,Unit_Test
+tes3mp-android,Travis CI,none
+termux-api,GitHub Actions,Unit_Test
+termux-api,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-app,GitHub Actions,Unit_Test
+termux-boot,GitHub Actions,Unit_Test
+termux-float,GitHub Actions,Unit_Test
+termux-float,GitHub Actions,Unit_Test
+termux-styling,GitHub Actions,Unit_Test
+termux-styling,GitHub Actions,Unit_Test
+transtone,GitHub Actions,Unit_Test
+android-app,Travis CI,none
+guideapp,Travis CI,none
+hair-segmentation,Travis CI,none
+splum,GitHub Actions,Unit_Test
+splum,GitHub Actions,Unit_Test
+the-blue-alliance-android,GitHub Actions,Unit_Test
+mobile,GitHub Actions,none
+webmon,Unknown,Unit_Test
+kanaquiz,CircleCI,"Other, Unit_Test, firebase_Full"
+kanaquiz,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+gymaths,GitHub Actions,none
+rithle,GitHub Actions,Unit_Test
+space-trashman-blues,GitHub Actions,Unit_Test
+space-trashman-blues,GitHub Actions,Unit_Test
+space-trashman-blues,GitHub Actions,Unit_Test
+robot-recharge,GitHub Actions,Unit_Test
+idee-android,CircleCI,Unit_Test
+rootlessjamesdsp,GitHub Actions,Unit_Test
+rootlessjamesdsp,GitHub Actions,Unit_Test
+vaccinfoapp,GitHub Actions,Unit_Test
+ltecleanerfoss,GitHub Actions,Unit_Test
+linux-mon,GitHub Actions,Unit_Test
+android-taxi-client,Travis CI,none
+watchdone,GitHub Actions,Unit_Test
+watchdone,GitHub Actions,Unit_Test
+gifit,GitHub Actions,Unit_Test
+client,Travis CI,none
+faker,Travis CI,"Travis_emulator_manual, Unit_Test"
+apg,Travis CI,Unit_Test
+android-odeon,GitHub Actions,Unit_Test
+notely,GitHub Actions,Unit_Test
+handy,GitHub Actions,Unit_Test
+zephyr,GitHub Actions,Unit_Test
+android-nfc-timestamp,GitHub Actions,Unit_Test
+android-nfc-timestamp,GitHub Actions,Unit_Test
+android-nfc-timestamp,GitHub Actions,Unit_Test
+android-nfc-timestamp,GitHub Actions,Unit_Test
+android-nfc-timestamp,GitHub Actions,Unit_Test
+android-nfc-timestamp,GitHub Actions,Unit_Test
+android-nfc-timestamp,GitHub Actions,Unit_Test
+thu-info-app,GitHub Actions,Unit_Test
+thu-info-app,GitHub Actions,Unit_Test
+k-9,GitHub Actions,Unit_Test
+k-9,GitHub Actions,Unit_Test
+k-9,GitHub Actions,Unit_Test
+your-local-weather,Travis CI,none
+mobilert,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+mobilert,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+mobilert,GitHub Actions,Unit_Test
+mobilert,GitHub Actions,Unit_Test
+mobilert,GitHub Actions,Unit_Test
+mobilert,GitHub Actions,Unit_Test
+mobilert,GitHub Actions,Unit_Test
+photochat,GitHub Actions,Unit_Test
+photochat,GitHub Actions,Unit_Test
+photochat,GitHub Actions,Unit_Test
+photochat,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+calculadhora,GitHub Actions,Unit_Test
+imagepicker,Travis CI,none
+cdlc_player,GitHub Actions,Unit_Test
+timer-machine-android,GitHub Actions,Unit_Test
+system-bridge-android-companion,GitHub Actions,none
+system-bridge-android-companion,GitHub Actions,Unit_Test
+system-bridge-android-companion,GitHub Actions,Unit_Test
+system-bridge-android-companion,GitHub Actions,Unit_Test
+system-bridge-android-companion,GitHub Actions,Unit_Test
+system-bridge-android-companion,GitHub Actions,Unit_Test
+chainmetric-app,GitHub Actions,Unit_Test
+notipush,CircleCI,Unit_Test
+covidtoday-android,GitHub Actions,Unit_Test
+cis-android,GitHub Actions,Unit_Test
+cis-android,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+cis-android,GitHub Actions,Unit_Test
+cis-android,GitHub Actions,Unit_Test
+flaiter,GitHub Actions,Unit_Test
+balanduinoandroidapp,Travis CI,none
+api-request,GitHub Actions,Unit_Test
+api-request,GitHub Actions,Unit_Test
+composethemeswitch,GitHub Actions,Unit_Test
+binocularss,GitHub Actions,Unit_Test
+ffupdater,GitHub Actions,Unit_Test
+ffupdater,GitHub Actions,Unit_Test
+wearkit,GitHub Actions,Unit_Test
+wearkit,GitHub Actions,Unit_Test
+btox,GitHub Actions,Unit_Test
+easy_xkcd,GitHub Actions,Unit_Test
+tomb5,Unknown,Unit_Test
+tomb5,Travis CI,none
+kitchenowl,GitHub Actions,Unit_Test
+kitchenowl,GitHub Actions,Unit_Test
+kitchenowl,GitHub Actions,Unit_Test
+kitchenowl,GitHub Actions,Unit_Test
+kitchenowl,GitHub Actions,Unit_Test
+kitchenowl,GitHub Actions,Unit_Test
+rabbitmq-management-android,Travis CI,Unit_Test
+gh-release-monitor,GitHub Actions,Unit_Test
+gh-release-monitor,GitHub Actions,Unit_Test
+gh-release-monitor,GitHub Actions,Unit_Test
+gh-release-monitor,GitHub Actions,Unit_Test
+gh-release-monitor,GitHub Actions,Unit_Test
+eh-redux,GitHub Actions,Unit_Test
+eh-redux,GitHub Actions,Unit_Test
+eh-redux,GitHub Actions,Unit_Test
+troutoss,CircleCI,Unit_Test
+latticify,Travis CI,none
+packman,GitHub Actions,none
+packman,GitHub Actions,none
+magisk,GitHub Actions,Unit_Test
+androidthings-mirror,CircleCI,none
+btle-scanner-compat,Travis CI,none
+ueno,GitHub Actions,Unit_Test
+ueno,GitHub Actions,Unit_Test
+ueno,GitHub Actions,Unit_Test
+ueno,GitHub Actions,Unit_Test
+ueno,GitHub Actions,Unit_Test
+ueno,GitHub Actions,Unit_Test
+ueno,GitHub Actions,Unit_Test
+medusa,GitHub Actions,Unit_Test
+framer,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+urlchecker,GitHub Actions,Unit_Test
+obsqr,GitHub Actions,none
+talalarmo,GitHub Actions,none
+trinkster,CircleCI,Unit_Test
+android-segmentview,Travis CI,none
+tripmobile,Unknown,none
+android-app,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+android-app,GitHub Actions,Unit_Test
+kotlin-surfaceduo-duobahn,GitHub Actions,Unit_Test
+colors_ai,GitHub Actions,Unit_Test
+colors_ai,GitHub Actions,Unit_Test
+colors_ai,GitHub Actions,Unit_Test
+colors_ai,GitHub Actions,Unit_Test
+colors_ai,GitHub Actions,Unit_Test
+colors_ai,GitHub Actions,Unit_Test
+colors_ai,GitHub Actions,Unit_Test
+colors_ai,GitHub Actions,Unit_Test
+premiumer,Travis CI,none
+candymem,CircleCI,Unit_Test
+aggregator-android,GitHub Actions,Unit_Test
+campus-android,GitHub Actions,Unit_Test
+webmark,GitHub Actions,"Other, Unit_Test, firebase_Full"
+android-beacon-mqtt,Travis CI,none
+powerbutton,Unknown,Unit_Test
+powerbutton,Travis CI,none
+ytalarm,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+ytalarm,GitHub Actions,Unit_Test
+ytalarm,GitHub Actions,Unit_Test
+ytalarm,GitHub Actions,Unit_Test
+paladins-edge-client,GitHub Actions,Unit_Test
+paladins-edge-client,GitHub Actions,Unit_Test
+paladins-edge-client,GitHub Actions,Unit_Test
+tutanota,GitHub Actions,Unit_Test
+tutanota,GitHub Actions,Unit_Test
+twidere-android,GitHub Actions,Unit_Test
+twiderex-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+twiderex-android,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+twiderex-android,GitHub Actions,Unit_Test
+twiderex-android,GitHub Actions,Unit_Test
+twilio-video-app-android,CircleCI,"Unit_Test, firebase_Full"
+twire,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test"
+spannablex,GitHub Actions,Unit_Test
+spannablex,GitHub Actions,Unit_Test
+tucanmobile,Travis CI,none
+awaken,Travis CI,none
+pokebase,CircleCI,Unit_Test
+pokebase,Travis CI,Unit_Test
+stack,GitHub Actions,Unit_Test
+stack,GitHub Actions,Unit_Test
+2048-battles,CircleCI,Unit_Test
+ptsd-aid,CircleCI,"Unit_Test, firebase_Full"
+ludere,GitHub Actions,Unit_Test
+obdgraphs,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+android-object-detection,Travis CI,none
+flutter,GitHub Actions,Unit_Test
+weechat-android,GitHub Actions,Unit_Test
+2048-android,Travis CI,none
+comp0016_2020_21_team25,GitHub Actions,Unit_Test
+comp0016_2020_21_team25,GitHub Actions,Unit_Test
+comp0016_2020_21_team25,GitHub Actions,Unit_Test
+comp0016_2020_21_team26,GitHub Actions,Unit_Test
+gauchoshare,GitHub Actions,Unit_Test
+crimsonota,GitHub Actions,Unit_Test
+uhooipicbook-android,GitHub Actions,none
+uhooipicbook-android,GitHub Actions,Unit_Test
+uhooipicbook-android,GitHub Actions,Unit_Test
+uhooipicbook-android,GitHub Actions,Unit_Test
+afwall,GitHub Actions,Unit_Test
+ghala-android,GitHub Actions,Unit_Test
+my-fitness-app,GitHub Actions,Unit_Test
+lilaoftheday_android,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+norimaki,CircleCI,Unit_Test
+pet-owner-app,GitHub Actions,Unit_Test
+noisecapture,GitHub Actions,Unit_Test
+care4ther-,GitHub Actions,Unit_Test
+deltacamera,GitHub Actions,Unit_Test
+clicli-dark,GitHub Actions,none
+clicli-dark,GitHub Actions,none
+wollok-mobile,GitHub Actions,Unit_Test
+wollok-mobile,GitHub Actions,Unit_Test
+gearshift,Travis CI,Unit_Test
+baldphone,GitHub Actions,Unit_Test
+baldphone,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+stax,GitHub Actions,Unit_Test
+stax,GitHub Actions,Unit_Test
+stax,GitHub Actions,Unit_Test
+stax,GitHub Actions,"GitHub_GMD, Other, Unit_Test"
+utox,Unknown,none
+utox,GitHub Actions,Unit_Test
+utox,Unknown,Unit_Test
+drona,Travis CI,none
+unicode,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+notesx,GitHub Actions,none
+sociofy,GitHub Actions,Unit_Test
+sociofy,GitHub Actions,Unit_Test
+vanilla,Travis CI,none
+twittnuker,GitHub Actions,none
+compose-material-dialogs,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+compose-material-dialogs,GitHub Actions,Unit_Test
+hyperupnp,GitHub Actions,Unit_Test
+scoreboard,Travis CI,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+element-android,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+element-android,GitHub Actions,Unit_Test
+nospy,GitHub Actions,none
+quake,CircleCI,Unit_Test
+quake,GitHub Actions,Unit_Test
+chester,Travis CI,Unit_Test
+bitcoinium,Travis CI,none
+tinfoil-facebook,Travis CI,none
+diceoverflow,Travis CI,"Travis_emulator_manual, Unit_Test"
+hungarianringsforandroid,Travis CI,"Travis_emulator_manual, Unit_Test"
+ithakaboardgame,Travis CI,"Travis_emulator_manual, Unit_Test"
+clipboardzanager,GitHub Actions,Unit_Test
+vgs-checkout-android,CircleCI,"Unit_Test, firebase_Full"
+currencybg,Travis CI,Unit_Test
+vimusic,GitHub Actions,Unit_Test
+ci-matters,CircleCI,"CircleCI_emulator_manual, Unit_Test"
+ci-matters,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+ci-matters,Travis CI,"Travis_emulator_manual, Unit_Test"
+itmoldova,Unknown,none
+bladeplayer,GitHub Actions,Unit_Test
+lotonaticos,GitHub Actions,Unit_Test
+weathercast,CircleCI,none
+tinc_gui,Travis CI,none
+app-whois,GitHub Actions,Unit_Test
+hnews,GitHub Actions,Unit_Test
+ccdroidx,GitHub Actions,Unit_Test
+ccdroidx,GitHub Actions,Unit_Test
+canidrive,GitHub Actions,none
+canidrive,GitHub Actions,Unit_Test
+vinylmusicplayer,GitHub Actions,Unit_Test
+event-registration-app,GitHub Actions,Unit_Test
+dialogmusicplayer,GitHub Actions,Unit_Test
+quotes,GitHub Actions,Unit_Test
+avatarview,GitHub Actions,Unit_Test
+avatarview,GitHub Actions,Unit_Test
+amethyst,GitHub Actions,Unit_Test
+amethyst,GitHub Actions,Unit_Test
+audio-recorder,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+audio-recorder,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+vkgeo-android,GitHub Actions,Unit_Test
+vkgeo-android,GitHub Actions,Unit_Test
+bixer-btc-app-,GitHub Actions,Unit_Test
+bixer-btc-app-,GitHub Actions,Unit_Test
+todo_app,GitHub Actions,Unit_Test
+behe-explorer,Travis CI,none
+behe-keyboard,GitHub Actions,Unit_Test
+behe-keyboard,GitHub Actions,Unit_Test
+behe-keyboard,GitHub Actions,none
+behe-keyboard,Travis CI,none
+wifianalyzer,GitHub Actions,Unit_Test
+wifianalyzer,GitHub Actions,Unit_Test
+ace-android,Travis CI,none
+vuetube,GitHub Actions,Unit_Test
+photo_club,GitHub Actions,Unit_Test
+random_facts_generator,GitHub Actions,Unit_Test
+sosaku,GitHub Actions,Unit_Test
+sosaku,GitHub Actions,Unit_Test
+fuckview,Travis CI,none
+http-shortcuts,GitHub Actions,Unit_Test
+mediumclap-android,GitHub Actions,Unit_Test
+android-app,GitHub Actions,Unit_Test
+android-app,GitHub Actions,Unit_Test
+geometricweather,GitHub Actions,Unit_Test
+rapidooo,Travis CI,Unit_Test
+lyricistant,GitHub Actions,Unit_Test
+lyricistant,GitHub Actions,Unit_Test
+lyricistant,GitHub Actions,Unit_Test
+lyricistant,GitHub Actions,none
+wsandroid,GitHub Actions,none
+in-app-update-compose,GitHub Actions,Unit_Test
+in-app-update-compose,GitHub Actions,Unit_Test
+in-app-update-compose,GitHub Actions,none
+in-app-update-compose,GitHub Actions,none
+in-app-update-compose,GitHub Actions,none
+in-app-update-compose,GitHub Actions,none
+waveswallet-android,GitHub Actions,Unit_Test
+simplemarkdown,GitHub Actions,Unit_Test
+simplemarkdown,Unknown,Unit_Test
+cnpj_company,GitHub Actions,Unit_Test
+cnpj_company,GitHub Actions,Unit_Test
+moretype,Travis CI,none
+flutter,GitHub Actions,Unit_Test
+flutter,GitHub Actions,Unit_Test
+flutter,GitHub Actions,Unit_Test
+wheellog,GitHub Actions,Unit_Test
+wheellog,GitHub Actions,Unit_Test
+weather-app-2020-android,GitHub Actions,Unit_Test
+simplenews,Travis CI,none
+correctly,Travis CI,none
+notes,GitHub Actions,Unit_Test
+notes,GitHub Actions,Unit_Test
+loopviewpagerlayout,GitHub Actions,Unit_Test
+apps-android-wikiedudashboard,Travis CI,none
+apps-android-wikipedia,GitHub Actions,Unit_Test
+apps-android-wikipedia,GitHub Actions,Unit_Test
+apps-android-wikipedia,GitHub Actions,Unit_Test
+apps-android-wikipedia,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+o-fish-android,GitHub Actions,Unit_Test
+mypesa,GitHub Actions,Unit_Test
+mypesa,GitHub Actions,Unit_Test
+ntravel-app,GitHub Actions,Unit_Test
+ntravel-app,GitHub Actions,Unit_Test
+countdowns-android,Travis CI,Unit_Test
+giggity,GitHub Actions,Unit_Test
+giggity,GitHub Actions,Unit_Test
+miocheck,Travis CI,none
+cazadescuentos,GitHub Actions,Unit_Test
+cazadescuentos,GitHub Actions,Unit_Test
+deep-link-launcher,CircleCI,none
+freifunkautoconnectapp,Travis CI,"Travis_emulator_manual, Unit_Test"
+emojibottomsheetdialog,GitHub Actions,Unit_Test
+emojibottomsheetdialog,GitHub Actions,Unit_Test
+loread,GitHub Actions,Unit_Test
+wawa-tabor,GitHub Actions,Unit_Test
+wawa-tabor,GitHub Actions,Unit_Test
+wawa-tabor,GitHub Actions,"Other, Unit_Test, firebase_Full"
+jl-mod,GitHub Actions,Unit_Test
+gptassist,GitHub Actions,Unit_Test
+wolmo-cookbook-android,Travis CI,none
+prim-ftpd,GitHub Actions,Unit_Test
+prim-ftpd,Travis CI,none
+wonkey,GitHub Actions,Unit_Test
+wonkey,GitHub Actions,Unit_Test
+wonkey,GitHub Actions,Unit_Test
+wonkey,GitHub Actions,Unit_Test
+wonkey,GitHub Actions,Unit_Test
+wonkey,GitHub Actions,Unit_Test
+wonkey,GitHub Actions,Unit_Test
+wonkey,Travis CI,none
+driver-android,GitHub Actions,"GitHub_emulator_manual, Unit_Test"
+ddcc-validator,GitHub Actions,Unit_Test
+ddcc-validator,GitHub Actions,Unit_Test
+arcgis-android-moremap,Travis CI,none
+wtcounter,CircleCI,Unit_Test
+bo-android,GitHub Actions,Unit_Test
+bo-android,Travis CI,Unit_Test
+android-gitlab-ci-build,Unknown,Unit_Test
+multiplestatuslayout,Travis CI,none
+kotlin-native-superhero-app,Travis CI,Unit_Test
+artiver,GitHub Actions,Unit_Test
+artiver,GitHub Actions,Unit_Test
+artiver,GitHub Actions,Unit_Test
+clipeus,GitHub Actions,Unit_Test
+clipeus,GitHub Actions,Unit_Test
+duress,GitHub Actions,Unit_Test
+duress,GitHub Actions,Unit_Test
+sentry,GitHub Actions,Unit_Test
+sentry,GitHub Actions,Unit_Test
+silence,GitHub Actions,Unit_Test
+silence,GitHub Actions,Unit_Test
+vibe,GitHub Actions,Unit_Test
+vibe,GitHub Actions,Unit_Test
+volta,GitHub Actions,Unit_Test
+volta,GitHub Actions,Unit_Test
+wasted,GitHub Actions,Unit_Test
+wasted,GitHub Actions,Unit_Test
+blast,GitHub Actions,Unit_Test
+mauth,GitHub Actions,Unit_Test
+androidx,GitHub Actions,none
+androidx,GitHub Actions,Unit_Test
+unitymodmanager,Travis CI,none
+grabredenvelope,Travis CI,none
+xbmc,GitHub Actions,Unit_Test
+xbmc,GitHub Actions,Unit_Test
+xbmc,GitHub Actions,Unit_Test
+xcsoar,GitHub Actions,Unit_Test
+xcsoar,GitHub Actions,Unit_Test
+xcsoar,GitHub Actions,Unit_Test
+xcsoar,GitHub Actions,Unit_Test
+xcsoar,GitHub Actions,Unit_Test
+xcsoar,Unknown,Unit_Test
+stanley,GitHub Actions,none
+ehviewer_cn_sxj,GitHub Actions,Unit_Test
+life-dots,Travis CI,none
+tensuu,Travis CI,none
+androidswissknife,GitHub Actions,Unit_Test
+androidswissknife,GitHub Actions,Unit_Test
+androidswissknife,GitHub Actions,Unit_Test
+happybubble,GitHub Actions,Unit_Test
+shadowsocksr-v2ray-trojan-android,GitHub Actions,Unit_Test
+shadowsocksr-v2ray-trojan-android,Travis CI,none
+yacguide,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+yacguide,GitHub Actions,Unit_Test
+tastytoast,Travis CI,Unit_Test
+aria2c-android-app,Travis CI,none
+appfeedback-android,CircleCI,Unit_Test
+flashy-alarm,GitHub Actions,Unit_Test
+flashy-alarm,GitHub Actions,Unit_Test
+unciv,GitHub Actions,Unit_Test
+unciv,GitHub Actions,Unit_Test
+unciv,GitHub Actions,Unit_Test
+unciv,GitHub Actions,Unit_Test
+unciv,GitHub Actions,Unit_Test
+unciv,GitHub Actions,Unit_Test
+unciv,GitHub Actions,Unit_Test
+unciv,GitHub Actions,Unit_Test
+metronome,GitHub Actions,Unit_Test
+notifer,GitHub Actions,Unit_Test
+notinotes,GitHub Actions,Unit_Test
+sudoku,GitHub Actions,Unit_Test
+edtrack,GitHub Actions,"GitHub_emulator_compact, Unit_Test"
+qbittorrent-manager,GitHub Actions,Unit_Test
+qbittorrent-manager,GitHub Actions,Unit_Test
+flutter-movie,GitHub Actions,Unit_Test
+umoney,GitHub Actions,Unit_Test
+healersdiary,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+healersdiary,GitHub Actions,"GitHub_emulator_full, GitHub_emulator_manual, Other, Unit_Test"
+healersdiary,GitHub Actions,Unit_Test
+boilerplate,GitHub Actions,Unit_Test
+lingvaandroid,GitHub Actions,Unit_Test
+macstransitapp,GitHub Actions,Unit_Test
+macstransitapp,GitHub Actions,Unit_Test
+macstransitapp,GitHub Actions,Unit_Test
+yggdrasil-android,GitHub Actions,Unit_Test
+tsukimisou,GitHub Actions,Unit_Test
+easythread,Travis CI,none
+wordpowermadeeasy,Travis CI,Unit_Test
+keypass,GitHub Actions,Unit_Test
+keypass,GitHub Actions,Unit_Test
+keypass,GitHub Actions,Unit_Test
+keypass,GitHub Actions,Unit_Test
+keypass,GitHub Actions,Unit_Test
+keypass,GitHub Actions,Unit_Test
+marky,GitHub Actions,Unit_Test
+speld,GitHub Actions,Unit_Test
+android-proguards,Travis CI,none
+kicpa-wordquiz,GitHub Actions,Unit_Test
+kicpa-wordquiz,GitHub Actions,Unit_Test
+youkai,Travis CI,none
+numberprogressbar,Travis CI,none
+adventcalender,Travis CI,Unit_Test
+torrserve,GitHub Actions,Unit_Test
+monotweety,GitHub Actions,Unit_Test
+yubioath-flutter,GitHub Actions,Unit_Test
+yubioath-flutter,GitHub Actions,Unit_Test
+yubioath-flutter,GitHub Actions,Unit_Test
+yubioath-flutter,GitHub Actions,Unit_Test
+yubioath-flutter,GitHub Actions,Unit_Test
+yubioath-flutter,GitHub Actions,Unit_Test
+androidbible,GitHub Actions,Unit_Test
+themoviedb_android_app,CircleCI,Unit_Test
+bjutwifi,GitHub Actions,Unit_Test
+bjutwifi,GitHub Actions,Unit_Test
+bjutwifi,GitHub Actions,none
+onscripteryuri,GitHub Actions,none
+onscripteryuri,GitHub Actions,none
+onscripteryuri,GitHub Actions,Unit_Test
+onscripteryuri,GitHub Actions,none
+onscripteryuri,GitHub Actions,none
+alarmclock,GitHub Actions,Unit_Test
+alarmclock,GitHub Actions,Unit_Test
+alarmclock,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+alarmclock,GitHub Actions,Unit_Test
+alarmclock,Travis CI,Unit_Test
+shoppinglist,GitHub Actions,Unit_Test
+uinspector,GitHub Actions,Unit_Test
+switchlanguage,Travis CI,none
+slideanddraglistview,Travis CI,none
+innertune,GitHub Actions,Unit_Test
+innertune,GitHub Actions,Unit_Test
+bjutloginapp,Travis CI,none
+spacex-launch-tracker,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+amiko-android,GitHub Actions,Unit_Test
+amiko-android,Travis CI,none
+generika_android,Travis CI,none
+ocquarium,Travis CI,none
+grblcontroller,GitHub Actions,Unit_Test
+grblcontroller,GitHub Actions,Unit_Test
+tortoise,Travis CI,none
+hyperrogue,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+hyperrogue,GitHub Actions,Unit_Test
+hyperrogue,Travis CI,none
+compressor,Travis CI,Unit_Test
+hydra-android,GitHub Actions,Unit_Test
+milia,GitHub Actions,Unit_Test
+myapplication,GitHub Actions,none
+whuhelper,GitHub Actions,Unit_Test
+android-touch-helper,GitHub Actions,Unit_Test
+zsmth-android,GitHub Actions,Unit_Test
+zsmth-android,GitHub Actions,Unit_Test
+beeshell,GitHub Actions,Unit_Test
+douya,Travis CI,none
+materialfiles,GitHub Actions,Unit_Test
+textselectionwebsearch,GitHub Actions,Unit_Test
+androidwheel,GitHub Actions,Unit_Test
+materialwecenter,Travis CI,none
+android,GitHub Actions,Unit_Test
+android,GitHub Actions,Unit_Test
+toxandroidrefimpl,CircleCI,Unit_Test
+toxandroidrefimpl,GitHub Actions,Unit_Test
+toxandroidrefimpl,GitHub Actions,Unit_Test
+toxandroidrefimpl,GitHub Actions,Unit_Test
+toxandroidrefimpl,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+toxandroidrefimpl,GitHub Actions,"GitHub_emulator_full, Unit_Test"
+toxandroidrefimpl,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+toxandroidrefimpl,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+toxandroidrefimpl,Unknown,Unit_Test
+dialogue,GitHub Actions,"GitHub_emulator_full, Other, Unit_Test"
+souvenirs-android,GitHub Actions,Unit_Test
+feed-watcher,GitHub Actions,Unit_Test
+filmchecker,Travis CI,none
+qq-exp-android,GitHub Actions,none
+android-robocar,CircleCI,Unit_Test
+zulip-mobile,GitHub Actions,Unit_Test
+every_door,GitHub Actions,Unit_Test
+familyfinance-android,GitHub Actions,Unit_Test
+familyfinance-android,GitHub Actions,Unit_Test
+smartproxy,Travis CI,none
+symphony,GitHub Actions,Unit_Test
+symphony,GitHub Actions,Unit_Test
+symphony,GitHub Actions,Unit_Test
+symphony,GitHub Actions,Unit_Test
