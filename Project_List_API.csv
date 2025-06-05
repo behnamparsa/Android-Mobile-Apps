@@ -35,19 +35,19 @@ water-me,Unit_Test,0,1,0
 photon,Unit_Test,0,2,0
 ez-recipes-android,"GitHub_emulator_full, Unit_Test",3,2,0
 brouter,Unit_Test,0,2,0
-shoppinglist,"GitHub_emulator_manual, Unit_Test",0,4,0
+shoppinglist,"Unit_Test, emulator_manual",0,4,0
 aztube-app,Unit_Test,0,1,0
 brassexcerpts,Unit_Test,0,1,0
 scalepractice,Unit_Test,0,1,0
-android,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",4,64,0
+android,"GitHub_emulator_full, Unit_Test, emulator_manual",4,64,0
 accrescent,Unit_Test,0,3,0
 15puzzle,"GitHub_emulator_full, Unit_Test",1,3,0
-acdisplay,"GitHub_emulator_manual, Unit_Test",0,1,0
+acdisplay,"Unit_Test, emulator_manual",0,1,0
 c2c-android-2021,Unit_Test,0,2,0
 gitpositive,Unit_Test,0,2,0
 amirisback_frogo-admob,Unit_Test,0,3,0
 alt,Unit_Test,0,3,0
-aw-android,"GitHub_emulator_manual, Unit_Test",0,2,0
+aw-android,"Unit_Test, emulator_manual",0,2,0
 rlad,"GitHub_emulator_full, Unit_Test",1,1,0
 lineflag,Unit_Test,0,3,0
 adaway,Unit_Test,0,4,0
@@ -60,7 +60,7 @@ inventory-tracker,Unit_Test,0,1,0
 met-cs622-chatbot-project,Unit_Test,0,2,0
 dcipher-app,none,0,1,0
 word-list,none,0,1,0
-covidcertificate-app-android,"Unit_Test, browserstack_test",0,11,0
+covidcertificate-app-android,"Browserstack, Unit_Test",0,11,0
 compose-challenges,"GitHub_emulator_full, Unit_Test",3,1,0
 got-trivia,none,0,1,0
 secure-storage-android,"GitHub_emulator_full, Unit_Test",5,3,0
@@ -121,7 +121,7 @@ wifiauto,none,0,1,0
 rickandmorty,"GitHub_emulator_full, Unit_Test",1,6,0
 kanade,Unit_Test,0,2,0
 coffeedrinkswithjetpackcompose,"GitHub_emulator_full, Unit_Test",1,2,0
-mapnotes,"Unit_Test, firebase_Full",0,1,0
+mapnotes,"Firebase_Full, Unit_Test",0,1,0
 ensicord,Unit_Test,0,2,0
 bitnews,Unit_Test,0,1,0
 jreader,Unit_Test,0,2,1
@@ -154,22 +154,22 @@ nutrifit,Unit_Test,0,3,0
 anbox,Unit_Test,0,2,0
 and-bible,"GitHub_emulator_full, Unit_Test",1,7,0
 vergiss-nix,Unit_Test,0,1,0
-andprox,"GitHub_emulator_manual, Unit_Test",0,1,0
+andprox,"Unit_Test, emulator_manual",0,1,0
 anilist,Unit_Test,0,1,0
 xzil-wallet,Unit_Test,0,1,0
-hostel,"Unit_Test, firebase_Full",0,1,0
+hostel,"Firebase_Full, Unit_Test",0,1,0
 kandroid,none,0,1,0
 nextcloudservices,Unit_Test,0,1,0
 sstreu2017,Unit_Test,0,1,0
 trekarta,"GitHub_emulator_full, Unit_Test",2,3,0
-swift-weather-app,"GitHub_emulator_manual, Unit_Test",0,3,0
+swift-weather-app,"Unit_Test, emulator_manual",0,3,0
 virtualxposed,Unit_Test,0,2,0
 android-password-store,Unit_Test,0,10,0
 devto-android,Unit_Test,0,1,0
 androidktx,Unit_Test,0,3,0
 kotlin-android-starter,Unit_Test,0,1,0
 androidx,Unit_Test,0,10,0
-andstatus,"GitHub_emulator_manual, Unit_Test",0,1,0
+andstatus,"Unit_Test, emulator_manual",0,1,0
 conning_tower,Unit_Test,0,3,0
 quotey,Unit_Test,0,1,0
 sms_my_gps,Unit_Test,0,1,0
@@ -183,14 +183,14 @@ slipview,none,0,1,0
 tickmarks,Unit_Test,0,1,0
 appwatcher,Unit_Test,0,1,0
 ant-design-mobile-rn,Unit_Test,0,3,0
-antennapod,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,2,0
+antennapod,"GitHub_emulator_full, Unit_Test, emulator_manual",1,2,0
 jetpack-compose-bible,Unit_Test,0,1,0
 animatedprogressbar,none,0,1,0
 regalandroid,none,0,1,0
-cattle,"Unit_Test, firebase_Full",0,1,0
+cattle,"Firebase_Full, Unit_Test",0,1,0
 pendu,Unit_Test,0,1,0
 vnavi,Unit_Test,0,2,0
-antox,"GitHub_emulator_manual, Unit_Test",0,2,0
+antox,"Unit_Test, emulator_manual",0,2,0
 thunder,Unit_Test,0,1,0
 mindustry,Unit_Test,0,3,0
 anysoftkeyboard,Unit_Test,0,8,0
@@ -198,13 +198,13 @@ mcinabox,Unit_Test,0,1,0
 rpncalc,Unit_Test,0,1,0
 mtuo,Unit_Test,0,2,0
 otter,Unit_Test,0,2,0
-easyrecipe,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,3,0
+easyrecipe,"GitHub_emulator_full, Unit_Test, emulator_manual",1,3,0
 etsmobile-android2,Unit_Test,0,1,0
-notre-dame-v3,"GitHub_emulator_manual, Unit_Test",0,1,0
+notre-dame-v3,"Unit_Test, emulator_manual",0,1,0
 notre-dame,Unit_Test,0,3,0
 avare,Unit_Test,0,1,0
 apple-flinger,Unit_Test,0,1,0
-jtt_android,"GitHub_emulator_manual, Unit_Test",0,2,0
+jtt_android,"Unit_Test, emulator_manual",0,2,0
 open-source-android-weather-app,none,0,1,0
 proexpense,none,0,1,0
 elfeed-cljsrn,Unit_Test,0,3,0
@@ -227,7 +227,7 @@ openchord,none,0,1,0
 arcade-plaza,Unit_Test,0,1,0
 readyou,Unit_Test,0,2,0
 picasa-gallery-android,Unit_Test,0,2,0
-retrofit-lite,"GitHub_emulator_manual, Unit_Test",0,2,0
+retrofit-lite,"Unit_Test, emulator_manual",0,2,0
 paperless-mobile,Unit_Test,0,4,0
 cardiac-zone-android,Unit_Test,0,2,0
 miwok-app,Unit_Test,0,1,0
@@ -300,8 +300,8 @@ zaptap,Unit_Test,0,1,0
 epicture,none,0,1,0
 fediverse,Unit_Test,0,6,0
 movie-app-android,Unit_Test,0,3,0
-iconic-tab-bar,"GitHub_emulator_manual, Unit_Test",0,1,0
-mangindo,"GitHub_emulator_manual, Unit_Test",0,1,0
+iconic-tab-bar,"Unit_Test, emulator_manual",0,1,0
+mangindo,"Unit_Test, emulator_manual",0,1,0
 readhub-android,Unit_Test,0,1,0
 accordion,Unit_Test,0,2,0
 crossword,Unit_Test,0,2,0
@@ -315,12 +315,12 @@ shorty,Unit_Test,0,2,0
 sig-gen,Unit_Test,0,2,0
 tuner,Unit_Test,0,2,0
 wordlesolver,Unit_Test,0,2,0
-rachma-android,"GitHub_emulator_manual, Unit_Test",0,1,0
+rachma-android,"Unit_Test, emulator_manual",0,1,0
 defiscan,Unit_Test,0,1,0
 jagrati,Unit_Test,0,1,0
 technical-fest,Unit_Test,0,1,0
 bitcoin-wallet,none,0,2,1
-icsx5,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,4,0
+icsx5,"GitHub_emulator_full, Unit_Test, emulator_manual",1,4,0
 autonomy-client,Unit_Test,0,7,1
 bitportal-client,Unit_Test,0,2,0
 tucao,none,0,1,0
@@ -350,8 +350,8 @@ android05-mogakrun,Unit_Test,0,1,0
 android06-mogle,Unit_Test,0,2,0
 tictactoe,Unit_Test,0,1,0
 gallerywall,Unit_Test,0,2,0
-photo-sharing-android,"GitHub_emulator_manual, Unit_Test",0,2,0
-uatranslit,"GitHub_emulator_manual, Unit_Test",0,3,0
+photo-sharing-android,"Unit_Test, emulator_manual",0,2,0
+uatranslit,"Unit_Test, emulator_manual",0,3,0
 openbikesharing,none,0,1,0
 wifikeyshare,Unit_Test,0,1,0
 leavesheet,Unit_Test,0,1,0
@@ -366,8 +366,8 @@ gift-card-guard,Unit_Test,0,1,0
 loyalty-card-locker,Unit_Test,0,1,0
 protect-baby-monitor,Unit_Test,0,1,0
 rental-calc,Unit_Test,0,1,0
-video-transcoder,"GitHub_emulator_manual, Unit_Test",0,1,0
-mixpanel-android,"GitHub_emulator_manual, Unit_Test",0,1,0
+video-transcoder,"Unit_Test, emulator_manual",0,1,0
+mixpanel-android,"Unit_Test, emulator_manual",0,1,0
 readmoretextview,none,0,1,0
 todozy,Unit_Test,0,1,0
 amplify,Unit_Test,0,1,0
@@ -412,7 +412,7 @@ simple_app_blocker,Unit_Test,0,1,0
 better-internet-tiles,Unit_Test,0,1,0
 paintroid,Unit_Test,0,2,0
 fosdem-companion-android,Unit_Test,0,1,0
-ultimatewordfinder,"GitHub_emulator_manual, Unit_Test",0,1,0
+ultimatewordfinder,"Unit_Test, emulator_manual",0,1,0
 boardgamegeek4android,Unit_Test,0,1,0
 cculife,Unit_Test,0,2,0
 android-imsi-catcher-detector,none,0,1,0
@@ -424,7 +424,7 @@ pageindicator,none,0,1,0
 weipay,none,0,1,0
 chatgpt-app,Unit_Test,0,1,0
 playcode,Unit_Test,0,1,0
-opentraining,"GitHub_emulator_manual, Unit_Test",0,1,0
+opentraining,"Unit_Test, emulator_manual",0,1,0
 meteroid,Unit_Test,0,1,0
 share-my-number,Unit_Test,0,1,0
 chatwoot-mobile-app,Unit_Test,0,1,0
@@ -437,24 +437,24 @@ debt-manager,Unit_Test,0,1,0
 good_first_issue,Unit_Test,0,1,0
 bark,"GitHub_emulator_full, Unit_Test",3,1,0
 phonograph_plus,Unit_Test,0,3,0
-curriculumvitae,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",5,3,0
+curriculumvitae,"GitHub_emulator_full, Unit_Test, emulator_manual",5,3,0
 socketweather,Unit_Test,0,3,0
-ratingdialok,"GitHub_emulator_manual, Unit_Test",0,1,0
+ratingdialok,"Unit_Test, emulator_manual",0,1,0
 songs,Unit_Test,0,4,0
 tacere,none,0,1,0
-encryptedsharedpreferences,"GitHub_emulator_manual, Unit_Test",0,1,0
+encryptedsharedpreferences,"Unit_Test, emulator_manual",0,1,0
 mutecamera,none,0,1,0
 robinhood-options-mobile,Unit_Test,0,2,0
 ncihost,Unit_Test,0,1,0
 calendula,Unit_Test,0,1,0
 attachcontact,Unit_Test,0,1,0
-clarifai-android-starter,"GitHub_emulator_manual, Unit_Test",0,1,0
+clarifai-android-starter,"Unit_Test, emulator_manual",0,1,0
 lazydb,none,0,1,0
 cleantodo,none,0,1,0
 expensetracker,none,0,1,0
 android-remote,Unit_Test,0,1,0
 days,Unit_Test,0,1,0
-cloudinary_android,"GitHub_emulator_manual, Unit_Test",0,1,0
+cloudinary_android,"Unit_Test, emulator_manual",0,1,0
 snu_class_2021_art,Unit_Test,0,1,0
 distantworlds-muzei,Unit_Test,0,2,0
 boromi,Unit_Test,0,1,0
@@ -463,14 +463,14 @@ momentum,Unit_Test,0,1,0
 cmput301f22t06_team_project,Unit_Test,0,1,0
 nlweer,Unit_Test,0,1,0
 vt-androidclient,Unit_Test,0,2,0
-noisepercolator,GitHub_emulator_manual,0,1,0
+noisepercolator,emulator_manual,0,1,0
 bundel,Unit_Test,0,2,0
-harmony,"Unit_Test, firebase_Full",0,3,0
+harmony,"Firebase_Full, Unit_Test",0,3,0
 de-urgenta-android,Unit_Test,0,2,0
 farebot,none,0,1,0
 study-buddy-app,Unit_Test,0,4,0
-koffeemate,"GitHub_emulator_manual, Unit_Test",0,1,0
-referandumproject,"GitHub_emulator_manual, Unit_Test",0,1,0
+koffeemate,"Unit_Test, emulator_manual",0,1,0
+referandumproject,"Unit_Test, emulator_manual",0,1,0
 awol,Unit_Test,0,2,0
 enigmatic-mouse,none,0,1,0
 gnucash-android,none,0,1,0
@@ -493,7 +493,7 @@ morphtransitions,Unit_Test,0,1,0
 reptar,none,0,1,0
 tisk,none,0,1,0
 viewtiful,none,0,1,0
-fractalzoo,"GitHub_emulator_manual, Unit_Test",0,2,0
+fractalzoo,"Unit_Test, emulator_manual",0,2,0
 sslsocks,none,0,1,0
 hello-java-android,Unit_Test,0,1,0
 connectbot,"GitHub_emulator_full, Unit_Test",1,4,0
@@ -502,8 +502,8 @@ paristransporttraffic,Unit_Test,0,1,0
 medicationmanager,Unit_Test,0,2,0
 nightlight,none,0,1,0
 cosmic-ide,Unit_Test,0,9,0
-atom-tasks,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,2,0
-android-comonadic-ui,"GitHub_emulator_manual, Unit_Test",0,1,0
+atom-tasks,"GitHub_emulator_full, Unit_Test, emulator_manual",1,2,0
+android-comonadic-ui,"Unit_Test, emulator_manual",0,1,0
 crawl,Unit_Test,0,1,0
 flashy,Unit_Test,0,2,0
 fucksgiven,Unit_Test,0,4,0
@@ -521,7 +521,7 @@ mensaplan,Unit_Test,0,3,0
 ning,none,0,1,0
 2021-1-ossp2-barcode-8,Unit_Test,0,1,0
 android-minimal-todo,Unit_Test,0,1,0
-ludwig-android,"Unit_Test, firebase_Full",0,1,0
+ludwig-android,"Firebase_Full, Unit_Test",0,1,0
 stockcontrol,none,0,1,0
 spotifykt,Unit_Test,0,2,0
 darkmodewallpaper,Unit_Test,0,2,0
@@ -530,7 +530,7 @@ canvass-app,Unit_Test,0,2,0
 flashdim,Unit_Test,0,3,0
 pincredible,Unit_Test,0,3,0
 phphub-android,none,0,1,0
-userland,"Unit_Test, firebase_Full",0,1,0
+userland,"Firebase_Full, Unit_Test",0,1,0
 stack_wallet,Unit_Test,0,1,0
 code-scanner,Unit_Test,0,3,0
 capod,Unit_Test,0,3,0
@@ -614,7 +614,7 @@ bottomnavigationbar,Unit_Test,0,1,0
 myluaapp,Unit_Test,0,1,0
 lastcaller,none,0,1,0
 popular-movies,none,0,1,0
-group-05,"GitHub_emulator_manual, Unit_Test",0,1,0
+group-05,"Unit_Test, emulator_manual",0,1,0
 hypatia,Unit_Test,0,1,0
 irremote,Unit_Test,0,1,0
 maps,Unit_Test,0,1,0
@@ -623,7 +623,7 @@ wlanbackend,Unit_Test,0,1,0
 aaaaxy,Unit_Test,0,9,0
 gelli,Unit_Test,0,1,0
 speedrun-browser-android,Unit_Test,0,2,0
-opentasks,"GitHub_emulator_manual, Unit_Test",0,1,0
+opentasks,"Unit_Test, emulator_manual",0,1,0
 emulator-detector,none,0,1,0
 ididit,Unit_Test,0,4,0
 infinity-for-reddit,Unit_Test,0,2,0
@@ -635,7 +635,7 @@ any,"GitHub_emulator_full, Unit_Test",1,4,0
 draggable-menu,Unit_Test,0,1,0
 domodroid,none,0,1,0
 nuwm-frontend,Unit_Test,0,1,0
-micropinner,"GitHub_emulator_manual, Unit_Test",0,2,0
+micropinner,"Unit_Test, emulator_manual",0,2,0
 bartrunnerandroid,none,0,1,0
 clear-todolist,none,0,1,0
 waterfly-iii,Unit_Test,0,1,0
@@ -676,7 +676,7 @@ app,Unit_Test,0,17,0
 lady-happy-android,Unit_Test,0,2,0
 radiotok,Unit_Test,0,1,0
 mszprogressindicator,Unit_Test,0,1,0
-rpicheck,"GitHub_emulator_manual, Unit_Test",0,1,0
+rpicheck,"Unit_Test, emulator_manual",0,1,0
 houseparty,Unit_Test,0,1,0
 nmedia,none,0,1,0
 delish,Unit_Test,0,2,1
@@ -688,12 +688,12 @@ light-controller,none,0,1,0
 fwdportforwardingapp,none,0,1,0
 pomodoro-timer,Unit_Test,0,2,0
 simple-accounting,none,0,1,0
-snmp-cockpit,"GitHub_emulator_manual, Unit_Test",0,1,0
+snmp-cockpit,"Unit_Test, emulator_manual",0,1,0
 brainteaser,Unit_Test,0,2,0
 music-player-go,Unit_Test,0,1,0
 jamme,Unit_Test,0,1,0
 photos-app,Unit_Test,0,3,0
-envelop-android,"Unit_Test, firebase_Full",0,2,0
+envelop-android,"Firebase_Full, Unit_Test",0,2,0
 my-career,Unit_Test,0,3,0
 epimetheus,Unit_Test,0,1,0
 tremotesf-android,Unit_Test,0,1,0
@@ -719,7 +719,7 @@ exodus-android-app,Unit_Test,0,2,0
 exokit,Unit_Test,0,2,0
 android-rxfirebase,Unit_Test,0,1,0
 nearbychat,none,0,1,0
-hglauncher,"GitHub_emulator_manual, Unit_Test",0,2,0
+hglauncher,"Unit_Test, emulator_manual",0,2,0
 hid-barcode-scanner,Unit_Test,0,3,0
 dokuwikiandroid,Unit_Test,0,2,0
 debty-v2,Unit_Test,0,1,0
@@ -740,7 +740,7 @@ reminderpro,Unit_Test,0,1,0
 fancyshowcaseview,Unit_Test,0,1,0
 wifiview,none,0,1,1
 todo-compose,"GitHub_emulator_full, Unit_Test",1,3,0
-moveery,"GitHub_emulator_manual, Unit_Test",0,1,0
+moveery,"Unit_Test, emulator_manual",0,1,0
 mood-tracker-android,Unit_Test,0,1,0
 omni-notes,"GitHub_emulator_full, Unit_Test",1,2,0
 octo4a,Unit_Test,0,1,0
@@ -750,7 +750,7 @@ usbserial,none,0,1,0
 6502android,none,0,1,0
 gifimageview,none,0,1,0
 ktnes,Unit_Test,0,1,0
-marvel-app,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test, firebase_Full",1,3,0
+marvel-app,"Firebase_Full, GitHub_emulator_full, Unit_Test, emulator_manual",1,3,0
 marvel-client,Unit_Test,0,1,0
 lyricly,Unit_Test,0,1,0
 yummy,Unit_Test,0,1,0
@@ -761,11 +761,11 @@ simple-paint,Unit_Test,0,2,0
 sallefy,Unit_Test,0,1,0
 converternow,Unit_Test,0,3,0
 deezerclone,Unit_Test,0,1,0
-flone-android,"GitHub_emulator_manual, Unit_Test",0,1,0
+flone-android,"Unit_Test, emulator_manual",0,1,0
 relaxfinger,none,0,1,0
 ka27,none,0,1,0
 ws2022_pme_flipsen,Unit_Test,0,1,0
-family-care,"GitHub_emulator_manual, Unit_Test",0,1,0
+family-care,"Unit_Test, emulator_manual",0,1,0
 android-invoice-generator,Unit_Test,0,1,0
 noefinderlein_flutter,Unit_Test,0,8,0
 nabung,Unit_Test,0,1,0
@@ -803,13 +803,13 @@ androbd,Unit_Test,0,1,0
 bikesharinghub,none,0,1,0
 vsmartcard,Unit_Test,0,4,0
 cavedroid,none,0,1,0
-mobile-app,"GitHub_emulator_full, browserstack_test",1,3,0
+mobile-app,"Browserstack, GitHub_emulator_full",1,3,0
 freeotp-android,none,0,1,0
 freezeyou,Unit_Test,0,2,0
 daytomato,none,0,1,0
 mhabit,Unit_Test,0,4,0
 secure-sms-proxy,Unit_Test,0,4,0
-frinder-app,"GitHub_emulator_manual, Unit_Test",0,1,0
+frinder-app,"Unit_Test, emulator_manual",0,1,0
 lapd,Unit_Test,0,1,0
 android-base,Unit_Test,0,3,1
 reclaim,Unit_Test,0,1,0
@@ -826,7 +826,7 @@ mhworlddatabase,Unit_Test,0,1,0
 whatsapp_status_saver,Unit_Test,0,1,0
 android-layout-transitions-kotlin,none,0,1,0
 android-vpn-client-ics-openvpn,Unit_Test,0,2,0
-xiaexpressandroid,"GitHub_emulator_manual, Unit_Test",0,1,0
+xiaexpressandroid,"Unit_Test, emulator_manual",0,1,0
 zethree,Unit_Test,0,1,0
 frisbee,Unit_Test,0,1,0
 gidget,Unit_Test,0,3,0
@@ -844,9 +844,9 @@ xxpermissions,Unit_Test,0,1,0
 sentry-mobile-release-health-app,Unit_Test,0,1,0
 stream-draw-android,Unit_Test,0,1,0
 android-helium,Unit_Test,0,1,0
-ghini,"GitHub_emulator_manual, Unit_Test",0,1,0
+ghini,"Unit_Test, emulator_manual",0,1,0
 topdf,Unit_Test,0,1,0
-pdd-flow,"GitHub_emulator_manual, Unit_Test",0,1,0
+pdd-flow,"Unit_Test, emulator_manual",0,1,0
 fast-face-android,none,0,1,0
 livescoreapp,Unit_Test,0,2,0
 pwswatcher,Unit_Test,0,1,0
@@ -862,7 +862,7 @@ draftsman,Unit_Test,0,2,0
 musify,Unit_Test,0,7,0
 androidkeylogger,Unit_Test,0,1,0
 clipboard,Unit_Test,0,1,0
-mp3player,"Unit_Test, firebase_Full",0,6,0
+mp3player,"Firebase_Full, Unit_Test",0,6,0
 android-clean-arquitecture,Unit_Test,0,1,0
 dictionary-app,Unit_Test,0,1,0
 realtime-android,none,0,1,0
@@ -881,7 +881,7 @@ auditor,Unit_Test,0,2,0
 pdfviewer,Unit_Test,0,3,0
 thenounproject,Unit_Test,0,1,0
 greencloud,Unit_Test,0,2,0
-abcore,"GitHub_emulator_manual, Unit_Test",0,1,0
+abcore,"Unit_Test, emulator_manual",0,1,0
 seed-android-design-system,Unit_Test,0,1,0
 treetracker-android,Unit_Test,0,2,0
 nice-animals,Unit_Test,0,1,0
@@ -924,11 +924,11 @@ volumekeys,none,0,1,0
 inure,Unit_Test,0,1,0
 wazaker,Unit_Test,0,3,0
 kotlinandroidbase,"GitHub_emulator_full, Unit_Test",1,1,0
-1rramp-android,"GitHub_emulator_manual, Unit_Test",0,2,0
+1rramp-android,"Unit_Test, emulator_manual",0,2,0
 covid-19-tracker,Unit_Test,0,1,0
 moonshot,"GitHub_emulator_full, Unit_Test",1,1,0
 moviedb,none,0,1,0
-dairy-management,"GitHub_emulator_manual, Unit_Test",0,1,0
+dairy-management,"Unit_Test, emulator_manual",0,1,0
 hash-checker,"GitHub_emulator_full, Unit_Test",1,2,0
 music-player,Unit_Test,0,1,0
 rally,Unit_Test,0,1,0
@@ -992,7 +992,7 @@ wanandroid,Unit_Test,0,3,0
 kanji-recognition-android,Unit_Test,0,1,0
 best-seller-book-app,Unit_Test,0,1,0
 psm-mobile-app,Unit_Test,0,2,0
-ideatrackerplus,"GitHub_emulator_manual, Unit_Test",0,1,0
+ideatrackerplus,"Unit_Test, emulator_manual",0,1,0
 duocamera,none,0,1,0
 tfprofiler,none,0,1,0
 logginginterceptor,Unit_Test,0,1,0
@@ -1010,7 +1010,7 @@ openredmine,none,0,1,0
 faceslim,none,0,1,0
 nfc-explorer,none,0,1,0
 wsa-installedapps,Unit_Test,0,1,0
-android-kdrive,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,2,0
+android-kdrive,"GitHub_emulator_full, Unit_Test, emulator_manual",1,2,0
 android-kmail,Unit_Test,1,5,0
 minimal-quotes,Unit_Test,0,1,0
 office-assistant-legacy,Unit_Test,0,1,0
@@ -1025,7 +1025,7 @@ mobile-cardio,none,0,1,0
 modalbottomsheetdialog,Unit_Test,0,1,0
 admin-portal,Unit_Test,0,2,0
 dazzling-android-kt,none,0,1,0
-gomobile-ipfs,"GitHub_emulator_manual, Unit_Test",0,4,0
+gomobile-ipfs,"Unit_Test, emulator_manual",0,4,0
 ireader,Unit_Test,0,7,0
 android-codebase-modularity,Unit_Test,0,1,0
 hackernews-react-native,Unit_Test,0,1,0
@@ -1048,7 +1048,7 @@ pedometer,none,0,1,0
 systemappmover,none,0,1,0
 wifi-automatic,none,0,1,0
 glut,Unit_Test,0,2,0
-newsapp-retrofit,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",3,2,0
+newsapp-retrofit,"GitHub_emulator_full, Unit_Test, emulator_manual",3,2,0
 frames,Unit_Test,0,1,0
 multiplatformgithubtopics,Unit_Test,0,1,0
 athelite,Unit_Test,0,1,0
@@ -1059,7 +1059,7 @@ donezo,Unit_Test,0,1,0
 af-pay,none,0,1,0
 osmin,Unit_Test,0,3,0
 nonocross,Unit_Test,0,1,0
-android-gif-search,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",0,1,0
+android-gif-search,"GitHub_emulator_full, Unit_Test, emulator_manual",0,1,0
 flutter-gif-search,Unit_Test,0,1,0
 srml,Unit_Test,0,1,0
 memecreator,Unit_Test,0,1,0
@@ -1075,7 +1075,7 @@ amerykahospital-personalized-advice-client-android,none,0,1,0
 material-sudoku,Unit_Test,0,1,0
 runlog-kmm,Unit_Test,0,1,0
 shop-with-mom,Unit_Test,0,1,0
-e2e-detox,"GitHub_emulator_manual, Unit_Test",0,2,0
+e2e-detox,"Unit_Test, emulator_manual",0,2,0
 jellyfin-android,Unit_Test,0,8,0
 jellyfin-androidtv,Unit_Test,0,7,0
 oandbackup,Unit_Test,0,2,0
@@ -1083,15 +1083,15 @@ bacon,Unit_Test,0,1,0
 sushi,Unit_Test,0,2,0
 gitnotes,Unit_Test,0,1,0
 flutter-social,Unit_Test,0,2,0
-timelineview,"GitHub_emulator_manual, Unit_Test",0,1,0
+timelineview,"Unit_Test, emulator_manual",0,1,0
 armscomponent,none,0,1,0
 lifecyclemodel,none,0,1,0
 frag-den-staat-app,none,0,1,0
 feather,Unit_Test,0,1,0
-nicevieoplayer,"GitHub_emulator_manual, Unit_Test",0,1,0
+nicevieoplayer,"Unit_Test, emulator_manual",0,1,0
 luadroid,none,0,1,0
 movies,Unit_Test,0,4,0
-sharetocomputer,"GitHub_emulator_manual, Unit_Test",0,1,0
+sharetocomputer,"Unit_Test, emulator_manual",0,1,0
 tts-server-android,Unit_Test,0,3,0
 jzandroidchart,none,0,1,0
 preferencesextension,none,0,1,0
@@ -1099,9 +1099,9 @@ playword,none,0,1,0
 brethap,Unit_Test,0,2,0
 android-conferences,Unit_Test,0,1,0
 jitsi-meet,Unit_Test,0,4,0
-enginedriver,"GitHub_emulator_manual, Unit_Test",0,1,0
+enginedriver,"Unit_Test, emulator_manual",0,1,0
 plantmanager,Unit_Test,0,5,0
-titancompanion,"Unit_Test, firebase_Full",0,1,0
+titancompanion,"Firebase_Full, Unit_Test",0,1,0
 portfolio,Unit_Test,0,1,0
 taskly,Unit_Test,0,1,0
 tailor_made,Unit_Test,0,1,0
@@ -1149,7 +1149,7 @@ togozip,Unit_Test,0,2,0
 to-do_jetpack_compose,Unit_Test,0,1,0
 kaidan,Unit_Test,0,1,0
 omrecorder,none,0,1,0
-secure-quick-reliable-login,"GitHub_emulator_manual, Unit_Test",0,1,0
+secure-quick-reliable-login,"Unit_Test, emulator_manual",0,1,0
 blacklist,none,0,1,0
 k6nele,Unit_Test,0,1,0
 kaltura-device-info-android,none,0,1,0
@@ -1162,7 +1162,7 @@ moviesy,Unit_Test,0,1,0
 cocwallpaper-android-,Unit_Test,0,1,0
 android-torchlight,none,0,1,0
 ktrip,none,0,1,0
-shortyz,"GitHub_emulator_manual, Unit_Test",0,2,0
+shortyz,"Unit_Test, emulator_manual",0,2,0
 keevault2,Unit_Test,0,3,0
 keibai-android,Unit_Test,0,1,0
 hexviewer,Unit_Test,0,3,0
@@ -1170,8 +1170,8 @@ cocoa-android,"GitHub_emulator_full, Unit_Test",0,1,0
 onesentence,Unit_Test,0,1,0
 coffeebreaker,Unit_Test,0,2,0
 safenotes,Unit_Test,0,1,0
-archwiki-viewer,"GitHub_emulator_manual, Unit_Test",0,1,0
-swishticker,"GitHub_emulator_manual, Unit_Test",0,1,0
+archwiki-viewer,"Unit_Test, emulator_manual",0,1,0
+swishticker,"Unit_Test, emulator_manual",0,1,0
 keymapper,Unit_Test,0,3,0
 freetamilebooks,Unit_Test,0,1,0
 khumu-android,Unit_Test,0,1,0
@@ -1211,7 +1211,7 @@ androidclient,Unit_Test,0,1,0
 collinsdictionary,Unit_Test,0,1,0
 android-luajit-launcher,none,0,1,0
 wifi-radar,Unit_Test,0,1,0
-networkmapper,"GitHub_emulator_manual, Unit_Test",0,1,0
+networkmapper,"Unit_Test, emulator_manual",0,1,0
 android_navigator,Unit_Test,0,2,0
 flappybird,Unit_Test,0,1,0
 randomizer,Unit_Test,0,1,0
@@ -1262,7 +1262,7 @@ gesturelockview,Unit_Test,0,1,0
 watchlist,Unit_Test,0,1,0
 photok,Unit_Test,0,4,0
 lesspass,Unit_Test,0,17,0
-sleep-cycle-alarm,"GitHub_emulator_manual, Unit_Test",0,1,0
+sleep-cycle-alarm,"Unit_Test, emulator_manual",0,1,0
 lexica,Unit_Test,0,2,0
 irl-link,Unit_Test,0,2,0
 lrkfm,Unit_Test,0,2,0
@@ -1292,7 +1292,7 @@ keter-escape,Unit_Test,0,1,0
 unchained-android,Unit_Test,0,1,0
 continuousspeechrecognition,Unit_Test,0,1,0
 qpassword,none,0,1,0
-auto-fi,"GitHub_emulator_manual, Unit_Test",0,1,0
+auto-fi,"Unit_Test, emulator_manual",0,1,0
 apodktm,Unit_Test,0,1,0
 localsend,Unit_Test,0,4,0
 flutter_server_box,Unit_Test,0,2,0
@@ -1339,7 +1339,7 @@ iconify,Unit_Test,0,1,0
 banjen,none,0,1,0
 todayhistory,Unit_Test,0,1,0
 mgit,Unit_Test,0,1,0
-popular-movies-app,"GitHub_emulator_manual, Unit_Test",0,2,0
+popular-movies-app,"Unit_Test, emulator_manual",0,2,0
 cat-adoption-app,"GitHub_emulator_full, Unit_Test",3,1,0
 my-soothe,"GitHub_emulator_full, Unit_Test",3,1,0
 we-trade,"GitHub_emulator_full, Unit_Test",3,1,0
@@ -1350,7 +1350,7 @@ timerinrecyclerview,Unit_Test,0,1,0
 bluetoothscanning,Unit_Test,0,2,0
 4th_grade_is-master-,Unit_Test,0,1,0
 pokeapi-compose,none,0,1,0
-onedrawable,"GitHub_emulator_manual, Unit_Test",0,1,0
+onedrawable,"Unit_Test, emulator_manual",0,1,0
 dynamic-island-android-full-application,Unit_Test,0,1,0
 fitary,Unit_Test,0,2,0
 wiimotedsu,Unit_Test,0,3,0
@@ -1379,8 +1379,8 @@ gloom,Unit_Test,0,2,0
 opencord,Unit_Test,0,2,0
 openreads-android,Unit_Test,0,1,0
 sdbviewer,none,0,1,0
-trackworktime,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",0,2,0
-compose-kotlin-repositories,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,1,0
+trackworktime,"GitHub_emulator_full, Unit_Test, emulator_manual",0,2,0
+compose-kotlin-repositories,"GitHub_emulator_full, Unit_Test, emulator_manual",1,1,0
 nextcloud-quicknotes-android,Unit_Test,0,1,0
 smilodon,"GitHub_emulator_full, Unit_Test",1,1,0
 matsuri,Unit_Test,0,1,0
@@ -1389,14 +1389,14 @@ yelpexplorer,Unit_Test,0,2,0
 scaleway-manager,none,0,1,0
 orion-viewer,none,0,1,0
 textpad,Unit_Test,0,1,0
-pindroid,"GitHub_emulator_manual, Unit_Test",0,1,0
+pindroid,"Unit_Test, emulator_manual",0,1,0
 vueddit,Unit_Test,0,1,0
 modularized-flicker-showcase,Unit_Test,0,1,0
 modularized-marvel-showcase,Unit_Test,0,1,0
 dailyfootball,Unit_Test,0,1,0
 mindful-android-launcher,none,0,1,0
 hunters,Unit_Test,0,1,0
-delock,"GitHub_emulator_manual, Unit_Test",0,2,0
+delock,"Unit_Test, emulator_manual",0,2,0
 spending_tracker,Unit_Test,0,1,0
 faketraveler,Unit_Test,0,2,0
 ideabag2,Unit_Test,0,1,0
@@ -1414,7 +1414,7 @@ mcerebrum-streamprocessor,none,0,1,0
 mcerebrum-study,none,0,1,0
 mcerebrum-thoughtshakeup,none,0,1,0
 zapp,Unit_Test,0,1,0
-cht-android,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,2,0
+cht-android,"GitHub_emulator_full, Unit_Test, emulator_manual",1,2,0
 medito-app,Unit_Test,0,3,0
 covid-19,Unit_Test,0,1,0
 booksswipe,Unit_Test,0,1,0
@@ -1433,14 +1433,14 @@ al-azan,Unit_Test,0,3,0
 caveexpress,Unit_Test,0,1,0
 dodroid,Unit_Test,0,1,0
 corona-warn-companion-android,Unit_Test,0,1,0
-animewallpaper,"GitHub_emulator_manual, Unit_Test",0,1,0
+animewallpaper,"Unit_Test, emulator_manual",0,1,0
 detective-droid,Unit_Test,0,2,0
 seven_minute_workout_android,none,0,1,0
 cobadge,Unit_Test,0,1,0
 greenpass-android,"GitHub_emulator_full, Unit_Test",1,4,0
 shape-detection-android,Unit_Test,0,2,0
 messenger-android,Unit_Test,0,1,0
-androidappshortcuts,"GitHub_emulator_manual, Unit_Test",0,1,0
+androidappshortcuts,"Unit_Test, emulator_manual",0,1,0
 loopy,Unit_Test,0,2,0
 applewifinlpbackend,none,0,1,0
 ichnaeanlpbackend,Unit_Test,0,2,0
@@ -1449,8 +1449,8 @@ unifiednlp,Unit_Test,0,2,0
 adaptivecards,Unit_Test,0,4,0
 harbour-berlin-vegan,Unit_Test,0,1,0
 emblaflutterapp,Unit_Test,0,1,0
-trip-o-meter,"GitHub_emulator_manual, Unit_Test",0,1,0
-custombottomsheetbehavior,"GitHub_emulator_manual, Unit_Test",0,1,0
+trip-o-meter,"Unit_Test, emulator_manual",0,1,0
+custombottomsheetbehavior,"Unit_Test, emulator_manual",0,1,0
 shimmer-recyclerview-x,none,0,1,0
 dexter,Unit_Test,0,2,0
 ssvmandroid,Unit_Test,0,1,0
@@ -1567,7 +1567,7 @@ nfcgate,none,0,1,0
 nfsee,Unit_Test,0,2,0
 bluelineconsole,"GitHub_emulator_full, Unit_Test",2,3,0
 mundraub-android,none,0,1,0
-chaosflix,"GitHub_emulator_manual, Unit_Test",0,3,0
+chaosflix,"Unit_Test, emulator_manual",0,3,0
 timeclock,Unit_Test,0,1,0
 partyq-android,Unit_Test,0,1,0
 tv-launcher,none,0,1,0
@@ -1593,7 +1593,7 @@ mkloader,none,0,1,0
 gymroutines,none,0,1,0
 kyouen-android,Unit_Test,0,1,0
 noodle,Unit_Test,0,1,0
-motorsport-circuits,"GitHub_emulator_manual, Unit_Test",0,2,0
+motorsport-circuits,"Unit_Test, emulator_manual",0,2,0
 apcupsd-monitor,Unit_Test,0,1,0
 cell-wall,Unit_Test,0,2,0
 peepz,Unit_Test,0,2,0
@@ -1602,7 +1602,7 @@ sweyer,Unit_Test,0,3,0
 apollo-music,Unit_Test,0,1,0
 foss_warn,Unit_Test,0,1,0
 trippo-the_travel_guide,Unit_Test,0,1,0
-loadmorewrapper,"GitHub_emulator_manual, Unit_Test",0,1,0
+loadmorewrapper,"Unit_Test, emulator_manual",0,1,0
 boorusphere,Unit_Test,0,2,0
 dagashiapp-android,Unit_Test,0,2,0
 sojodia-android,Unit_Test,0,2,0
@@ -1634,7 +1634,7 @@ wilt-android,Unit_Test,0,1,0
 remotedroid,none,0,1,0
 covidnow,Unit_Test,0,1,0
 spacexfollower,Unit_Test,0,2,0
-onebusaway-android,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",2,1,0
+onebusaway-android,"GitHub_emulator_full, Unit_Test, emulator_manual",2,1,0
 picasso,Unit_Test,0,4,0
 cvcamera-mobile,Unit_Test,0,3,0
 probe-android,"GitHub_emulator_full, Unit_Test",1,4,0
@@ -1645,7 +1645,7 @@ openair-android,Unit_Test,0,1,0
 openblocks-app,Unit_Test,0,1,0
 bigsolarhunt,Unit_Test,0,1,0
 flutter-music-app,none,0,1,1
-opendocument,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",3,1,0
+opendocument,"GitHub_emulator_full, Unit_Test, emulator_manual",3,1,0
 openstop,Unit_Test,0,4,0
 smooth-app,Unit_Test,0,18,0
 openhab-android,Unit_Test,0,5,0
@@ -1660,14 +1660,14 @@ lumicall,none,0,1,0
 opentracks,Unit_Test,0,2,0
 osmdashboard,Unit_Test,0,2,0
 mobile-android-legacy,Unit_Test,0,1,0
-organicmaps,"Unit_Test, firebase_Full",0,15,0
+organicmaps,"Firebase_Full, Unit_Test",0,15,0
 orgzly-android,none,0,1,0
 dialogplus,none,0,1,0
 symphony,Unit_Test,0,5,0
 myweatherforecast,"GitHub_emulator_full, Unit_Test",1,1,0
 super-pub-android,Unit_Test,0,1,0
 app_kookmobanuser_ponjohmnaimann,Unit_Test,0,1,0
-amiibowiki,"Unit_Test, firebase_Full",0,4,0
+amiibowiki,"Firebase_Full, Unit_Test",0,4,0
 trime,Unit_Test,0,3,0
 osmand,Unit_Test,0,3,0
 presencepublisher,Unit_Test,0,1,0
@@ -1685,7 +1685,7 @@ oxygen-updater,Unit_Test,0,1,0
 auxio,Unit_Test,0,1,0
 evrimnews,none,0,1,0
 the_calculator,Unit_Test,0,3,0
-functionalandroidreference,"GitHub_emulator_manual, Unit_Test",0,1,0
+functionalandroidreference,"Unit_Test, emulator_manual",0,1,0
 postcode,Unit_Test,0,1,0
 spaceteam-timer,Unit_Test,0,1,0
 talawa,Unit_Test,0,7,0
@@ -1696,7 +1696,7 @@ forecast,Unit_Test,0,1,0
 steamr,Unit_Test,0,1,0
 hash-launcher,Unit_Test,0,1,0
 passwd,Unit_Test,0,1,0
-quotes,"GitHub_emulator_manual, Unit_Test",0,3,0
+quotes,"Unit_Test, emulator_manual",0,3,0
 gdgpune-devfest19-android,none,0,1,0
 notykt,Unit_Test,0,3,0
 biblionantes,Unit_Test,0,2,0
@@ -1722,17 +1722,17 @@ keepass2android,Unit_Test,0,1,0
 whooby,none,0,1,0
 deezerkmp,Unit_Test,0,1,0
 deviantart,Unit_Test,0,1,0
-client-android,"GitHub_emulator_manual, Unit_Test",0,1,0
+client-android,"Unit_Test, emulator_manual",0,1,0
 jamuz-remote,Unit_Test,0,2,0
 foocam,none,0,1,0
 picardbarcodescanner,Unit_Test,0,3,0
-drive,"GitHub_emulator_manual, Unit_Test",0,1,0
-paper,"GitHub_emulator_manual, Unit_Test",0,1,0
+drive,"Unit_Test, emulator_manual",0,1,0
+paper,"Unit_Test, emulator_manual",0,1,0
 android-http-server,Unit_Test,0,2,0
 robotv,Unit_Test,0,2,0
 superquiz,Unit_Test,0,1,0
-fuelup,"GitHub_emulator_manual, Unit_Test",0,1,0
-piwigo-android,"GitHub_emulator_manual, Unit_Test",0,1,0
+fuelup,"Unit_Test, emulator_manual",0,1,0
+piwigo-android,"Unit_Test, emulator_manual",0,1,0
 pixelcat,Unit_Test,0,1,0
 khel-ke-baat-karen,Unit_Test,0,1,0
 pjproject,Unit_Test,0,7,0
@@ -1751,7 +1751,7 @@ greenstash,Unit_Test,0,2,0
 tracktor-composeui,Unit_Test,0,1,0
 mvoterandroid,Unit_Test,0,2,0
 kungfoo,Unit_Test,0,1,0
-openmapkitandroid,"GitHub_emulator_manual, Unit_Test",0,1,0
+openmapkitandroid,"Unit_Test, emulator_manual",0,1,0
 leaflet,Unit_Test,0,1,0
 nyandroid,none,0,1,0
 smsforwarder,Unit_Test,0,2,0
@@ -1760,28 +1760,28 @@ know-corona,Unit_Test,0,1,0
 development_learning,Unit_Test,0,7,0
 chocobar,Unit_Test,0,1,0
 vudit,Unit_Test,0,3,0
-movieapp,"GitHub_emulator_manual, Unit_Test",0,1,0
+movieapp,"Unit_Test, emulator_manual",0,1,0
 expense-tracker,Unit_Test,0,2,0
 topsed-speedometer,Unit_Test,0,2,0
 basekotlinandroid,Unit_Test,0,1,0
 calculator-inator,Unit_Test,0,1,0
 humanizer,Unit_Test,0,1,0
-astro,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",3,3,0
+astro,"GitHub_emulator_full, Unit_Test, emulator_manual",3,3,0
 pretixdroid,none,0,2,0
 pretixprint-android,Unit_Test,0,2,0
 pretixscan-android,Unit_Test,0,2,0
 opencamera-sensors,Unit_Test,0,3,0
-irmamobile,"Unit_Test, firebase_Full",0,2,0
+irmamobile,"Firebase_Full, Unit_Test",0,2,0
 notifier,Unit_Test,0,1,0
 android-app-cortesia-webview,Unit_Test,0,1,0
 android-super-app,Unit_Test,0,1,0
 osrm-text-instructions,Unit_Test,0,1,0
 antimalwareapp,Unit_Test,0,1,0
-wifisdcryptolocker,"GitHub_emulator_manual, Unit_Test",0,1,0
-anchored-behavior,"GitHub_emulator_manual, Unit_Test",0,1,0
+wifisdcryptolocker,"Unit_Test, emulator_manual",0,1,0
+anchored-behavior,"Unit_Test, emulator_manual",0,1,0
 blink-comparison,Unit_Test,0,2,0
 opencomicvine,Unit_Test,0,1,0
-adbclipboard,"GitHub_emulator_manual, Unit_Test",0,1,0
+adbclipboard,"Unit_Test, emulator_manual",0,1,0
 proxerandroid,Unit_Test,0,1,0
 zeptobird,Unit_Test,0,1,0
 nativescript-inappbrowser,Unit_Test,0,1,0
@@ -1804,7 +1804,7 @@ qiyutkandroid,Unit_Test,0,3,0
 anisched-android,none,0,1,0
 netflix,Unit_Test,0,1,0
 good-weather,none,0,1,0
-dynamicnightlight,"GitHub_emulator_manual, Unit_Test",0,1,0
+dynamicnightlight,"Unit_Test, emulator_manual",0,1,0
 xiaomiode2code2022,Unit_Test,0,3,0
 redreader,Unit_Test,0,1,0
 holokenmod,none,0,1,0
@@ -1842,7 +1842,7 @@ android-simpletimetracker,"GitHub_emulator_full, Unit_Test",3,2,0
 context_launcher,Unit_Test,0,1,0
 release-probe,"GitHub_emulator_full, Unit_Test",1,2,0
 readlax,Unit_Test,0,1,0
-redgram-for-reddit,"GitHub_emulator_manual, Unit_Test",0,1,0
+redgram-for-reddit,"Unit_Test, emulator_manual",0,1,0
 xabber-android,none,0,1,0
 gif-wallpaper,Unit_Test,0,7,0
 relaynet-gateway-android,Unit_Test,0,2,0
@@ -1850,7 +1850,7 @@ scriptmanager,Unit_Test,0,1,0
 colorpicker,none,0,1,0
 edokuri,Unit_Test,0,1,0
 textfairy,none,0,1,0
-easer,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,2,0
+easer,"GitHub_emulator_full, Unit_Test, emulator_manual",1,2,0
 encrypted-datastore,Unit_Test,0,1,0
 eshop-android,Unit_Test,0,3,0
 mygithubuser,Unit_Test,0,1,0
@@ -1915,7 +1915,7 @@ currencies,Unit_Test,0,1,0
 ndx,Unit_Test,0,1,0
 finder,none,0,1,0
 recyclerviewlisteners,Unit_Test,0,2,0
-myanimeviewer,"GitHub_emulator_manual, Unit_Test",0,1,0
+myanimeviewer,"Unit_Test, emulator_manual",0,1,0
 generation,Unit_Test,0,3,0
 samourai-wallet-android,none,0,1,0
 blackhole,Unit_Test,0,3,0
@@ -1937,7 +1937,7 @@ flappyface,none,0,1,0
 android-customtabs,Unit_Test,0,2,0
 birthdaycalendar,Unit_Test,0,1,0
 planningpoker,Unit_Test,0,2,0
-dvachmovie,"GitHub_emulator_manual, Unit_Test",0,1,0
+dvachmovie,"Unit_Test, emulator_manual",0,1,0
 sasycakeawayapp,Unit_Test,0,2,0
 rxwebview,Unit_Test,0,1,0
 fitofy-india,Unit_Test,0,1,0
@@ -1986,8 +1986,8 @@ privacy-friendly-torchlight,Unit_Test,0,1,0
 airguard,Unit_Test,0,1,0
 seeneva-reader-android,Unit_Test,0,2,0
 sonofy,Unit_Test,0,2,0
-radiodroid,"GitHub_emulator_compact, GitHub_emulator_manual, Unit_Test",4,4,0
-looper,"GitHub_emulator_manual, Unit_Test",0,1,0
+radiodroid,"GitHub_emulator_compact, Unit_Test, emulator_manual",4,4,0
+looper,"Unit_Test, emulator_manual",0,1,0
 glowing-potato,Unit_Test,0,1,0
 numberslidingpicker,none,0,1,0
 foundry,Unit_Test,0,1,0
@@ -2020,14 +2020,14 @@ collapsible-calendar-view-android,Unit_Test,0,1,0
 age-gender_estimation_tf-android,Unit_Test,0,1,0
 simple_document_scanner_android,Unit_Test,0,1,0
 insticomplaints-app,Unit_Test,0,1,0
-badpixels,"GitHub_emulator_manual, Unit_Test",0,1,0
-ny-times-popular-articles,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,3,0
+badpixels,"Unit_Test, emulator_manual",0,1,0
+ny-times-popular-articles,"GitHub_emulator_full, Unit_Test, emulator_manual",1,3,0
 shopkart,Unit_Test,0,1,0
 httptracking,Unit_Test,0,1,0
 coordinatejoker,Unit_Test,0,2,0
 translate,Unit_Test,0,2,0
 photos,Unit_Test,0,1,0
-silence,"GitHub_emulator_manual, Unit_Test",0,3,0
+silence,"Unit_Test, emulator_manual",0,3,0
 bindapter,Unit_Test,0,1,0
 conveyor,Unit_Test,0,1,0
 simlar-android,none,0,1,0
@@ -2040,7 +2040,7 @@ simplex-chat,Unit_Test,0,3,0
 flutter_japanese_restaurant_app,Unit_Test,0,1,0
 knigopis,none,0,1,0
 diary,Unit_Test,0,1,0
-nepaltoday-app-old,"GitHub_emulator_manual, Unit_Test",0,3,0
+nepaltoday-app-old,"Unit_Test, emulator_manual",0,3,0
 antispam,none,0,1,0
 musicmanager,none,0,1,0
 reader,Unit_Test,0,1,0
@@ -2077,7 +2077,7 @@ instigo,none,0,1,0
 geonotesplus,Unit_Test,0,2,0
 aladin-aos,Unit_Test,0,1,0
 soundcrowd,Unit_Test,0,2,0
-notepad,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",6,4,0
+notepad,"GitHub_emulator_full, Unit_Test, emulator_manual",6,4,0
 cineaste-android,Unit_Test,0,1,0
 otl-app,"GitHub_emulator_full, Unit_Test",1,6,0
 epoch,Unit_Test,0,2,0
@@ -2087,7 +2087,7 @@ vlsm-subnet-mask-calculator,none,0,1,0
 flutter-hackernews,Unit_Test,0,1,0
 dreamdroid,none,0,1,0
 newsapp,none,0,1,0
-proximityservice,"Unit_Test, firebase_Full",0,2,0
+proximityservice,"Firebase_Full, Unit_Test",0,2,0
 parandroid,none,0,2,0
 easyrepost,Unit_Test,0,1,0
 peertube-android,Unit_Test,0,2,0
@@ -2099,7 +2099,7 @@ native,Unit_Test,0,4,0
 randomwordgenerator,none,0,1,0
 manyverse,Unit_Test,0,5,0
 movies_tmdb,none,0,1,0
-dagashiapp,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,2,0
+dagashiapp,"GitHub_emulator_full, Unit_Test, emulator_manual",1,2,0
 dynamicoperu,Unit_Test,0,1,0
 steedos-notification-center,none,0,1,0
 nextcloud-deck,Unit_Test,0,2,0
@@ -2137,7 +2137,7 @@ wordlecompose,Unit_Test,0,1,0
 stk-code,Unit_Test,0,4,0
 arduino-usb-terminal,"GitHub_emulator_full, Unit_Test",1,2,0
 explorern,Unit_Test,0,1,0
-mobile-jisho,"GitHub_emulator_manual, Unit_Test",0,1,0
+mobile-jisho,"Unit_Test, emulator_manual",0,1,0
 circulartimer,Unit_Test,0,1,0
 gocorona,Unit_Test,0,1,0
 sustcast-android-app-v1,Unit_Test,0,1,0
@@ -2147,12 +2147,12 @@ experiment-compose,Unit_Test,0,1,0
 viz,Unit_Test,0,1,0
 starkeverben,none,0,1,0
 images-to-pdf,Unit_Test,0,1,0
-bus-when-twin-cities,"GitHub_emulator_manual, Unit_Test",0,1,0
+bus-when-twin-cities,"Unit_Test, emulator_manual",0,1,0
 textmatic,Unit_Test,0,2,0
 swisscovid-app-android,"GitHub_emulator_full, Unit_Test",1,4,0
 lemuroid,Unit_Test,0,2,0
 vmconsole,Unit_Test,0,1,0
-myntratinder,"GitHub_emulator_manual, Unit_Test",0,1,0
+myntratinder,"Unit_Test, emulator_manual",0,1,0
 itracing2,none,0,1,0
 meeroo,Unit_Test,0,1,0
 valenbisi,Unit_Test,0,1,0
@@ -2169,7 +2169,7 @@ passport-reader,Unit_Test,0,2,0
 material-intro-screen,none,0,1,0
 blog,Unit_Test,0,2,0
 napkin-collect-android,Unit_Test,0,1,0
-documentocr,"GitHub_emulator_manual, Unit_Test",0,1,0
+documentocr,"Unit_Test, emulator_manual",0,1,0
 stud,Unit_Test,0,1,0
 tasks,"GitHub_emulator_full, Unit_Test",1,2,0
 hackdash,none,0,1,0
@@ -2178,7 +2178,7 @@ dms-android,Unit_Test,0,1,0
 dui-android,Unit_Test,0,1,0
 simtong-android,Unit_Test,0,1,0
 peekabook-aos,Unit_Test,0,1,0
-amazefilemanager,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",3,5,0
+amazefilemanager,"GitHub_emulator_full, Unit_Test, emulator_manual",3,5,0
 btcmap-android,Unit_Test,0,1,0
 mascota-android,Unit_Test,0,1,0
 newpipe,"GitHub_emulator_full, Unit_Test",2,3,0
@@ -2186,15 +2186,15 @@ subtlenews_android_app,none,0,1,0
 sohappy,Unit_Test,0,2,0
 sotired,Unit_Test,0,1,0
 projectconf,"GitHub_emulator_compact, Unit_Test",2,1,0
-jtxboard,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,6,0
+jtxboard,"GitHub_emulator_full, Unit_Test, emulator_manual",1,6,0
 todone,Unit_Test,0,1,0
 wantum-android,Unit_Test,0,1,0
 enginedatalogger---dashboard,Unit_Test,0,2,0
 flutter_book,Unit_Test,0,1,0
 mutify,Unit_Test,0,1,0
-whats-nearby,"GitHub_emulator_manual, Unit_Test",0,1,0
+whats-nearby,"Unit_Test, emulator_manual",0,1,0
 telegram-sms,Unit_Test,0,1,0
-exif-thumbnail-adder,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",8,1,0
+exif-thumbnail-adder,"GitHub_emulator_full, Unit_Test, emulator_manual",8,1,0
 t-tasks,Unit_Test,0,1,0
 tes3mp-android,none,0,1,0
 termux-api,Unit_Test,0,2,0
@@ -2207,7 +2207,7 @@ hair-segmentation,none,0,1,0
 splum,Unit_Test,0,2,0
 the-blue-alliance-android,Unit_Test,0,1,0
 webmon,Unit_Test,0,1,0
-kanaquiz,"GitHub_emulator_manual, Unit_Test, firebase_Full",0,2,0
+kanaquiz,"Firebase_Full, Unit_Test, emulator_manual",0,2,0
 gymaths,none,0,1,0
 rithle,Unit_Test,0,1,0
 space-trashman-blues,Unit_Test,0,3,0
@@ -2220,7 +2220,7 @@ linux-mon,Unit_Test,0,1,0
 android-taxi-client,none,0,1,0
 watchdone,Unit_Test,0,2,0
 gifit,Unit_Test,0,1,0
-faker,"GitHub_emulator_manual, Unit_Test",0,1,0
+faker,"Unit_Test, emulator_manual",0,1,0
 apg,Unit_Test,0,1,0
 android-odeon,Unit_Test,0,1,0
 notely,Unit_Test,0,1,0
@@ -2276,7 +2276,7 @@ premiumer,none,0,1,0
 candymem,Unit_Test,0,1,0
 aggregator-android,Unit_Test,0,1,0
 campus-android,Unit_Test,0,1,0
-webmark,"Unit_Test, firebase_Full",0,1,0
+webmark,"Firebase_Full, Unit_Test",0,1,0
 android-beacon-mqtt,none,0,1,0
 powerbutton,Unit_Test,0,2,0
 ytalarm,"GitHub_emulator_full, Unit_Test",0,4,0
@@ -2284,15 +2284,15 @@ paladins-edge-client,Unit_Test,0,3,0
 tutanota,Unit_Test,0,2,0
 twidere-android,Unit_Test,0,1,0
 twiderex-android,"GitHub_emulator_full, Unit_Test",5,4,0
-twilio-video-app-android,"Unit_Test, firebase_Full",0,1,0
-twire,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,1,0
+twilio-video-app-android,"Firebase_Full, Unit_Test",0,1,0
+twire,"GitHub_emulator_full, Unit_Test, emulator_manual",1,1,0
 spannablex,Unit_Test,0,2,0
 tucanmobile,none,0,1,0
 awaken,none,0,1,0
 pokebase,Unit_Test,0,2,0
 stack,Unit_Test,0,2,0
 2048-battles,Unit_Test,0,1,0
-ptsd-aid,"Unit_Test, firebase_Full",0,1,0
+ptsd-aid,"Firebase_Full, Unit_Test",0,1,0
 ludere,Unit_Test,0,1,0
 obdgraphs,"GitHub_emulator_full, Unit_Test",1,1,0
 android-object-detection,none,0,1,0
@@ -2306,7 +2306,7 @@ uhooipicbook-android,Unit_Test,0,4,0
 afwall,Unit_Test,0,1,0
 ghala-android,Unit_Test,0,1,0
 my-fitness-app,Unit_Test,0,1,0
-lilaoftheday_android,"GitHub_emulator_manual, Unit_Test",0,1,0
+lilaoftheday_android,"Unit_Test, emulator_manual",0,1,0
 norimaki,Unit_Test,0,1,0
 pet-owner-app,Unit_Test,0,1,0
 noisecapture,Unit_Test,0,1,0
@@ -2315,7 +2315,7 @@ deltacamera,Unit_Test,0,1,0
 clicli-dark,none,0,2,2
 wollok-mobile,Unit_Test,0,2,0
 gearshift,Unit_Test,0,1,0
-baldphone,"GitHub_emulator_manual, Unit_Test",0,2,0
+baldphone,"Unit_Test, emulator_manual",0,2,0
 stax,Unit_Test,0,4,0
 utox,Unit_Test,0,3,0
 drona,none,0,1,0
@@ -2333,14 +2333,14 @@ quake,Unit_Test,0,2,0
 chester,Unit_Test,0,1,0
 bitcoinium,none,0,1,0
 tinfoil-facebook,none,0,1,0
-diceoverflow,"GitHub_emulator_manual, Unit_Test",0,1,0
-hungarianringsforandroid,"GitHub_emulator_manual, Unit_Test",0,1,0
-ithakaboardgame,"GitHub_emulator_manual, Unit_Test",0,1,0
+diceoverflow,"Unit_Test, emulator_manual",0,1,0
+hungarianringsforandroid,"Unit_Test, emulator_manual",0,1,0
+ithakaboardgame,"Unit_Test, emulator_manual",0,1,0
 clipboardzanager,Unit_Test,0,1,0
-vgs-checkout-android,"Unit_Test, firebase_Full",0,1,0
+vgs-checkout-android,"Firebase_Full, Unit_Test",0,1,0
 currencybg,Unit_Test,0,1,0
 vimusic,Unit_Test,0,1,0
-ci-matters,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",1,3,0
+ci-matters,"GitHub_emulator_full, Unit_Test, emulator_manual",1,3,0
 itmoldova,none,0,1,0
 bladeplayer,Unit_Test,0,1,0
 lotonaticos,Unit_Test,0,1,0
@@ -2394,16 +2394,16 @@ giggity,Unit_Test,0,2,0
 miocheck,none,0,1,0
 cazadescuentos,Unit_Test,0,2,0
 deep-link-launcher,none,0,1,0
-freifunkautoconnectapp,"GitHub_emulator_manual, Unit_Test",0,1,0
+freifunkautoconnectapp,"Unit_Test, emulator_manual",0,1,0
 emojibottomsheetdialog,Unit_Test,0,2,0
 loread,Unit_Test,0,1,0
-wawa-tabor,"Unit_Test, firebase_Full",0,3,0
+wawa-tabor,"Firebase_Full, Unit_Test",0,3,0
 jl-mod,Unit_Test,0,1,0
 gptassist,Unit_Test,0,1,0
 wolmo-cookbook-android,none,0,1,0
 prim-ftpd,Unit_Test,0,2,0
 wonkey,Unit_Test,0,8,0
-driver-android,"GitHub_emulator_manual, Unit_Test",0,1,0
+driver-android,"Unit_Test, emulator_manual",0,1,0
 ddcc-validator,Unit_Test,0,2,0
 arcgis-android-moremap,none,0,1,0
 wtcounter,Unit_Test,0,1,0
@@ -2431,7 +2431,7 @@ tensuu,none,0,1,0
 androidswissknife,Unit_Test,0,3,0
 happybubble,Unit_Test,0,1,0
 shadowsocksr-v2ray-trojan-android,Unit_Test,0,2,0
-yacguide,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",2,2,0
+yacguide,"GitHub_emulator_full, Unit_Test, emulator_manual",2,2,0
 tastytoast,Unit_Test,0,1,0
 aria2c-android-app,none,0,1,0
 appfeedback-android,Unit_Test,0,1,0
@@ -2445,7 +2445,7 @@ edtrack,"GitHub_emulator_compact, Unit_Test",1,1,0
 qbittorrent-manager,Unit_Test,0,2,0
 flutter-movie,Unit_Test,0,1,0
 umoney,Unit_Test,0,1,0
-healersdiary,"GitHub_emulator_full, GitHub_emulator_manual, Unit_Test",0,3,0
+healersdiary,"GitHub_emulator_full, Unit_Test, emulator_manual",0,3,0
 boilerplate,Unit_Test,0,1,0
 lingvaandroid,Unit_Test,0,1,0
 macstransitapp,Unit_Test,0,3,0
