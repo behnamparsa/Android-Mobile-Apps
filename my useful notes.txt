@@ -7,6 +7,10 @@ to create new env:
 python -m venv .PCvenv
 
 to activate it:
+.\.PCvenv\Scripts\activate
+
+
+to activate it:
 
     from command prompt: 
     venv\Scripts\activate
@@ -16,7 +20,7 @@ to activate it:
     .\.venv\Scripts\Activate.ps1
 
 
-.\.venv\Scripts\activate
+.\.PCvenv\Scripts\activate
 .\venv\Scripts\Activate.ps1
 
 if above code gave error:
