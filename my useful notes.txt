@@ -6,22 +6,19 @@ git pull origin main
 to create new env: 
 python -m venv .PCvenv
 
-to activate it:
+to activate it from Powreshel:
 .\.PCvenv\Scripts\activate
 
 
 to activate it:
 
-    from command prompt: 
-    venv\Scripts\activate
+from command prompt: 
+venv\Scripts\activate
 
-    from powershell:
-    .\.Dsktpvenv\Scripts\Activate.ps1
-    .\.venv\Scripts\Activate.ps1
+from powershell:
+.\.venv\Scripts\Activate.ps1
 
 
-.\.PCvenv\Scripts\activate
-.\venv\Scripts\Activate.ps1
 
 if above code gave error:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
