@@ -4,7 +4,7 @@ or
 git pull origin main
 
 to create new env: 
-python -m venv .venv or .myvenv
+python -m venv .PCvenv
 
 to activate it:
 
