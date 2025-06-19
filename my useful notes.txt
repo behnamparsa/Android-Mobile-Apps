@@ -8,6 +8,7 @@ python -m venv .PCvenv
 
 to activate it from Powreshel:
 .\.PCvenv\Scripts\activate
+.\.Laptopvenv/Scripts\activate
 
 
 to activate it:
