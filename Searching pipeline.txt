@@ -1,17 +1,34 @@
 Type 1:
 -- Searching for dataset:
 Type 1 - 1.1. Searching Repo - URLs Lookup - Stepwise v4.0
+    -- 75,103 Repos
 Type 1 - 1.2. Searching Repo - Manifest & Activity check - full search
+    -- 28,250 Repos
 Type 1 - 1.3. Searching Repo - Removal keywords
-Type 1 - 1.4.1 Searching Repo - CI_Config and Service type detection V3.0
+    -- 14,690 Repos
+Type 1 - 1.4. Searching Repo - CI_Config and Service type detection V3.0
+    -- 3,582 Repos
 
 -- Cloning and downloading the required files
 Type 1 - 2.1 - Clone, Extract Delete V3.0
+    -- 3,463 Repos Cloned and Metadata Detected
 
--- Reading and summarzing the contents of extracted files
+-- Reading yml and build files of cloned repos
 Type 1 - 3.1 - Yml files review
+    -- 8,861 yml files of cloned repos with metadata
+    -- 37 Error files (not parsed)
 Type 1 - 3.2 - Grald files review
-Type 1 - 3.3. Project's details - api-level
+    -- 1,638 build files
+Type 1 - 3.3. Project's details - api-level - 
+    -- 177 repos with at least one api_levels
+    -- 1,133 api_levels
 
--- Grouping the detected contents into the next level of summarization
-Type 1 - 3.4. Project List
+-- Creating the main Repo list with all the metadata and test details 
+Type 1 - 3.4. Total Project V2.0
+    -- 3,463 cloned Repos with metadata
+
+-- Creating the final clean spreadsheet and summary stats extraction
+Type 1 - 3.5. Descriptive Statistics V2.0
+    -- 3,4,63 Repos
+    -- 8,861 Ymls
+    -- 1,638 Build
