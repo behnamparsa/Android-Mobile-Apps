@@ -12,7 +12,7 @@ from typing import Dict, List, Tuple, Iterable, Optional
 import pandas as pd
 
 # ====== PATHS (edit if needed) ======
-BASE_IN = r"C:\Android Mobile App\Step2_Clone_Repo\Type_1\Aug_8"
+BASE_IN = r"C:\Android Mobile App\Step2_Clone_Repo\Type_1\Aug_8_Test"
 ALL_CONFIG_INDEX = os.path.join(BASE_IN, "All_Config_Index.csv")
 ALL_CONFIG_FILES_DIR = os.path.join(BASE_IN, "All_Config_Files")
 ALL_TEST_FILES_DIR = os.path.join(BASE_IN, "All_Test_Files")  # contains instrumentation tests only
