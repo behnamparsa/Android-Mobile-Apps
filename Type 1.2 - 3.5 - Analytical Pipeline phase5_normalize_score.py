@@ -6,7 +6,7 @@ Phase 5 — Normalization & Scoring (Option 2)
 - Compute tests_exist, unit_tests_status (ONLY from CI/build config), confidences
 """
 
-from utils_pipeline import OUTPUT_DIR
+from Type_1_utils_pipeline import OUTPUT_DIR
 import pandas as pd, os
 
 def main():

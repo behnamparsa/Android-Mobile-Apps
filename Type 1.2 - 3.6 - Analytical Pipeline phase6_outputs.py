@@ -4,7 +4,7 @@
 Phase 6 — Final Outputs
 """
 
-from utils_pipeline import OUTPUT_DIR
+from Type_1_utils_pipeline import OUTPUT_DIR
 import pandas as pd, os
 
 def main():
