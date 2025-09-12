@@ -7,7 +7,9 @@ to create new env:
 python -m venv .PCvenv
 
 to activate it from Powreshel:
+cd: c:\GitHub then
 .\.PCvenv\Scripts\activate.ps1
+
 .\.Laptopvenv\Scripts\activate
 
 
