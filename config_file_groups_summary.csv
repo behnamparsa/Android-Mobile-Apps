@@ -1,0 +1,8 @@
+group,count,percent
+YAML/YML,11308,20.28
+build.gradle (exact),0,0.00
+build.gradle.kts (exact),0,0.00
+other *.gradle,8429,15.12
+other *.gradle.kts,9531,17.09
+other files (scripts & misc),26486,47.51
+TOTAL,55754,100.00
