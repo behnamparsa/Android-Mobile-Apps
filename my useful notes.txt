@@ -28,3 +28,36 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
 tensorboard --logdir=lightning_logs/
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+Git commands
+
+1 - Git init (inside the repo's main folder)
+2 - Git add . (Staging at the end of the changes)
+3 - Git commit -m "" (commiting with a subject line)
+
+later one to redo:
+1 - Git checkout <id number of the last one we need to keep>
+2 - Git Revert
+3 - Git Reset
+
+useful commands:
+Git log -oneline    //-- to get the list of commits with their short IDs needed to checkout
+Git checkout master // -- to cancel the checkout
+
+
+Branch Related command
+
+Git branch test //--create branch
+Git checkout test //--switch to a branch (test)
+Git branch -a //--lis of the branches and the one with * is the one is activate
+
+How to Delete a branch:
+git checkout master //-- to go to the master branch then delete the test branch by:
+git branch -D test // -- delete a branch
+
+
+merging branches:
+
+Git merge test-2
