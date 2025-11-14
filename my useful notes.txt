@@ -61,3 +61,19 @@ git branch -D test // -- delete a branch
 merging branches:
 
 Git merge test-2
+
+How connect the local git repo to a repo in gitHub:
+
+1 - Create a repo in GitHub
+2 - Copy the lint to that repo
+3 - git push <repo_url>
+
+useful tips: create alias for a url
+git remote add origin <repo_url> //--defune hta alias "origin" for that url so no need to repeat it in future: "git push origin master"
+
+How to clone a repo:
+1 - Create a repo in GitHub
+2 - Save the url
+3 - go to cmd and type:
+4 - use cd and go the the dir want to clone the repo then:
+5 - git clone <URL>
