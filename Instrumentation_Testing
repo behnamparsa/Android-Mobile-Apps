@@ -1,12 +1,14 @@
-Here is the code to run in PowerShell scirpt to run the instrumentation test locally to fix the java version required and compatible with gradle 
-and then run the connectedtst and generate the result report folder in build/report:
 
-$env:JAVA_HOME = "C:\Program Files\Eclipse Adoptium\jdk-21.x.x.x-hotspot"
-$env:Path = "$env:JAVA_HOME\bin;$env:Path"
 
-java -version   # should show 17 or 21, NOT 25.0.1
-./gradlew connectedAndroidTest
-
+/**************** Local Testing - GMD ********************/
 #running GMD
-
 ./gradlew pixel2Api32DebugAndroidTest
+
+
+Local run of Firebase Test Lab in the root folder of the project
+
+/**************** Local Testing - FireBase Testing Lab ********************/
+gcloud firebase test android run `
+  --type instrumentation `
+  --app .\app\build\outputs\apk\debug\app-debug.apk `
+  --test .\app\build\outputs\apk\androidTest\debug\app-debug-androidTest.apk
