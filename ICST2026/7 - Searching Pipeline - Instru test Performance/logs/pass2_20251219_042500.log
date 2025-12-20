@@ -1,0 +1,16 @@
+2025-12-19 04:25:00,119 | INFO | Logging to C:\GitHub\Android-Mobile-Apps\ICST2026\7 - Searching Pipeline - Instru test Performance\logs\pass2_20251219_042500.log
+2025-12-19 04:25:00,119 | INFO | Starting pass2
+2025-12-19 04:25:00,119 | INFO | Tokens env file: C:\GitHub\Android-Mobile-Apps\ICST2026\7 - Searching Pipeline - Instru test Performance\tokens.env
+2025-12-19 04:25:00,119 | ERROR | Pass2 failed: Tokens env file not found: C:\GitHub\Android-Mobile-Apps\ICST2026\7 - Searching Pipeline - Instru test Performance\tokens.env
+Create it or pass --tokens-env to point to the correct file.
+Traceback (most recent call last):
+  File "C:\GitHub\Android-Mobile-Apps\ICST2026\7 - Searching Pipeline - Instru test Performance\pass2_fetch_recent_runs_jobs_steps.py", line 187, in main
+    return run_pass2(tokens_env_file=args.tokens_env, dry_run=args.dry_run)
+  File "C:\GitHub\Android-Mobile-Apps\ICST2026\7 - Searching Pipeline - Instru test Performance\pass2_fetch_recent_runs_jobs_steps.py", line 133, in run_pass2
+    tokens = load_tokens(tokens_env_file)
+  File "C:\GitHub\Android-Mobile-Apps\ICST2026\7 - Searching Pipeline - Instru test Performance\pass2_fetch_recent_runs_jobs_steps.py", line 106, in load_tokens
+    loaded = load_env_file(tokens_env_file)
+  File "C:\GitHub\Android-Mobile-Apps\ICST2026\7 - Searching Pipeline - Instru test Performance\pass2_fetch_recent_runs_jobs_steps.py", line 73, in load_env_file
+    raise FileNotFoundError(
+FileNotFoundError: Tokens env file not found: C:\GitHub\Android-Mobile-Apps\ICST2026\7 - Searching Pipeline - Instru test Performance\tokens.env
+Create it or pass --tokens-env to point to the correct file.
