@@ -1,0 +1,17 @@
+
+1 - Fork:
+
+2 - Clone:
+
+git clone https://github.com/BehnamAcc6/toDoList.git
+cd toDoList
+git checkout -b style-lab
+
+3 - Add the emu_community workflow: style_emu_community.yml
+
+4 - Commit + Push:
+
+git add .github/workflows/style_emu_community.yml
+git commit -m "Add emu_community workflow"
+git push -u origin style-lab
+
