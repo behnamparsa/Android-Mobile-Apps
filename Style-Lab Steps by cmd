@@ -1,0 +1,18 @@
+
+1 - Fork:
+
+Step 2 (redo) — Clone the fork
+
+cd %USERPROFILE%
+git clone https://github.com/behnamparsa/aw-android.git
+
+Step 3 — Enter repo + create branch
+
+cd aw-android
+git checkout -b add-instru-harness
+
+Step 4 — Initialize submodules (this repo uses them)
+
+git submodule update --init --recursive
+
+Step 5 — Add the workflow file
