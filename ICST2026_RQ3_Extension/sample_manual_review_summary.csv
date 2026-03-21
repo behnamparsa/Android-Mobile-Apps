@@ -1,0 +1,2 @@
+owner,repo,run_id,run_url,run_number,run_attempt_api,run_status,run_conclusion,event,instrumentation_job_id,instrumentation_job_name,instrumentation_job_started_at,instrumentation_job_completed_at,instrumentation_job_duration_seconds,observed_style_from_job,audit_in_scope,audit_instrumentation_executed,audit_style_correct,audit_attempt_correct
+Bdaya-Dev,oidc,20620229392,https://github.com/Bdaya-Dev/oidc/actions/runs/20620229392,444,1,completed,success,push,59220587698,linux,2025-12-31T13:43:53Z,2025-12-31T13:46:39Z,166.0,Custom,Yes,Yes,No,Yes

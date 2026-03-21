@@ -1,0 +1,12 @@
+number,name,status,conclusion,started_at,completed_at,duration_seconds
+1,Set up job,completed,success,2025-12-31T13:43:53Z,2025-12-31T13:43:54Z,1.0
+2,Checkout Code,completed,success,2025-12-31T13:43:54Z,2025-12-31T13:43:55Z,1.0
+3,Set up Environment,completed,success,2025-12-31T13:43:55Z,2025-12-31T13:44:22Z,27.0
+4,Install Dependencies,completed,success,2025-12-31T13:44:22Z,2025-12-31T13:44:51Z,29.0
+5,Run flutter precache,completed,success,2025-12-31T13:44:51Z,2025-12-31T13:44:51Z,0.0
+6,Integration Tests,completed,success,2025-12-31T13:44:51Z,2025-12-31T13:46:35Z,104.0
+7,Upload Coverage Report,completed,success,2025-12-31T13:46:35Z,2025-12-31T13:46:36Z,1.0
+8,Upload Conformance Logs,completed,success,2025-12-31T13:46:36Z,2025-12-31T13:46:36Z,0.0
+15,Post Set up Environment,completed,success,2025-12-31T13:46:36Z,2025-12-31T13:46:37Z,1.0
+16,Post Checkout Code,completed,success,2025-12-31T13:46:37Z,2025-12-31T13:46:37Z,0.0
+17,Complete job,completed,success,2025-12-31T13:46:37Z,2025-12-31T13:46:38Z,1.0
