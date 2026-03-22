@@ -1,0 +1,3 @@
+type,job_name,step_name,step_started_at,step_completed_at,job_html_url
+earliest_run_android_emulator,android / run-emulator,Run Android emulator,2026-02-26T13:54:44Z,2026-02-26T14:38:55Z,https://github.com/pytorch/executorch/actions/runs/22444580419/job/64997440976
+latest_candidate_execution_end,android / run-emulator,Post AVD cache,2026-02-26T14:38:55Z,2026-02-26T14:38:55Z,https://github.com/pytorch/executorch/actions/runs/22444580419/job/64997440976
