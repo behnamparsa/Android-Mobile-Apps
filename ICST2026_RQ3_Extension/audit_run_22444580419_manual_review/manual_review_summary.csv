@@ -1,0 +1,5 @@
+summary_type,job_name,job_started_at,job_completed_at,duration_seconds,job_html_url,job_conclusion
+earliest_build_job,android / build-android,2026-02-26T13:39:17Z,2026-02-26T13:54:20Z,903.0,https://github.com/pytorch/executorch/actions/runs/22444580419/job/64995484601,success
+earliest_execution_job_start,android / run-emulator,2026-02-26T13:54:24Z,2026-02-26T14:38:57Z,2673.0,https://github.com/pytorch/executorch/actions/runs/22444580419/job/64997440976,success
+latest_execution_job_end,android / run-emulator,2026-02-26T13:54:24Z,2026-02-26T14:38:57Z,2673.0,https://github.com/pytorch/executorch/actions/runs/22444580419/job/64997440976,success
+build_and_execution_overlap_check,android / build-android || android / run-emulator,2026-02-26T13:39:17Z,2026-02-26T14:38:57Z,,,False
