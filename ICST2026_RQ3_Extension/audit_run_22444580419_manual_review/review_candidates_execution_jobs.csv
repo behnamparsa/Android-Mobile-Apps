@@ -1,2 +1,0 @@
-job_id,job_name,job_group,job_leaf,job_status,job_conclusion,job_started_at,job_completed_at,job_html_url,runner_name,runner_group_name,labels,check_run_url,job_started_at_dt,job_completed_at_dt,duration_seconds
-64997440976,android / run-emulator,android,run-emulator,completed,success,2026-02-26T13:54:24Z,2026-02-26T14:38:57Z,https://github.com/pytorch/executorch/actions/runs/22444580419/job/64997440976,8-core-ubuntu-1010570434,,8-core-ubuntu,https://api.github.com/repos/pytorch/executorch/check-runs/64997440976,2026-02-26 13:54:24+00:00,2026-02-26 14:38:57+00:00,2673.0

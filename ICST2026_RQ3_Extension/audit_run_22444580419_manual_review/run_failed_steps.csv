@@ -1,2 +1,0 @@
-job_id,job_name,job_group,job_leaf,job_started_at,job_completed_at,job_html_url,step_number,step_name,step_status,step_conclusion,step_started_at,step_completed_at,step_started_at_dt,step_completed_at_dt,duration_seconds
-64995486803,unittest-editable / macos / macos-job,unittest-editable,macos-job,2026-02-26T13:42:40Z,2026-02-26T14:10:03Z,https://github.com/pytorch/executorch/actions/runs/22444580419/job/64995486803,9,Run script,completed,failure,2026-02-26T13:44:00Z,2026-02-26T14:09:47Z,2026-02-26 13:44:00+00:00,2026-02-26 14:09:47+00:00,1547.0
